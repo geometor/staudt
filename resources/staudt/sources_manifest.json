@@ -1,0 +1,40 @@
+{
+  "witnesses": [
+    {
+      "id": "staudt_1847_geometrie_der_lage",
+      "author": "Karl Georg Christian von Staudt",
+      "work": "Geometrie der Lage",
+      "edition": "Verlag der Friedr. Korn'schen Buchhandlung, Nürnberg",
+      "year": 1847,
+      "language": "de",
+      "license": "Public Domain",
+      "relative_path": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt",
+      "sha256": "6ca3b4d335d5fe084364c6baf013130424e412113472a5c3b837a13f74496703",
+      "bytes": 15273
+    },
+    {
+      "id": "staudt_1857_beitraege_wuerfe",
+      "author": "Karl Georg Christian von Staudt",
+      "work": "Beiträge zur Geometrie der Lage, Zweites Heft (Rechnung mit Würfen)",
+      "edition": "Verlag der Friedr. Korn'schen Buchhandlung, Nürnberg",
+      "year": 1857,
+      "language": "de",
+      "license": "Public Domain",
+      "relative_path": "resources/staudt/sources/staudt_1857_beitraege_wuerfe_de.txt",
+      "sha256": "7785a1eeb14d7d2cd3c2165310e8a3362c574c563cf15ddb60f08ea8347deaae",
+      "bytes": 7095
+    },
+    {
+      "id": "pasch_1882_vorlesungen",
+      "author": "Moritz Pasch",
+      "work": "Vorlesungen über neuere Geometrie",
+      "edition": "Verlag von B. G. Teubner, Leipzig",
+      "year": 1882,
+      "language": "de",
+      "license": "Public Domain",
+      "relative_path": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt",
+      "sha256": "02f734bf32ea772d77fcd7bafc64e738116e51e759a639c09116c6087b094b56",
+      "bytes": 10306
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "staudt:1847": {
+    "author": "Karl Georg Christian von Staudt",
+    "work": "Geometrie der Lage",
+    "locus": "§§ 1–19, arts. 1–257",
+    "year": "1847",
+    "publisher": "Verlag der Friedr. Korn'schen Buchhandlung, Nürnberg",
+    "note": "Foundational treatise of pure synthetic projective geometry without any metric length, angle, or arithmetic ratio; introduces ideal points/lines via parallel sheaves (§ 2), quadrangle harmonic separation (§§ 6–8), and conic polarities (§§ 18–19)."
+  },
+  "staudt:1856": {
+    "author": "Karl Georg Christian von Staudt",
+    "work": "Beiträge zur Geometrie der Lage, Erstes Heft",
+    "locus": "§§ 1–14, arts. 1–184",
+    "year": "1856",
+    "publisher": "Verlag der Friedr. Korn'schen Buchhandlung, Nürnberg",
+    "note": "Extends pure synthetic geometry to imaginary points, lines, and planes represented by elliptic involutions equipped with sense."
+  },
+  "staudt:1857": {
+    "author": "Karl Georg Christian von Staudt",
+    "work": "Beiträge zur Geometrie der Lage, Zweites Heft",
+    "locus": "§§ 19, 20, 29, arts. 256–269, 403–404",
+    "year": "1857",
+    "publisher": "Verlag der Friedr. Korn'schen Buchhandlung, Nürnberg",
+    "note": "Introduces the Rechnung mit Würfen (Algebra of Throws): straightedge-only addition and multiplication of ordered projective tetrads relative to gauge points (P_0, P_1, P_inf), generating projective abscissae synthetically."
+  },
+  "staudt:1860": {
+    "author": "Karl Georg Christian von Staudt",
+    "work": "Beiträge zur Geometrie der Lage, Drittes Heft",
+    "locus": "§§ 30–43",
+    "year": "1860",
+    "publisher": "Verlag der Friedr. Korn'schen Buchhandlung, Nürnberg",
+    "note": "Completes von Staudt's three-part sequel on imaginary elements, projective coordinates in space, and higher-order geometric forms."
+  },
+  "pasch:1882": {
+    "author": "Moritz Pasch",
+    "work": "Vorlesungen über neuere Geometrie",
+    "locus": "Vorwort, Einleitung, §§ 1–2, 8–12 (pp. 1–100)",
+    "year": "1882",
+    "publisher": "Verlag von B. G. Teubner, Leipzig",
+    "note": "First rigorous axiomatization of linear betweenness (§ 1), planar separation (Pasch's Axiom, § 2 IV. Grundsatz, p. 21), ideal sheaves without infinity (§§ 8–11), and the hypothetico-deductive method (§ 12, p. 98)."
+  },
+  "euclid:elements": {
+    "author": "Euclid (trans. T. L. Heath)",
+    "work": "The Thirteen Books of Euclid's Elements",
+    "locus": "Book I, Postulates 1–3; Propositions I.16, I.21, I.31; Book V",
+    "year": "1908",
+    "publisher": "Cambridge University Press",
+    "note": "Classical Greek deductive synthesis whose unstated planar order assumptions in I.16 and I.21 are resolved by Pasch's Axiom."
+  },
+  "pappus:synagoge": {
+    "author": "Pappus of Alexandria",
+    "work": "Synagoge (Mathematical Collection)",
+    "locus": "Book VII, Propositions 129–145",
+    "year": "c. 340 CE",
+    "publisher": "Ed. Friedrich Hultsch (Berlin, 1876–1878); Alexander Jones (Springer, 1986)",
+    "note": "Preserves the Hexagon Theorem (VII.139) and invariance of harmonic and cross-ratio tetrads under central projection."
+  },
+  "mobius:1827": {
+    "author": "August Ferdinand Möbius",
+    "work": "Der barycentrische Calcul",
+    "locus": "Zweiter Abschnitt, Kap. 5 (Möbiussche Netze)",
+    "year": "1827",
+    "publisher": "Johann Ambrosius Barth, Leipzig",
+    "note": "Introduces barycentric coordinates and rational projective nets constructed by repeated straightedge intersections."
+  },
+  "steiner:1832": {
+    "author": "Jakob Steiner",
+    "work": "Systematische Entwickelung der Abhängigkeit geometrischer Gestalten von einander",
+    "locus": "Erster Theil, §§ 1–38",
+    "year": "1832",
+    "publisher": "G. Fincke, Berlin",
+    "note": "Generates conics from projectively related pencils of rays while still defining projectivity via metrical cross-ratios."
+  },
+  "steiner:1833": {
+    "author": "Jakob Steiner",
+    "work": "Die geometrischen Constructionen, ausgeführt mittelst der geraden Linie und Eines festen Kreises",
+    "locus": "Cap. I–III",
+    "year": "1833",
+    "publisher": "Ferdinand Dümmler, Berlin",
+    "note": "Establishes the Poncelet-Steiner theorem and straightedge-only harmonic parallel constructions prior to von Staudt's pure incidence synthesis."
+  },
+  "klein:1871": {
+    "author": "Felix Klein",
+    "work": "Über die sogenannte Nicht-Euklidische Geometrie",
+    "locus": "Mathematische Annalen 4 (1871), pp. 573–625",
+    "year": "1871",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Grounds Cayley's projective metrics on von Staudt's metric-free projective coordinates and identifies the continuity hypothesis needed in von Staudt's Fundamental Theorem."
+  },
+  "klein:1873": {
+    "author": "Felix Klein",
+    "work": "Über die sogenannte Nicht-Euklidische Geometrie (Zweiter Aufsatz)",
+    "locus": "Mathematische Annalen 6 (1873), pp. 112–145",
+    "year": "1873",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Refines the topological order analysis of projective ranges and harmonic nets, directly motivating Pasch's 1882 axiomatization."
+  },
+  "darboux:1880": {
+    "author": "Jean-Gaston Darboux",
+    "work": "Sur le théorème fondamental de la géométrie projective",
+    "locus": "Mathematische Annalen 17 (1880), pp. 55–61",
+    "year": "1880",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Proves that every bijection of the real projective line preserving harmonic tetrads is continuous and projective."
+  },
+  "vailati:1895": {
+    "author": "Giovanni Vailati",
+    "work": "Sulle relazioni di posizione tra punti d'una linea chiusa",
+    "locus": "Rivista di Matematica 5 (1895), pp. 75–78, 183–185",
+    "year": "1895",
+    "publisher": "Fratelli Bocca, Torino",
+    "note": "Formalizes cyclical separation of point pairs on closed projective lines in continuation of Pasch's order axioms."
+  },
+  "russell:1897": {
+    "author": "Bertrand Russell",
+    "work": "An Essay on the Foundations of Geometry",
+    "locus": "Chapter III, §§ 111–128",
+    "year": "1897",
+    "publisher": "Cambridge University Press",
+    "note": "Philosophical critique of von Staudt's quadrangle construction and the qualitative nature of projective geometry."
+  },
+  "hilbert:1899": {
+    "author": "David Hilbert",
+    "work": "Grundlagen der Geometrie",
+    "locus": "Kap. I, § 3 (Axiom II 4); Kap. III, §§ 15–17 (Streckenrechnung)",
+    "year": "1899",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Codifies Pasch's planar order axiom as Axiom II 4 and adapts von Staudt's algebra of throws into segment arithmetic via Desargues and Pascal."
+  },
+  "russell:1903": {
+    "author": "Bertrand Russell",
+    "work": "The Principles of Mathematics",
+    "locus": "Part VI (Space), Chapters XLV–XLVI",
+    "year": "1903",
+    "publisher": "Cambridge University Press",
+    "note": "Reconstructs descriptive (Pasch) and projective (von Staudt, Pieri) geometries in relational logic."
+  },
+  "hessenberg:1905": {
+    "author": "Gerhard Hessenberg",
+    "work": "Beweis des Desarguesschen Satzes aus dem Pascalschen",
+    "locus": "Mathematische Annalen 61 (1905), pp. 161–172",
+    "year": "1905",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Proves that Pappus's Hexagon Theorem implies Desargues's Theorem in any projective plane, linking commutativity of throws to quadrangle uniqueness."
+  },
+  "veblen:1910": {
+    "author": "Oswald Veblen and John Wesley Young",
+    "work": "Projective Geometry, Vol. I",
+    "locus": "Chapter VI (Algebra of Points and One-Dimensional Coordinate Systems)",
+    "year": "1910",
+    "publisher": "Ginn and Company, Boston",
+    "note": "Modern axiomatic presentation of von Staudt's algebra of throws (algebra of points) over arbitrary division rings and commutative fields."
+  },
+  "hoenen:1954": {
+    "author": "Peter Hubert Jacob Hoenen, S.J.",
+    "work": "De Noetica Geometriae: Origine Theoriae Cognitionis",
+    "locus": "Pars II, Cap. IV–V",
+    "year": "1954",
+    "publisher": "Analecta Gregoriana, Vol. 63, Roma",
+    "note": "Examines Pasch's nuclear propositions (Stammsätze) and hypothetico-deductive formalism through Thomistic epistemology."
+  },
+  "tarski:1959": {
+    "author": "Alfred Tarski",
+    "work": "What is Elementary Geometry?",
+    "locus": "The Axiomatic Method, ed. L. Henkin, P. Suppes, A. Tarski, pp. 16–29",
+    "year": "1959",
+    "publisher": "North-Holland, Amsterdam",
+    "note": "Reduces planar order to the five-point inner/outer Pasch axiom in a decidable first-order theory of betweenness and congruence."
+  }
+}

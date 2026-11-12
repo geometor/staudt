@@ -1,0 +1,265 @@
+================================================================================
+KARL GEORG CHRISTIAN VON STAUDT
+Geometrie der Lage
+Nürnberg: Verlag der Friedr. Korn'schen Buchhandlung, 1847
+Public Domain — Kritisch durchgesehener deutscher Quelltext (Auswahl der Kernsätze)
+================================================================================
+
+VORWORT (S. III–IV)
+
+Man hat in den neuern Zeiten wohl mit Recht die Geometrie der Lage von der
+Geometrie des Masses unterschieden, indessen gleichwohl Sätze, in welchen von
+keiner Grösse die Rede ist, gewöhnlich durch Betrachtung von Verhältnissen
+bewiesen. Ich habe in dieser Schrift versucht, die Geometrie der Lage zu einer
+selbstständigen Wissenschaft zu machen, welche des Messens nicht bedarf. Um
+jedoch diejenigen Eigenschaften der Curven und Flächen II. Ordnung, welche auf
+Mittelpunkte, Axen, Brennpunkte u. s. w. sich beziehen, nicht ganz unberührt zu
+lassen, habe ich das Wesentliche hievon in einen Anhang aufgenommen.
+
+Jeder geometrische Unterricht muss von allgemeinen Betrachtungen ausgehen,
+welche den Schüler mit den verschiedenen Arten von geometrischen Gebilden
+bekannt machen und sein Anschauungsvermögen üben. Die meisten Lehrbücher der
+Geometrie gehen aber zu bald zum Besondern, nämlich zur Congruenz und
+Aehnlichkeit der Dreiecke über, daher sie auch manche Begriffe nicht in der
+gehörigen Allgemeinheit aufstellen. Aehnliche ebene Figuren sind nichts anderes
+als homologe Stücke von ähnlichen ebenen Systemen, ähnliche Körper aber
+homologe Stücke von ähnlichen räumlichen Systemen. Der Betrachtung von
+centrischen Figuren sollte die des centrischen ebenen Systems und der
+Betrachtung von symmetrischen Figuren die des symmetrischen ebenen Systems
+vorangeschickt werden. Uebrigens ist in vielen Lehrbüchern der Geometrie,
+obgleich Natur und Kunst in allen ihren Gebilden nach Symmetrie streben, dieser
+Begriff gar nicht entwickelt.
+
+Wenn es für den Geübtern keine Uebung mehr ist, zu dem einen von zwei
+reciproken Sätzen den andern zu suchen, so ist dieses doch für den Anfänger
+eine zweckmässige Aufgabe, welche ihn veranlasst, durch einige Thätigkeit
+Gebilde zur Anschauung zu bringen. Dass aber das Gesetz der Reciprocität jeden
+für die Geometrie empfänglichen Schüler mehr anrege, als irgend ein einzelner
+Satz, wird jeder Lehrer erfahren, der seine Schüler auf dasselbe aufmerksam
+macht. Vielleicht wird diese Schrift einige Lehrer bestimmen, ihrem Unterrichte
+in der Geometrie des Masses das Wesentliche aus der Geometrie der Lage
+voranzuschicken, damit ihre Schüler gleich Anfangs denjenigen Ueberblick über
+die Wissenschaft gewinnen, ohne welchen das rechte Verständniss der einzelnen
+Sätze und ihrer Beziehung zum Ganzen nicht wohl möglich ist.
+
+Erlangen, im August 1847.
+Der Verfasser.
+
+--------------------------------------------------------------------------------
+§. 1. EINLEITUNG. DER STRAHLENBÜNDEL (Art. 1–9)
+
+1. Die Geometrie geht von der Vorstellung eines unbegrenzten Raumes aus; ein
+vollständig begrenztes Stück desselben heisst ein Körper. Körper und überhaupt
+körperliche Räume werden durch Flächen, Flächen durch Linien, Linien durch
+Punkte getheilt und begrenzt.
+
+3. Jeder Punkt einer geschlossenen (in sich zurückkehrenden) Linie kann als
+Anfang und Ende derselben betrachtet werden. Werden in einer Linie, welche sich
+nicht schliesst, drei Punkte angenommen, so sind die beiden äussern durch den
+mittlern getrennt. Unter vier Punkten einer geschlossenen Linie sind zwei Paar
+getrennte.
+
+7. Eine Linie, welche, wenn sie in zwei Punkten festgehalten ist, ihre Lage
+nicht ändern kann, heisst gerade. Ein gerades Gebilde ist im Allgemeinen der
+Inbegriff von allen Punkten (Elementen), welche eine Gerade (unbegrenzte gerade
+Linie) erfüllen. Eine Fläche, welche durch die Bewegung einer Geraden erzeugt
+werden kann, heisst eine Regelfläche.
+
+8. Zwischen je zwei Punkten ist eine von ihnen begrenzte, durch je zwei Punkte
+eine unbegrenzte gerade Linie möglich. Zwei Gerade können hiernach, wenn sie
+nicht ganz in einander fallen sollen, höchstens einen Punkt gemein haben.
+
+9. Ein Strahlenbündel ist der Inbegriff von allen Strahlen, welche durch einen
+und denselben Punkt (Mittelpunkt) denkbar sind.
+
+--------------------------------------------------------------------------------
+§. 2. DIE EBENE. DER STRAHLENBÜSCHEL UND DER EBENENBÜSCHEL (Art. 18–28)
+
+18. Eine Ebene ist eine Winkelfläche unparer (erster) Ordnung, in welcher jeder
+Punkt als Mittelpunkt betrachtet werden kann. Geht also eine Gerade durch zwei
+Punkte einer Ebene, so fällt sie ganz in dieselbe.
+
+26. Das gerade Gebilde, der Strahlenbüschel und der Ebenenbüschel sollen die
+einförmigen Grundgebilde oder die Grundgebilde der ersten Stufe heissen. Der
+Punkt kommt im geraden Gebilde, die Ebene aber im Ebenenbüschel als Element
+vor. Die Gerade, welche zwischen Punkt und Ebene gleichsam die Mitte hält,
+erscheint im Strahlenbüschel als Element, während sie am geraden Gebilde der
+Träger von Punkten und am Ebenenbüschel die Schnittlinie von Ebenen ist.
+
+28. Das ebene System und der Strahlenbündel sind die Grundgebilde der zweiten
+Stufe. Das Grundgebilde der dritten Stufe ist das räumliche System oder der
+unbegrenzte Raum.
+
+--------------------------------------------------------------------------------
+§. 5. UNENDLICH FERNE ELEMENTE (Art. 54–58)
+
+54. Aus den Sätzen des vorletzten §. ist zu ersehen, dass in vielen Fällen ein
+Punkt durch eine Richtung, eine Gerade aber durch eine Stellung vertreten wird,
+und dass also zu den Elementen einer Geraden auch noch ihre Richtung, zu den
+Elementen einer Ebene aber auch noch ihre Stellung und alle in derselben
+enthaltenen Richtungen gehören.
+
+55. Von parallelen Geraden sagt man daher, dass sie in einem unendlich fernen
+(uneigentlichen) Punkte sich schneiden. Eine Gerade erscheint hiernach, wenn
+man ihr einen unendlich fernen Punkt zuschreibt, in welchem sie von allen zu
+ihr parallelen Geraden und Ebenen geschnitten wird, als eine geschlossene
+Linie, daher alsdann unter vier Punkten in ihr nur zwei Paar getrennte sind.
+
+56. Von allen unendlich fernen Punkten einer Ebene wird gesagt, dass sie in
+einer unendlich fernen (uneigentlichen) Linie liegen, welche, weil sie von
+einer jeden (andern) mit ihr in einerlei Ebene liegenden Geraden in einem
+Punkte geschnitten wird, selbst eine Gerade heisst. Gleichwie in jeder Richtung
+ein unendlich ferner Punkt liegt, so liegt in jeder Stellung eine unendlich
+ferne Gerade, in welcher alle Ebenen, die diese Stellung haben, sich schneiden.
+
+57. Von allen unendlich fernen Punkten und Linien wird gesagt, dass sie in
+einer unendlich fernen (uneigentlichen) Fläche liegen, welche, weil sie von
+einer jeden nicht in ihr liegenden Geraden in einem Punkte und von jeder
+(andern) Ebene in einer Geraden geschnitten wird, selbst eine Ebene heisst.
+
+58. Durch die in diesem §. aufgestellte Ansicht, welche im Gegensatze zur
+gewöhnlichen die perspektivische heissen soll, werden oft anscheinend ganz
+verschiedene Sätze in eine Aussage zusammengefasst und die Ausnahmen beseitigt,
+welche ausserdem der Aufstellung allgemeiner Gesetze häufig im Wege stehen
+würden.
+
+--------------------------------------------------------------------------------
+§. 6. GESETZ DER RECIPROCITÄT (Art. 66)
+
+66. Schon die ersten Sätze der Geometrie lassen ein gewisses Gesetz der
+Reciprocität oder Dualität erkennen, nach welchem im Raume der Punkt und die
+Ebene einander gegenüberstehen (reciproke Begriffe sind), und jeder Satz, in
+welchem zwischen eigentlichen und uneigentlichen Elementen kein Unterschied
+gemacht wird, seine Ergänzung in einem andern findet, der aus dem erstern
+hervorgeht, wenn man Punkt und Ebene (also auch gerades Gebilde und
+Ebenenbüschel, Strecke und Flächenwinkel u. s. w.) mit einander vertauscht.
+
+--------------------------------------------------------------------------------
+§. 7. VON DEN nECKEN, nKANTEN U. S. W. (Art. 80–91)
+
+80. Ein vollständiges ebenes nEck besteht aus n Punkten (Eckpunkten), welche in
+einerlei Ebene, von welchen aber keine drei in einer und derselben Geraden
+liegen, und den n(n-1)/2 Geraden (Seiten), deren jede zwei von den n Punkten
+mit einander verbindet. Ein vollständiges ebenes nSeit besteht aus n in
+einerlei Ebene liegenden Geraden (Seiten), von welchen keine drei durch einen
+und denselben Punkt gehen, und den n(n-1)/2 Punkten (Eckpunkten), in deren
+jedem zwei von den n Geraden sich schneiden.
+
+81. Die vier Seiten und die beiden Diagonalen eines Vierecks sind die sechs
+Seiten eines vollständigen Vierecks. Je zwei Seiten, welche nicht durch einen
+und denselben Eckpunkt gehen, heissen einander gegenüberliegend.
+
+87. Wenn zwei auf einander bezogene Dreiecke in zwei Ebenen liegen, deren
+Schnittlinie mit keiner der sechs Seiten zusammenfällt, aber je zwei homologe
+Seiten sich schneiden (in einerlei Ebene liegen), so sind die beiden Dreiecke
+Schnitte eines und desselben Dreikants.
+
+88. Wenn zwei auf einander bezogene vollständige ebene Vierecke in zwei Ebenen
+liegen, deren Schnittlinie durch keinen der acht Eckpunkte geht, und fünf
+Seiten des einen Vierecks die homologen Seiten des andern schneiden, so sind
+die beiden Vierecke Schnitte eines und desselben vollständigen Vierkants, daher
+auch ihre beiden übrigen Seiten sich schneiden.
+
+90. Wenn zwei auf einander bezogene Dreiecke ABC, A1B1C1 in einerlei Ebene
+liegen, aber kein Element mit einander gemein haben, und die drei Punkte, in
+deren jedem ein Paar homologe Seiten sich schneiden, in einer und derselben
+Geraden u liegen, welche von keinem der beiden Dreiecke eine Seite ist, so
+liegen die Dreiecke perspektivisch, daher auch die drei Geraden, deren jede ein
+Paar homologe Eckpunkte verbindet, in einem Punkte sich schneiden; — und
+umgekehrt.
+
+91. Wenn zwei auf einander bezogene vollständige Vierecke in einerlei Ebene
+liegen, und eine Gerade u, welche durch keinen ihrer Eckpunkte geht, von fünf
+Seiten des einen Vierecks in denselben Punkten geschnitten wird, in welchen die
+homologen Seiten des andern sie schneiden, so liegen die Vierecke
+perspektivisch, daher auch ihre beiden übrigen Seiten jene Gerade in einem und
+demselben Punkte schneiden.
+
+--------------------------------------------------------------------------------
+§. 8. HARMONISCHE GEBILDE (Art. 93–98)
+
+93. Wenn in einer Geraden drei Punkte A, B, C gegeben sind, und alsdann ein
+Viereck so construirt wird, dass eine Diagonale durch den zweiten der gegebenen
+Punkte geht, in jedem der beiden übrigen aber zwei einander gegenüberliegende
+Seiten sich schneiden, so schneidet die andere Diagonale des Vierecks jene
+Gerade in einem vierten Punkte D, welcher durch die drei gegebenen Punkte
+bestimmt ist und zu denselben der vierte harmonische Punkt heisst. Ist nämlich
+EFGH ein anderes Viereck, von welchem eine Diagonale EG durch den Punkt B geht,
+ein Paar einander gegenüberliegende Seiten EF, GH im Punkte A und die beiden
+übrigen Seiten FG, HE im Punkte C sich schneiden, so schneidet seine andere
+Diagonale (nach 88 und 91) die Gerade AB in demselben Punkte D, in welchem
+diese Linie von der andern Diagonale des erstern Vierecks geschnitten wird.
+Die Punkte A, C sind durch die Punkte B, D getrennt.
+
+94. Ein harmonisches gerades Gebilde ABCD wird aus jedem ausserhalb der Geraden
+befindlichen Punkte S durch einen harmonischen Strahlenbüschel projicirt,
+welcher nämlich von jeder Geraden, die mit ihm in einerlei Ebene liegt, aber
+nicht durch seinen Mittelpunkt geht, in einem harmonischen geraden Gebilde
+A1B1C1D1 geschnitten wird.
+
+96. Wenn ABCD ein harmonisches Gebilde ist, so sind auch BCDA, CDAB, DABC,
+DCBA, CBAD, BADC, ADCB harmonische Gebilde.
+
+98. Je zwei getrennte Elemente eines harmonischen Gebildes sollen durch die
+beiden übrigen harmonisch getrennt heissen.
+
+--------------------------------------------------------------------------------
+§. 9. PROJEKTIVISCHE VERWANDTSCHAFT ZWISCHEN EINFÖRMIGEN GEBILDEN (Art. 103–115)
+
+103. Zwei einförmige Grundgebilde heissen zu einander projektivisch, wenn sie
+so auf einander bezogen sind, dass jedem harmonischen Gebilde in dem einen ein
+harmonisches Gebilde im andern entspricht.
+
+106. Wenn zwei projektivische einförmige Gebilde drei Elemente entsprechend
+gemein haben, so haben sie alle ihre Elemente entsprechend gemein.
+
+110. Will man zwei einförmige Grundgebilde projektivisch auf einander beziehen,
+so kann man zu drei Elementen des einen drei Elemente des andern, welche jenen
+entsprechen sollen, nach Belieben annehmen, wodurch aber alsdann jedem Elemente
+des einen Gebildes ein Element im andern zugewiesen ist.
+
+115. Wenn zwei projektivische gerade Gebilde u, u1 nicht in einerlei Ebene
+liegen, so erfüllen die Geraden (V), deren jede ein Paar homologe Punkte
+verbindet, eine geschlossene Regelfläche R, welche auch noch von einer andern
+Schaar U von Geraden erfüllt wird. Jede Gerade der einen Schaar schneidet jede
+Gerade der andern Schaar, während von den Geraden, welche einer und derselben
+Schaar angehören, keine zwei sich schneiden.
+
+--------------------------------------------------------------------------------
+§. 18 & §. 19. POLARSYSTEME UND CURVEN II. ORDNUNG (Art. 235–257)
+
+235. In einem ebenen Polarsysteme heisst jeder Punkt der Pol der ihm
+zugeordneten Geraden und jede Gerade die Polare des ihr zugeordneten Punktes,
+so dass also die Pole von allen Geraden, welche in einem und demselben Punkte
+sich schneiden, in der Polare dieses Punktes liegen und die Polaren von allen
+Punkten, welche einer und derselben Geraden angehören, in dem Pole dieser
+Geraden sich schneiden.
+
+246. In einem ebenen Polarsysteme giebt es entweder gar kein Element, welches
+sich selbst conjugirt ist, oder es giebt eine Curve s parer Ordnung, welche dem
+ihr sich anschmiegenden Strahlenbüschel zugeordnet ist, so dass nämlich jeder
+Punkt, welcher der Curve angehört, in seiner Polare liegt, die in ihm der Curve
+sich anschmiegt, jeder Punkt aber, welcher jener Curve (der Ordnungscurve des
+Polarsystems) nicht angehört, ausserhalb seiner Polare liegt.
+
+247. Jede geschlossene ebene Curve, welche die Ordnungscurve eines Polarsystems
+ist, heisst eine Curve zweiter Ordnung.
+
+248. Eine Curve II. Ordnung heisst eine Ellipse, Parabel oder Hyperbel, je
+nachdem die Curve mit der unendlich fernen Geraden der Ebene gar keinen Punkt
+gemein hat, oder diese Gerade in einem Punkte berührt oder in zwei Punkten
+schneidet.
+
+255. Zwei Strahlenbüschel A, B, welche eine Curve II. Ordnung aus zwei in ihr
+liegenden Punkten A, B projiciren, sind zu einander projektivisch.
+
+256. Zwei projektivische nicht concentrische Strahlenbüschel A, B, welche in
+einerlei Ebene, aber nicht perspektivisch liegen, erzeugen eine Curve II.
+Ordnung, der nämlich jeder Punkt angehört, in welchem ein Strahl des einen
+Büschels von dem homologen Strahle des andern geschnitten wird.
+
+257. Die drei Punkte, in deren jedem ein Paar Gegenseiten eines in eine Curve
+II. Ordnung beschriebenen Sechsecks ABCDEF sich schneiden, liegen in einer und
+derselben Geraden. Die drei Diagonalen, deren jede ein Paar Gegenpunkte eines
+um eine Curve II. Ordnung beschriebenen Sechsecks verbindet, schneiden sich in
+einem und demselben Punkte.

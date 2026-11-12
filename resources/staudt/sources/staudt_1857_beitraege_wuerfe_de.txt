@@ -1,0 +1,118 @@
+================================================================================
+KARL GEORG CHRISTIAN VON STAUDT
+Beiträge zur Geometrie der Lage, Zweites Heft
+Nürnberg: Verlag der Friedr. Korn'schen Buchhandlung, 1857
+§§. 19, 20, 29: Rechnung mit Würfen und Von den Abscissen (S. 166–173, 261–262)
+Public Domain — Kritisch durchgesehener deutscher Quelltext
+================================================================================
+
+§. 19. SUMMEN VON WÜRFEN (Art. 256–267)
+
+256. Von nun an werden Würfe, welche zu einander projektivisch sind, als gleich
+betrachtet, daher auch von einem Wurfe gesagt wird, dass er bestimmt sei, wenn
+irgend ein zu ihm projektivischer Wurf gegeben ist. Ist von einem eigentlichen
+Wurfe abcd die Rede, so versteht es sich von selbst, dass a, b, c, d vier
+verschiedene Elemente eines und desselben Elementargebildes sind. Der Inbegriff
+von drei verschiedenen Elementen eines und desselben Elementargebildes, von
+welchen aber das eine zweimal angeschrieben ist, soll ein uneigentlicher Wurf
+heissen und zwar ein uneigentlicher Wurf I. Art, wenn er die Form abca oder
+baac hat, ein uneigentlicher Wurf II. Art, wenn er die Form abcb oder babc hat,
+ein uneigentlicher Wurf III. Art endlich, wenn er die Form abcc oder ccab hat.
+
+Obgleich die Würfe ABCA, baac nicht projektivisch zu einander sind, so sollen
+doch alle uneigentlichen Würfe, welche nach dem Obigen von einer und derselben
+Art sind, einander gleich heissen. Ein uneigentlicher Wurf I. Art soll auch
+durch 0, ein uneigentlicher Wurf II. Art durch 1, ein uneigentlicher Wurf III.
+Art durch ∞ bezeichnet werden. Bemerkt wird noch, dass jeder uneigentliche
+Wurf, da seine Elemente einer und derselben Kette angehören, ein neutraler Wurf
+ist.
+
+257. Wenn man Würfe, welche zu einander projektivisch sind, als gleich, demnach
+nur als verschiedene Darstellungen eines und desselben Wurfes betrachtet, so
+kann man zwei Würfe U, U1 schon dann einander conjungirt nennen, wenn sie
+irgend zwei den Elementen nach einander conjungirten Würfen ABCD, A1B1C1D1
+beziehlich gleich sind. Ist U = ABCD ein neutraler Wurf, so ist auch
+U = A1B1C1D1, daher man von jedem neutralen Wurfe sagen kann, dass er sich
+selbst conjungirt sei.
+
+Was auch ABCD für ein Wurf sein mag, so ist ABCD = BADC = CDAB = DCBA. In der
+Folge aber ist unter einem Wurfe, wenn nicht ausdrücklich gesagt wird, dass er
+ein uneigentlicher Wurf III. Art sei, entweder ein eigentlicher Wurf oder ein
+uneigentlicher Wurf I. oder II. Art zu verstehen.
+
+258. Durch drei Elemente A, B, C eines Elementargebildes und zwei Würfe U, U1
+sind drei Elemente D, D1, S des Gebildes bestimmt, so dass nämlich ABCD = U,
+ABCD1 = U1 und in dem involutorischen Gebilde CC.DD1... dem Elemente A das
+Element S zugeordnet ist. Der Wurf ABCS, welcher auf diese Weise durch die
+Würfe U, U1 bestimmt ist, soll ihre Summe heissen und diess durch ABCS = U + U1
+ausgedrückt werden.
+
+Sucht man in demselben oder in einem andern Elementargebilde zu drei Elementen
+a, b, c die Elemente d, d1, s, so dass die Würfe abcd, abcd1 den Würfen U, U1
+gleich sind und in dem involutorischen Gebilde cc.dd1... dem Elemente a das
+Element s zugeordnet ist, so ist abcdd1s projektivisch zu ABCDD1S und also
+abcs = ABCS, woraus eben hervorgeht, dass durch die beiden Würfe U, U1 ein Wurf
+U + U1 bestimmt ist. Auch ist offenbar, dass U + U1 = U1 + U ist. Fällt D mit A
+zusammen, so fällt S mit D1 zusammen. Wenn also der eine von zwei Würfen = 0
+ist, so ist ihre Summe dem andern gleich.
+
+267. Durch drei reelle Elemente C, A, A1 eines reellen Elementargebildes g ist
+in ihm eine Reihe C, A, A1, A2, A3, A4, ... von reellen Elementen bestimmt, so
+dass nämlich CAA1A2, CA1A2A3, CA2A3A4, u. s. w. harmonische Würfe sind, daher
+auch keine zwei auf einander folgende Glieder der Reihe, so weit man dieselbe
+fortsetzen mag, durch ihre übrigen Glieder in dem Gebilde g getrennt sind. Ist
+nun B irgend ein von A verschiedenes Element des Gebildes g, so ist
+ABCAm = m(ABCA1). Denn nach 221 haben die zu einander projektivischen Gebilde
+CAA1..., CA1A2... nur das Element C entsprechend gemein. Da ferner den Elementen
+A, A1, A2, A3... des erstern die Elemente A1, A2, A3, A4... des letztern
+entsprechen, mithin CC.AAr+1.A1Ar eine Involution ist, so ist
+ABCAr+1 = ABCAr + ABCA1, woraus, wenn für r nach und nach die Zahlen 1, 2,
+3, ... m gesetzt werden, der Satz sich ergiebt. Der Wurf AA1CAm ist das mfache
+von 1, der Wurf 1 aber das mfache von AAmCA1.
+
+--------------------------------------------------------------------------------
+§. 20. PRODUKTE AUS WÜRFEN (Art. 268–269)
+
+268. Durch drei Elemente M, A, N eines Elementargebildes und zwei Würfe U, U1,
+von welchen keiner ein uneigentlicher Wurf I. oder III. Art ist, sind zwei
+Elemente A1, A2 des Gebildes bestimmt, so dass nämlich MANA1 = U und
+MA1NA2 = U1 ist. Der Wurf MANA2, welcher auf diese Weise durch die Würfe U, U1
+bestimmt ist, soll das Produkt aus denselben heissen und durch UU1 bezeichnet
+werden.
+
+Sucht man in demselben oder in einem andern Elementargebilde zu drei Elementen
+F, B, G die Elemente B1, B2, so dass FBGB1 = U und FB1GB2 = U1 ist, so ist
+FGBB1B2 projektivisch zu MNAA1A2, mithin FBGB2 = MANA2, woraus eben hervorgeht,
+dass durch die Würfe U, U1 ein Wurf UU1 bestimmt ist.
+
+Da den Würfen U1, U auch die Würfe NA2MA1, NA1MA gleich sind, so ist
+U1U = NA2MA = MANA2 = UU1. Ist irgend einer von den beiden Würfen U, U1 ein
+uneigentlicher Wurf II. Art, so ist ihr Produkt dem andern gleich.
+
+269. Durch drei Elemente M, A, N eines Elementargebildes und m Würfe U, U1,
+U2, ... Um-1, von welchen keiner ein uneigentlicher Wurf I. oder III. Art ist,
+sind m Elemente A1, A2, A3, ... Am des Gebildes bestimmt, so dass nämlich die
+Würfe MANA1, MA1NA2, MA2NA3, ... MAm-1NAm den Würfen U, U1, U2, ... Um-1 gleich
+sind. Der Wurf MANAm, welcher auf diese Weise durch die gegebenen Würfe
+bestimmt ist, soll das Produkt aus denselben heissen. Da man hiernach auch zwei
+auf einander folgende Faktoren mit einander vertauschen darf, so kann man mit
+den Faktoren eines Produkts jede beliebige Versetzung vornehmen und daher auch
+für irgend zwei derselben ihr Produkt setzen. Jedes Produkt aus neutralen
+Würfen ist selbst ein neutraler Wurf.
+
+--------------------------------------------------------------------------------
+§. 29. VON DEN ABSCISSEN (Art. 403–404)
+
+403. Wenn ABCD ein eigentlicher Wurf ist und q die ihm entsprechende complexe
+Zahl bezeichnet, so ist (nach 262 und 270):
+  BACD = 1 - q,  CBAD = 1/q,  BCAD = (q - 1)/q,
+  CABD = 1/(1 - q),  ACBD = q/(q - 1).
+Anm. Das Rechnen mit complexen Zahlen kann als bekannt vorausgesetzt werden, da
+es in diesem §. hauptsächlich nur darum zu thun war, den Begriff der complexen
+Zahl, damit in ihm nichts Unklares bleibe, auf den Begriff des Wurfes
+zurückzuführen.
+
+404. Wenn man in einem Elementargebilde drei Elemente A, B, C annimmt, die
+Abscisse des ersten = 0, die des zweiten = 1 und die des dritten = ∞ setzt, so
+ist unter der Abscisse eines vierten Elements P des Gebildes der Werth des
+Wurfes ABCP zu verstehen.
