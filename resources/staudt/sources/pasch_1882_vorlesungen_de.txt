@@ -1,0 +1,190 @@
+================================================================================
+MORITZ PASCH
+Vorlesungen über neuere Geometrie
+Leipzig: Druck und Verlag von B. G. Teubner, 1882
+Public Domain — Kritisch durchgesehener deutscher Quelltext (Kernsätze)
+================================================================================
+
+VORWORT (S. III–IV)
+
+Bei den bisherigen Bestrebungen, die grundlegenden Theile der Geometrie in eine
+Gestalt zu bringen, welche den mit der Zeit verschärften Anforderungen
+entspricht, ist der empirische Ursprung der Geometrie nicht mit voller
+Entschiedenheit zur Geltung gekommen. Wenn man die Geometrie als eine
+Wissenschaft auffasst, welche, durch gewisse Naturbeobachtungen hervorgerufen,
+aus den unmittelbar beobachteten Gesetzen einfacher Erscheinungen ohne jede
+Zuthat und auf rein deductivem Wege die Gesetze complicirterer Erscheinungen zu
+gewinnen sucht, so ist man freilich genöthigt, manche überlieferte Vorstellung
+auszuscheiden oder ihr eine andere als die übliche Bedeutung beizulegen;
+dadurch wird aber das von der Geometrie zu verarbeitende Material auf seinen
+wahren Umfang zurückgeführt und einer Reihe von Controversen der Boden
+genommen.
+
+Diese Auffassung suchen die folgenden Blätter in aller Strenge durchzuführen.
+Indem man sich von vornherein auf den empirischen Kern beschränkt, bleibt der
+Geometrie der Charakter der Naturwissenschaft erhalten, vor deren anderen
+Theilen jene sich dadurch auszeichnet, dass sie nur eine sehr geringe Anzahl
+von Begriffen und Gesetzen unmittelbar aus der Erfahrung zu entnehmen braucht.
+
+Dass die projective Geometrie unabhängig von der Parallelentheorie besteht und
+sich ohne deren Zuziehung begründen lässt, hat zuerst Herr F. Klein bemerkt und
+mehrfach erörtert. Schliesslich sei bemerkt, dass die vorliegende Schrift aus
+akademischen Vorlesungen hervorgegangen ist, welche zuerst im Wintersemester
+1873/74 gehalten wurden.
+
+Giessen, im März 1882.
+M. Pasch.
+
+--------------------------------------------------------------------------------
+EINLEITUNG (S. 1–3)
+
+Die neuere Geometrie bildet, ihrer Entstehung nach, einen Gegensatz nicht so
+sehr zur Geometrie der Alten, wie zur analytischen Geometrie. Nicht bloss
+Schwerfälligkeit wird der elementaren Geometrie zum Vorwurf gemacht, sondern
+auch die Unvollkommenheit oder Unklarheit, welche den Begriffen und Beweisen in
+ausgedehntem Maasse noch anhaften. Das ernste Bemühen, nach scharf
+ausgeprägtem Muster eine Umgestaltung vorzunehmen und der Entwickelung einen
+durchaus reinen Charakter zu geben, macht den Blick gegen die störenden
+Bestandtheile empfindlich und ruft die zu ihrer Ausscheidung nothwendige
+Entschiedenheit hervor. Als ein solches Muster bewährt sich die moderne
+Geometrie. Sie geleitet uns bis an die ersten Anfänge der Geometrie zurück, sie
+schärft das Gefühl für Alles, was die Reinheit der Entwickelung unterbricht,
+und lehrt uns jene Beimischungen, die Quellen der beklagten Unklarheit,
+entfernen.
+
+--------------------------------------------------------------------------------
+§ 1. VON DER GERADEN LINIE (S. 4–19)
+
+I. Grundsatz. — Zwischen zwei Punkten kann man stets eine gerade Strecke
+ziehen, und zwar nur eine einzige.
+
+II. Grundsatz. — Man kann stets einen Punkt angeben, welcher innerhalb einer
+gegebenen geraden Strecke liegt.
+
+III. Grundsatz. — Liegt der Punkt C innerhalb der Strecke AB, so liegt der
+Punkt A ausserhalb der Strecke BC.
+
+IV. Grundsatz. — Liegt der Punkt C innerhalb der Strecke AB, so sind alle
+Punkte der Strecke AC zugleich Punkte der Strecke AB.
+
+V. Grundsatz. — Liegt der Punkt C innerhalb der Strecke AB, so gehört ein
+Punkt, welcher keinem der beiden Theile AC und BC angehört, auch der Strecke AB
+nicht an. Oder: Liegen die Punkte C und D innerhalb der Strecke AB, der Punkt D
+ausserhalb der Strecke AC, so liegt der Punkt D innerhalb der Strecke BC.
+
+1. Lehrsatz. — Liegt der Punkt C innerhalb der Strecke AB, der Punkt D
+innerhalb der Strecke BC, so liegt der Punkt C innerhalb der Strecke AD.
+
+Einer so trivialen Aussage, wie sie z. B. der dritte Grundsatz enthält, erst
+eine besondere Fassung zu geben, wird leicht für zwecklos gehalten werden. Aber
+sie ist in den vorstehenden Beweisen in Anwendung gebracht worden, und wir
+nehmen uns vor, von allen Beweisgründen ohne Unterschied Rechenschaft
+abzulegen; auch von den unscheinbarsten.
+
+VI. Grundsatz. — Sind A und B beliebige Punkte, so kann man den Punkt C so
+wählen, dass B innerhalb der Strecke AC liegt.
+
+VII. Grundsatz. — Liegt der Punkt B innerhalb der Strecken AC und AD, so liegt
+entweder der Punkt C innerhalb der Strecke AD oder der Punkt D innerhalb der
+Strecke AC.
+
+VIII. Grundsatz. — Liegt der Punkt B innerhalb der Strecke AC und der Punkt A
+innerhalb der Strecke BD, und sind C, D durch eine gerade Strecke verbunden, so
+liegt der Punkt A auch innerhalb der Strecke CD.
+
+4. Lehrsatz. — Durch zwei beliebige Punkte kann man stets eine gerade Linie
+legen.
+
+5. Lehrsatz. — Jede Gerade ist durch zwei beliebige von ihren Punkten bestimmt,
+d. h.: Alle Geraden, welche zwei Punkte gemein haben, fallen mit einander
+zusammen.
+
+6. Lehrsatz. — Liegen drei Punkte in einer geraden Linie, so liegt einer von
+ihnen zwischen den beiden andern.
+
+7. Lehrsatz. — Liegen die Punkte A, B, C in einer geraden Linie, C zwischen A
+und B, so liegt weder A zwischen B und C, noch B zwischen A und C.
+
+12. Lehrsatz. — Liegen die Punkte A, B, C, D in einer Geraden, D zwischen A und
+B, so liegt D entweder zwischen A und C oder zwischen B und C.
+
+19. Lehrsatz. — Sind A, B, C, E Punkte in einer Geraden, so werden entweder BC
+durch AE getrennt, oder CA durch BE, oder AB durch CE, und zwar schliesst jede
+dieser Lagen die beiden andern aus.
+
+23. Lehrsatz. — Werden in einer Geraden die Punkte AB durch CE getrennt, so
+werden auch CE durch AB getrennt.
+
+Die Grundbegriffe sind nicht definirt worden; keine Erklärung ist im Stande,
+dasjenige Mittel zu ersetzen, welches allein das Verständniss jener einfachen,
+auf andere nicht zurückführbaren Begriffe erschliesst, nämlich den Hinweis auf
+geeignete Naturobjecte. Wenn Euklid sagt: „Ein Punkt ist, was keine Theile hat;
+eine Linie ist Länge ohne Breite; eine gerade Linie (Strecke) ist diejenige,
+welche den auf ihr befindlichen Punkten gleichförmig liegt", so erklärt er die
+angeführten Begriffe durch Eigenschaften, welche sich zu keiner Verwerthung
+eignen, und welche auch von ihm bei der weiteren Entwickelung nirgends
+verwerthet werden.
+
+--------------------------------------------------------------------------------
+§ 2. VON DEN EBENEN (S. 20–26)
+
+I. Grundsatz. — Durch drei beliebige Punkte kann man eine ebene Fläche legen.
+
+II. Grundsatz. — Wird durch zwei Punkte einer ebenen Fläche eine gerade Strecke
+gezogen, so existirt eine ebene Fläche, welche alle Punkte der vorigen und auch
+die Strecke enthält.
+
+III. Grundsatz. — Wenn zwei ebene Flächen P, P' einen Punkt gemein haben, so
+kann man einen andern Punkt angeben, der sowohl mit allen Punkten von P als
+auch mit allen Punkten von P' je in einer ebenen Fläche enthalten ist.
+
+IV. Grundsatz (S. 21). — Sind in einer ebenen Fläche drei Punkte A, B, C durch
+die geraden Strecken AB, AC, BC paarweise verbunden, und ist in derselben
+ebenen Fläche die gerade Strecke DE durch einen innerhalb der Strecke AB
+gelegenen Punkt gezogen, so geht die Strecke DE oder eine Verlängerung
+derselben entweder durch einen Punkt der Strecke AC oder durch einen Punkt der
+Strecke BC.
+Oder: Liegen die Punkte A, B, C, D in einer ebenen Fläche, F in der Geraden AB
+zwischen A und B, so geht die Gerade DF entweder durch einen Punkt der Strecke
+AC oder durch einen Punkt der Strecke BC.
+
+10. Lehrsatz (S. 25). — Sind A, B, C drei nicht in gerader Linie gelegene
+Punkte, D ein Punkt der Geraden AB zwischen A und B, g eine Gerade in der Ebene
+ABC, welche durch D, aber durch keinen der Punkte A, B, C hindurchgeht, so
+begegnet g entweder der Geraden AC zwischen A und C oder der Geraden BC
+zwischen B und C.
+
+11. Lehrsatz. — Sind A, B, C drei nicht in gerader Linie gelegene Punkte, a ein
+Punkt der Geraden BC zwischen B und C, b ein Punkt der Geraden AC zwischen A
+und C, c ein Punkt der Geraden AB zwischen A und B, so liegen die Punkte a, b,
+c nicht in gerader Linie.
+
+--------------------------------------------------------------------------------
+§ 10 & § 12. GEOMETRIE DER LAGE, RECIPROCITÄT UND DEDUCTIVE METHODE (S. 74–100)
+
+Punkt, Gerade und Ebene (im allgemeinen Sinne), Aneinanderliegen von Elementen
+und Getrenntliegen von Paaren spielen in der Geometrie der Lage die Rolle von
+Stammbegriffen, auf welche alle anderen zurückgeführt werden. Diejenigen
+Relationen zwischen den Elementen einer Figur, zu deren Angabe nur auf die Lage
+bezügliche Begriffe erfordert werden, bilden ihre auf die Lage bezüglichen
+Eigenschaften und werden auch graphische (descriptive) Eigenschaften der Figur
+genannt.
+
+Es muss in der That, wenn anders die Geometrie wirklich deductiv sein soll, der
+Process des Folgerns überall unabhängig sein vom Sinn der geometrischen
+Begriffe, wie er unabhängig sein muss von den Figuren; nur die in den benutzten
+Sätzen, beziehungsweise Definitionen niedergelegten Beziehungen zwischen den
+geometrischen Begriffen dürfen in Betracht kommen. Während der Deduction ist es
+zwar statthaft und nützlich, aber keineswegs nöthig, an die Bedeutung der
+auftretenden geometrischen Begriffe zu denken, so dass geradezu, wenn dies
+nöthig wird, daraus die Lückenhaftigkeit der Deduction und (wenn sich die Lücke
+nicht durch Abänderung des Raisonnements beseitigen lässt) die Unzulänglichkeit
+der als Beweismittel vorausgeschickten Sätze hervorgeht. Hat man aber ein
+Theorem aus einer Gruppe von Sätzen — wir wollen sie Stammsätze nennen — in
+voller Strenge deducirt, so besitzt die Herleitung einen über den
+ursprünglichen Zweck hinausgehenden Werth. Denn wenn aus den Stammsätzen
+dadurch, dass man die darin verknüpften geometrischen Begriffe mit gewissen
+anderen vertauscht, wieder richtige Sätze hervorgehen, so ist in dem Theoreme
+die entsprechende Vertauschung zulässig; man erhält so, ohne die Deduction zu
+wiederholen, einen (im Allgemeinen) neuen Satz, eine Folgerung aus den
+veränderten Stammsätzen.
