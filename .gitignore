@@ -1,0 +1,13 @@
+docs/
+docsrc/modules/api/
+.doctrees
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.coverage
