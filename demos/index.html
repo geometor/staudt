@@ -1,0 +1,347 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exact Straightedge Demonstrations &mdash; GEOMETOR • staudt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • staudt</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">staudt</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../geometrie_der_lage/index.html"  >GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN</a>
+        </li>
+        <li>
+          <a href="../pasch_1882/index.html"  >VORLESUNGEN ÜBER NEUERE GEOMETRIE</a>
+        </li>
+        <li>
+          <a href="../mission/index.html"  >Mission & Axiomatic Synthesis</a>
+        </li>
+        <li>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">Exact Straightedge Demonstrations</a>
+        </li>
+        <li>
+          <a href="../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; staudt</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GEOMETOR • staudt</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../mission/index.html" title="Mission &amp; Axiomatic Synthesis">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../log/index.html" title="log"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="exact-straightedge-demonstrations">
+        <h1>Exact Straightedge Demonstrations<a class="headerlink" href="#exact-straightedge-demonstrations" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Executable <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> Propositions for <code class="docutils literal notranslate"><span class="pre">geometor/staudt</span></code></p>
+        <p>The four standalone scripts in <code class="docutils literal notranslate"><span class="pre">demos/</span></code> verify every constructive theorem of <a class="person-ref" id="occ-person-staudt-1" href="../persons.html#person-staudt" data-person="staudt" title="Karl Georg Christian von Staudt (1798–1867) — German Geometer; Professor of Mathematics at Erlangen">von Staudt</a> and <a class="person-ref" id="occ-person-pasch-1" href="../persons.html#person-pasch" data-person="pasch" title="Moritz Pasch (1843–1930) — German Mathematician; Professor at Giessen">Pasch</a> in exact SymPy rational and quadratic-radical arithmetic, enforcing <code class="docutils literal notranslate"><span class="pre">assert_straightedge_only(model)</span></code> (<strong>zero compass circles</strong>).</p>
+        <hr class="docutils" />
+        <section class="level-2" id="complete-quadrangle-harmonic-fourth-desarguesian-uniqueness">
+        <h2>01 · Complete-Quadrangle Harmonic Fourth &amp; Desarguesian Uniqueness<a class="headerlink" href="#complete-quadrangle-harmonic-fourth-desarguesian-uniqueness" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Script</strong>: <code class="docutils literal notranslate"><span class="pre">demos/01_harmonic_fourth_straightedge.py</span></code></p></li>
+        <li><p><strong>Locus</strong>: <a class="citation-ref" id="occ-cite-staudt-1847-1" href="../bibliography.html#cite-staudt-1847" data-cite="staudt:1847" title="Karl Georg Christian von Staudt — Geometrie der Lage (§§ 1–19, arts. 1–257)">Staudt 1847 §§ 6–8, arts. 66–98</a> (<a class="reference internal" href="../geometrie_der_lage/unit-2/unit-2-en.html#geometrie-unit-2-en"><span class="std std-ref">Codex I, Unit 2</span></a>)</p></li>
+        <li><p><strong>Verification</strong>: Constructs the harmonic fourth $D = (-6, 0)$ of $A=(0,0), B=(6,0), C=(2,0)$ using 7 straightedge lines and 0 circles, proves $(A, B; C, D) = -1$ and mutual pair separation $AB \parallel CD$, confirms numerical invariance across distinct auxiliary quadrangles, and proves universally over $\mathbb{Q}(c, u, v, t)$ via <code class="docutils literal notranslate"><span class="pre">prove_symbolic_quadrangle_uniqueness()</span></code> that $x_D = \frac{c}{2c - 1}$ is completely independent of the off-line quadrangle parameters $(u, v, t)$.</p></li>
+        </ul>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" data-graphic-id="unit2_complete_quadrangle_harmonic" xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 780 460" role="img" aria-label="Von Staudt §§ 7–8 (Art. 93): Complete Quadrangle Harmonic Fourth &amp; Desarguesian Uniqueness">
+          <title>Von Staudt §§ 7–8 (Art. 93): Complete Quadrangle Harmonic Fourth &amp; Desarguesian Uniqueness</title>
+          <desc>Upper quadrangle EFGH and lower quadrangle E&#x27;F&#x27;G&#x27;H&#x27; sharing A, B, C both intersect line AB in the unique fourth harmonic conjugate D = (-6, 0).</desc>
+          <line x1="92.85" y1="252.68" x2="687.15" y2="252.68" class="line-primary" />
+          <line x1="387.73" y1="252.68" x2="478.46" y2="71.22" class="line-guide" />
+          <line x1="659.93" y1="252.68" x2="478.46" y2="71.22" class="line-guide" />
+          <line x1="387.73" y1="252.68" x2="478.46" y2="161.95" class="line-guide" />
+          <line x1="659.93" y1="252.68" x2="478.46" y2="161.95" class="line-guide" />
+          <line x1="478.46" y1="71.22" x2="478.46" y2="252.68" class="line-secondary" />
+          <line x1="523.83" y1="116.59" x2="115.54" y2="252.68" class="line-accent" />
+          <line x1="387.73" y1="252.68" x2="523.83" y2="388.78" class="line-guide" />
+          <line x1="659.93" y1="252.68" x2="523.83" y2="388.78" class="line-guide" />
+          <line x1="387.73" y1="252.68" x2="501.15" y2="320.73" class="line-guide" />
+          <line x1="659.93" y1="252.68" x2="501.15" y2="320.73" class="line-guide" />
+          <line x1="523.83" y1="388.78" x2="478.46" y2="252.68" class="line-secondary" />
+          <line x1="557.85" y1="354.76" x2="115.54" y2="252.68" class="line-result" />
+          <circle cx="387.73" cy="252.68" r="4.2" class="pt-given" />
+          <text x="383.73" y="270.68" text-anchor="middle" class="glyph-label">A</text>
+          <circle cx="659.93" cy="252.68" r="4.2" class="pt-given" />
+          <text x="663.93" y="270.68" text-anchor="middle" class="glyph-label">B</text>
+          <circle cx="478.46" cy="252.68" r="4.2" class="pt-given" />
+          <text x="483.46" y="270.68" text-anchor="start" class="glyph-label">C</text>
+          <circle cx="115.54" cy="252.68" r="5.2" class="pt-result" />
+          <text x="115.54" y="240.68" text-anchor="middle" class="glyph-label">D</text>
+          <circle cx="478.46" cy="71.22" r="4.2" class="pt-aux" />
+          <text x="478.46" y="61.22" text-anchor="middle" class="glyph-label">E</text>
+          <circle cx="478.46" cy="161.95" r="4.2" class="pt-aux" />
+          <text x="486.46" y="164.95" text-anchor="start" class="glyph-label">G</text>
+          <circle cx="442.17" cy="143.80" r="4.2" class="pt-aux" />
+          <text x="432.17" y="138.80" text-anchor="end" class="glyph-label">F</text>
+          <circle cx="523.83" cy="116.59" r="4.2" class="pt-aux" />
+          <text x="531.83" y="110.59" text-anchor="start" class="glyph-label">H</text>
+          <circle cx="523.83" cy="388.78" r="4.2" class="pt-emerald" />
+          <text x="529.83" y="403.78" text-anchor="start" class="glyph-label">E&#x27;</text>
+          <circle cx="501.15" cy="320.73" r="4.2" class="pt-emerald" />
+          <text x="510.15" y="325.73" text-anchor="start" class="glyph-label">G&#x27;</text>
+          <circle cx="469.39" cy="334.34" r="4.2" class="pt-emerald" />
+          <text x="459.39" y="346.34" text-anchor="end" class="glyph-label">F&#x27;</text>
+          <circle cx="557.85" cy="354.76" r="4.2" class="pt-emerald" />
+          <text x="567.85" y="364.76" text-anchor="start" class="glyph-label">H&#x27;</text>
+          <text x="390.00" y="442.00" text-anchor="middle" class="diagram-caption">Geometrie der Lage §§ 7–8 (Art. 93): Independent quadrangles EFGH and E&#x27;F&#x27;G&#x27;H&#x27; determine the identical harmonic fourth D with (A, B; C, D) = −1</text>
+        </svg>
+        <figcaption>**Complete Plane Quadrangle EFGH (1847 § 6, art. 67):** Opposite sides pass through $A$ and $B$, while diagonals $[EG]$ and $[FH]$ cut the carrier in $C$ and $D$ with $(A, B; C, D) = -1$.</figcaption>
+        </figure>
+        </section>
+        <hr class="docutils" />
+        <section class="level-2" id="pure-straightedge-addition-of-throws-the-harmonic-scale">
+        <h2>02 · Pure Straightedge Addition of Throws &amp; the Harmonic Scale<a class="headerlink" href="#pure-straightedge-addition-of-throws-the-harmonic-scale" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Script</strong>: <code class="docutils literal notranslate"><span class="pre">demos/02_von_staudt_addition.py</span></code></p></li>
+        <li><p><strong>Locus</strong>: <a class="citation-ref" id="occ-cite-staudt-1857-1" href="../bibliography.html#cite-staudt-1857" data-cite="staudt:1857" title="Karl Georg Christian von Staudt — Beiträge zur Geometrie der Lage, Zweites Heft (§§ 19, 20, 29, arts. 256–269, 403–404)">Staudt 1857 Heft 2, §§ 19 &amp; 29, arts. 256–267, 403–404</a> (<a class="reference internal" href="../geometrie_der_lage/unit-4/unit-4-en.html#geometrie-unit-4-en"><span class="std std-ref">Codex I, Unit 4</span></a>)</p></li>
+        <li><p><strong>Verification</strong>: Executes parabolic double-perspectivity addition $S = X + Y$ both for a finite horizon point $P_\infty = (8, 0)$ and for the ideal horizon $P_\infty = \infty$ (via <code class="docutils literal notranslate"><span class="pre">construct_parallel_straightedge</span></code>), verifying $P_1 + P_1 = P_2$ and $P_2 + P_3 = P_5$, and builds the integer harmonic ladder $P_{-1}, P_0, P_1, \dots, P_5$.</p></li>
+        </ul>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" data-graphic-id="unit4_addition_of_throws" xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 780 450" role="img" aria-label="Von Staudt Beiträge § 19 (Arts. 256–267): Pure Straightedge Addition of Throws (P2 + P3 = P5)">
+          <title>Von Staudt Beiträge § 19 (Arts. 256–267): Pure Straightedge Addition of Throws (P2 + P3 = P5)</title>
+          <desc>Straightedge addition on carrier line (P0, P1, P_inf) using horizon centers U, V on [P_inf U] and perspective axis a = [P_inf R].</desc>
+          <line x1="118.50" y1="261.20" x2="661.50" y2="261.20" class="line-primary" />
+          <line x1="637.37" y1="261.20" x2="215.03" y2="80.20" class="line-secondary" />
+          <line x1="124.53" y1="334.46" x2="637.37" y2="261.20" class="line-accent" />
+          <line x1="215.03" y1="80.20" x2="130.57" y2="333.60" class="line-guide" />
+          <line x1="426.20" y1="170.70" x2="130.57" y2="333.60" class="line-guide" />
+          <line x1="215.03" y1="80.20" x2="299.50" y2="261.20" class="line-guide" />
+          <line x1="215.03" y1="80.20" x2="320.62" y2="306.45" class="line-guide" />
+          <line x1="426.20" y1="170.70" x2="355.81" y2="261.20" class="line-result" />
+          <line x1="426.20" y1="170.70" x2="320.62" y2="306.45" class="line-result" />
+          <circle cx="154.70" cy="261.20" r="4.2" class="pt-given" />
+          <text x="150.70" y="279.20" text-anchor="middle" class="glyph-label">P₀ (0)</text>
+          <circle cx="215.03" cy="261.20" r="4.2" class="pt-given" />
+          <text x="215.03" y="279.20" text-anchor="middle" class="glyph-label">P₁ (1)</text>
+          <circle cx="261.96" cy="261.20" r="4.2" class="pt-given" />
+          <text x="261.96" y="250.20" text-anchor="middle" class="glyph-label">P₂ (2)</text>
+          <circle cx="299.50" cy="261.20" r="4.2" class="pt-given" />
+          <text x="303.50" y="279.20" text-anchor="middle" class="glyph-label">P₃ (3)</text>
+          <circle cx="355.81" cy="261.20" r="5.2" class="pt-result" />
+          <text x="355.81" y="249.20" text-anchor="middle" class="glyph-label">P₅ = P₂ + P₃</text>
+          <circle cx="637.37" cy="261.20" r="4.2" class="pt-aux" />
+          <text x="645.37" y="255.20" text-anchor="start" class="glyph-label">P∞</text>
+          <circle cx="215.03" cy="80.20" r="4.2" class="pt-aux" />
+          <text x="207.03" y="74.20" text-anchor="end" class="glyph-label">U</text>
+          <circle cx="426.20" cy="170.70" r="4.2" class="pt-aux" />
+          <text x="434.20" y="164.70" text-anchor="start" class="glyph-label">V</text>
+          <circle cx="130.57" cy="333.60" r="4.2" class="pt-aux" />
+          <text x="140.57" y="345.60" text-anchor="start" class="glyph-label">R = [UP₀] ∩ [VP₂]</text>
+          <circle cx="320.62" cy="306.45" r="4.2" class="pt-emerald" />
+          <text x="310.62" y="320.45" text-anchor="end" class="glyph-label">T = [UP₃] ∩ a</text>
+          <text x="390.00" y="432.00" text-anchor="middle" class="diagram-caption">Beiträge § 19: Centers U, V ∈ [P∞ U] and axis a = [P∞ R] construct P₂ + P₃ = P₅ purely by straightedge with zero circles</text>
+        </svg>
+        <figcaption>**Summen von Würfen (1857 § 19, art. 256):** Horizon ray $[P_\infty U V]$ and perspective axis $a = [P_\infty R]$ construct $S = X + Y$ using 6 straightedge incidences and 0 circles.</figcaption>
+        </figure>
+        </section>
+        <hr class="docutils" />
+        <section class="level-2" id="straightedge-multiplication-of-throws-golden-identity-over-mathbb-q-phi">
+        <h2>03 · Straightedge Multiplication of Throws &amp; Golden Identity over $\mathbb{Q}(\phi)$<a class="headerlink" href="#straightedge-multiplication-of-throws-golden-identity-over-mathbb-q-phi" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Script</strong>: <code class="docutils literal notranslate"><span class="pre">demos/03_von_staudt_multiplication_golden.py</span></code></p></li>
+        <li><p><strong>Locus</strong>: <a class="citation-ref" id="occ-cite-staudt-1857-2" href="../bibliography.html#cite-staudt-1857" data-cite="staudt:1857" title="Karl Georg Christian von Staudt — Beiträge zur Geometrie der Lage, Zweites Heft (§§ 19, 20, 29, arts. 256–269, 403–404)">Staudt 1857 Heft 2, § 20, arts. 268–269</a> (<a class="reference internal" href="../geometrie_der_lage/unit-4/unit-4-en.html#geometrie-unit-4-en"><span class="std std-ref">Codex I, Unit 4</span></a>)</p></li>
+        <li><p><strong>Verification</strong>: Executes hyperbolic double-perspectivity multiplication $P = X \cdot Y$ fixing $P_0$ and $P_\infty$, verifies $P_2 \cdot P_3 = P_6$ and distributivity $(P_2 + P_3) \cdot P_2 = P_2 \cdot P_2 + P_3 \cdot P_2$, and proves over $\mathbb{Q}(\phi)$ ($\phi = \frac{1 + \sqrt{5}}{2}$) that the straightedge product $P_\phi \cdot P_\phi$ and the straightedge sum $P_\phi + P_1$ land on the <strong>exact same symbolic point</strong> $P_{\phi^2} = \left(\frac{92 + 28\sqrt{5}}{71}, 0\right)$ on the projective carrier!</p></li>
+        </ul>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" data-graphic-id="unit4_multiplication_of_throws" xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 780 450" role="img" aria-label="Von Staudt Beiträge § 20 (Arts. 268–275): Pure Straightedge Multiplication of Throws (P2 · P3 = P6)">
+          <title>Von Staudt Beiträge § 20 (Arts. 268–275): Pure Straightedge Multiplication of Throws (P2 · P3 = P6)</title>
+          <desc>Straightedge multiplication on (P0, P1, P_inf) using centers U, V collinear with P0 and perspective axis a = [P_inf W].</desc>
+          <line x1="103.42" y1="255.17" x2="670.55" y2="255.17" class="line-primary" />
+          <line x1="224.08" y1="74.17" x2="123.53" y2="375.83" class="line-secondary" />
+          <line x1="163.75" y1="299.05" x2="646.42" y2="255.17" class="line-accent" />
+          <line x1="224.08" y1="74.17" x2="224.08" y2="293.56" class="line-guide" />
+          <line x1="123.53" y1="375.83" x2="271.01" y2="255.17" class="line-guide" />
+          <line x1="224.08" y1="74.17" x2="308.55" y2="255.17" class="line-guide" />
+          <line x1="123.53" y1="375.83" x2="386.52" y2="255.17" class="line-result" />
+          <circle cx="163.75" cy="255.17" r="4.2" class="pt-given" />
+          <text x="153.75" y="247.17" text-anchor="end" class="glyph-label">P₀ (0)</text>
+          <circle cx="224.08" cy="255.17" r="4.2" class="pt-given" />
+          <text x="220.08" y="273.17" text-anchor="middle" class="glyph-label">P₁ (1)</text>
+          <circle cx="271.01" cy="255.17" r="4.2" class="pt-given" />
+          <text x="271.01" y="244.17" text-anchor="middle" class="glyph-label">P₂ (2)</text>
+          <circle cx="308.55" cy="255.17" r="4.2" class="pt-given" />
+          <text x="310.55" y="273.17" text-anchor="middle" class="glyph-label">P₃ (3)</text>
+          <circle cx="386.52" cy="255.17" r="5.2" class="pt-result" />
+          <text x="392.52" y="243.17" text-anchor="start" class="glyph-label">P₆ = P₂ · P₃</text>
+          <circle cx="646.42" cy="255.17" r="4.2" class="pt-aux" />
+          <text x="654.42" y="249.17" text-anchor="start" class="glyph-label">P∞</text>
+          <circle cx="224.08" cy="74.17" r="4.2" class="pt-aux" />
+          <text x="232.08" y="70.17" text-anchor="start" class="glyph-label">U</text>
+          <circle cx="123.53" cy="375.83" r="4.2" class="pt-aux" />
+          <text x="133.53" y="381.83" text-anchor="start" class="glyph-label">V ∈ [P₀U]</text>
+          <circle cx="224.08" cy="293.56" r="4.2" class="pt-aux" />
+          <text x="214.08" y="285.56" text-anchor="end" class="glyph-label">W = [UP₁] ∩ [VP₂]</text>
+          <circle cx="322.30" cy="284.63" r="4.2" class="pt-emerald" />
+          <text x="332.30" y="278.63" text-anchor="start" class="glyph-label">Z = [UP₃] ∩ a</text>
+          <text x="390.00" y="432.00" text-anchor="middle" class="diagram-caption">Beiträge § 20: Centers U, V ∈ [P₀ U] and axis a = [P∞ W] construct P₂ · P₃ = P₆ purely by straightedge incidence</text>
+        </svg>
+        <figcaption>**Produkte aus Würfen (1857 § 20, art. 268):** Center line $[P_0 U V]$ and horizon axis $a = [P_\infty W]$ construct $P = X \cdot Y$ purely by straightedge.</figcaption>
+        </figure>
+        </section>
+        <hr class="docutils" />
+        <section class="level-2" id="pasch-s-planar-separation-axiom-euclid-s-i-16-i-21-order-audits">
+        <h2>04 · Pasch’s Planar Separation Axiom &amp; Euclid’s <code class="docutils literal notranslate"><span class="pre">I.16</span></code> / <code class="docutils literal notranslate"><span class="pre">I.21</span></code> Order Audits<a class="headerlink" href="#pasch-s-planar-separation-axiom-euclid-s-i-16-i-21-order-audits" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Script</strong>: <code class="docutils literal notranslate"><span class="pre">demos/04_pasch_axiom_and_euclid_i16.py</span></code></p></li>
+        <li><p><strong>Locus</strong>: <a class="citation-ref" id="occ-cite-pasch-1882-1" href="../bibliography.html#cite-pasch-1882" data-cite="pasch:1882" title="Moritz Pasch — Vorlesungen über neuere Geometrie (Vorwort, Einleitung, §§ 1–2, 8–12 (pp. 1–100))">Pasch 1882 § 2, IV. Grundsatz (p. 21) &amp; 10. Lehrsatz (p. 25)</a> (<a class="reference internal" href="../pasch_1882/unit-2/unit-2-en.html#pasch-unit-2-en"><span class="std std-ref">Codex II, Unit 2</span></a>)</p></li>
+        <li><p><strong>Verification</strong>: Audits signed half-plane orientations and strict interior side exits on $\triangle ABC$, verifies the interior crossbar intersection $K \in AD$ needed for <code class="docutils literal notranslate"><span class="pre">Elements</span> <span class="pre">I.16</span></code>, and deductively proves <code class="docutils literal notranslate"><span class="pre">Elements</span> <span class="pre">I.21</span></code>’s interior ray exit $E \in AC$ by applying Pasch’s <em>IV. Grundsatz</em> to sub-triangle $\triangle AMC$.</p></li>
+        </ul>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" data-graphic-id="pasch_unit2_planar_axiom_euclid_gaps" xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 820 430" role="img" aria-label="Moritz Pasch (1882) § 2 IV. Grundsatz (p. 21) &amp; Resolution of Euclid I.21">
+          <title>Moritz Pasch (1882) § 2 IV. Grundsatz (p. 21) &amp; Resolution of Euclid I.21</title>
+          <desc>Left: Pasch&#x27;s planar line-triangle separation axiom. Right: Deductive proof of Euclid I.21 ray exit E on AC by applying Pasch&#x27;s Axiom to sub-triangle AMC.</desc>
+          <polygon points="75.48,327.16 311.61,327.16 193.55,130.39" class="poly-fill" />
+          <line x1="75.48" y1="287.81" x2="350.97" y2="209.10" class="line-accent" />
+          <circle cx="75.48" cy="327.16" r="4.2" class="pt-given" />
+          <text x="67.48" y="343.16" text-anchor="end" class="glyph-label">A</text>
+          <circle cx="311.61" cy="327.16" r="4.2" class="pt-given" />
+          <text x="319.61" y="343.16" text-anchor="start" class="glyph-label">B</text>
+          <circle cx="193.55" cy="130.39" r="4.2" class="pt-given" />
+          <text x="193.55" y="120.39" text-anchor="middle" class="glyph-label">C</text>
+          <circle cx="256.90" cy="235.97" r="4.8" class="pt-result" />
+          <text x="246.90" y="227.97" text-anchor="end" class="glyph-label">X₁ (entry)</text>
+          <circle cx="103.98" cy="279.66" r="4.8" class="pt-result" />
+          <text x="113.98" y="285.66" text-anchor="start" class="glyph-label">X₂ (forced exit)</text>
+          <polygon points="429.68,327.16 744.52,327.16 547.74,91.03" class="poly-fill" />
+          <polygon points="429.68,327.16 547.74,327.16 547.74,91.03" class="poly-accent" />
+          <line x1="547.74" y1="91.03" x2="547.74" y2="327.16" class="line-secondary" />
+          <line x1="744.52" y1="327.16" x2="438.42" y2="204.72" class="line-result" />
+          <circle cx="429.68" cy="327.16" r="4.2" class="pt-given" />
+          <text x="421.68" y="343.16" text-anchor="end" class="glyph-label">A</text>
+          <circle cx="744.52" cy="327.16" r="4.2" class="pt-given" />
+          <text x="752.52" y="343.16" text-anchor="start" class="glyph-label">B</text>
+          <circle cx="547.74" cy="91.03" r="4.2" class="pt-given" />
+          <text x="547.74" y="81.03" text-anchor="middle" class="glyph-label">C</text>
+          <circle cx="547.74" cy="327.16" r="4.2" class="pt-aux" />
+          <text x="547.74" y="345.16" text-anchor="middle" class="glyph-label">M</text>
+          <circle cx="547.74" cy="248.45" r="4.2" class="pt-result" />
+          <text x="556.74" y="244.45" text-anchor="start" class="glyph-label">D</text>
+          <circle cx="482.15" cy="222.22" r="5.0" class="pt-emerald" />
+          <text x="472.15" y="216.22" text-anchor="end" class="glyph-label">E ∈ AC</text>
+          <text x="205.00" y="412.00" text-anchor="middle" class="diagram-caption">(a) Pasch § 2 IV. Grundsatz: Entry X₁ forces exit X₂</text>
+          <text x="605.00" y="412.00" text-anchor="middle" class="diagram-caption">(b) Euclid I.21: Pasch on △AMC forces ray BD to exit AC at E</text>
+        </svg>
+        <figcaption>**Pasch's IV. Grundsatz (1882 § 2, p. 21) & Euclid I.21:** Transversal $[BD]$ enters $\triangle AMC$ on open segment $CM$ and misses segment $AM$, forcing an interior exit $E$ strictly between $A$ and $C$.</figcaption>
+        </figure>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../mission/index.html" title="Mission &amp; Axiomatic Synthesis">&larr; <span class="nav-label">Mission & Axiomatic Synthesis</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GEOMETOR • staudt</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../log/index.html" title="log"><span class="nav-label">log</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../log/26.106-initial-codex/index.html">Initial Bilingual Book Codices & Straightedge-Only Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1847–1882 Public Domain; 2026 GEOMETOR Critical Apparatus & Symbolic Library.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

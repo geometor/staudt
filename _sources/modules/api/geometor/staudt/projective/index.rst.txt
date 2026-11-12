@@ -1,0 +1,88 @@
+geometor.staudt.projective
+==========================
+
+.. py:module:: geometor.staudt.projective
+
+.. autoapi-nested-parse::
+
+   Exact projective coordinates (Abscissen), linear betweenness, cyclic pair separation,
+   and straightedge-purity verification for von Staudt (1847/1857) and Pasch (1882).
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.staudt.projective.assert_straightedge_only
+   geometor.staudt.projective.is_collinear
+   geometor.staudt.projective.is_between
+   geometor.staudt.projective.pair_separates
+   geometor.staudt.projective.projective_abscissa
+   geometor.staudt.projective.point_from_abscissa
+
+
+Module Contents
+---------------
+
+.. py:function:: assert_straightedge_only(model: geometor.model.Model) -> None
+
+   Assert that ``model`` contains zero compass circles (:class:`sympy.geometry.Circle`).
+
+   Von Staudt's *Geometrie der Lage* (1847) and *Rechnung mit Würfen* (1857) require that
+   every projective construction proceed strictly by unmarked straightedge incidence
+   without metric compass transfers or circle intersections.
+
+   :raises ProofAssertionError: If any :class:`sympy.geometry.Circle` exists in ``model``.
+
+
+.. py:function:: is_collinear(A: sympy.geometry.Point, B: sympy.geometry.Point, C: sympy.geometry.Point) -> bool
+
+   Return ``True`` iff points ``A``, ``B``, ``C`` are collinear in exact SymPy algebra.
+
+
+.. py:function:: is_between(A: sympy.geometry.Point, B: sympy.geometry.Point, C: sympy.geometry.Point) -> bool
+
+   Return ``True`` iff ``C`` lies strictly between ``A`` and ``B`` (Pasch § 1 Grundsatz V–VIII).
+
+   Verifies exact collinearity together with positive inner product of directed segments
+   :math:`\overrightarrow{AC} \cdot \overrightarrow{CB} > 0`.
+
+
+.. py:function:: pair_separates(A: sympy.geometry.Point, B: sympy.geometry.Point, C: sympy.geometry.Point, D: sympy.geometry.Point) -> bool
+
+   Return ``True`` iff collinear point-pair ``{A, B}`` projectively separates ``{C, D}``.
+
+   In Pasch (*Vorlesungen* § 1 Lehrsätze 19–23 & § 11) and Vailati (1895), four distinct
+   collinear points exhibit cyclic pair separation ``AB // CD`` iff the projective
+   cross-ratio :math:`(A, B; C, D)` is strictly negative. Every harmonic range satisfies
+   :math:`(A, B; C, D) = -1 < 0` and therefore separates conjugate pairs.
+
+
+.. py:function:: projective_abscissa(P0: sympy.geometry.Point, P1: sympy.geometry.Point, Pinf: sympy.geometry.Point | None, X: sympy.geometry.Point) -> sympy.Expr
+
+   Compute von Staudt's exact projective abscissa (*Beiträge* § 29, art. 404) of ``X``.
+
+   Relative to three distinct collinear reference points :math:`(P_0, P_1, P_\infty)`:
+
+   * When ``Pinf`` is a **finite projective horizon point** on line :math:`[P_0 P_1]`,
+     returns the exact cross-ratio :math:`(P_\infty, P_0; P_1, X)`, mapping
+     :math:`P_0 \mapsto 0`, :math:`P_1 \mapsto 1`, and :math:`P_\infty \mapsto \infty`.
+   * When ``Pinf is None`` (**ideal point at infinity** along :math:`[P_0 P_1]`),
+     returns the exact affine ratio :math:`\frac{(X - P_0) \cdot d}{d \cdot d}` with
+     :math:`d = P_1 - P_0`.
+
+   :raises ValueError: If reference points coincide, ``X`` is not collinear with ``[P0 P1]``,
+       or ``X`` coincides with ``Pinf``.
+
+
+.. py:function:: point_from_abscissa(P0: sympy.geometry.Point, P1: sympy.geometry.Point, Pinf: sympy.geometry.Point | None, coord: sympy.Expr | int) -> sympy.geometry.Point
+
+   Return the exact collinear :class:`sympy.geometry.Point` whose projective abscissa is ``coord``.
+
+   Used strictly for setting up test inputs and checking closed-form algebraic identities;
+   straightedge constructions in :mod:`geometor.staudt.quadrangle` and
+   :mod:`geometor.staudt.throws` never invoke coordinate inversion.
+
+

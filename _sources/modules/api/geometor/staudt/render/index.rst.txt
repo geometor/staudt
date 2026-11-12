@@ -1,0 +1,32 @@
+geometor.staudt.render
+======================
+
+.. py:module:: geometor.staudt.render
+
+.. autoapi-nested-parse::
+
+   Exact SymPy-driven SVG figure builder generating the 8 standalone ``.euclid-graphic``
+   diagrams for ``geometor/staudt``.
+
+   All geometric intersections are computed symbolically via :mod:`geometor.model` and
+   :mod:`geometor.staudt`; floating-point evaluation ``float(expr.evalf())`` occurs strictly
+   at final SVG viewport projection time and never enters any :class:`~geometor.model.Model`.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.staudt.render.build_all_figures
+
+
+Module Contents
+---------------
+
+.. py:function:: build_all_figures(output_dir: pathlib.Path | None = None) -> list[pathlib.Path]
+
+   Generate all 8 standalone ``.euclid-graphic`` SVG figures in ``docsrc/_static/figures/``.
+
+

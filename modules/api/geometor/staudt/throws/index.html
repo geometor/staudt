@@ -1,0 +1,272 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.staudt.throws &mdash; GEOMETOR • staudt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • staudt</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">staudt</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../geometrie_der_lage/index.html"  >GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN</a>
+        </li>
+        <li>
+          <a href="../../../../../pasch_1882/index.html"  >VORLESUNGEN ÜBER NEUERE GEOMETRIE</a>
+        </li>
+        <li>
+          <a href="../../../../../mission/index.html"  >Mission & Axiomatic Synthesis</a>
+        </li>
+        <li>
+          <a href="../../../../../demos/index.html"  >Exact Straightedge Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; staudt</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • staudt</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../render/index.html" title="geometor.staudt.render">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.staudt.throws">
+        <span id="geometor-staudt-throws"></span><h1>geometor.staudt.throws<a class="headerlink" href="#module-geometor.staudt.throws" title="Link to this heading">¶</a></h1>
+        <p>Von Staudt’s <em>Rechnung mit Würfen</em> (<em>Algebra of Throws</em>, <em>Beiträge zur Geometrie der Lage</em>,
+        Heft 2, 1857, §§ 19, 20, 29): pure straightedge addition, multiplication, harmonic scales,
+        and golden-section throw arithmetic over Q(phi) without compass or ruler scale.</p>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.staudt.throws.construct_parallel_straightedge" title="geometor.staudt.throws.construct_parallel_straightedge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_parallel_straightedge</span></code></a>(model, A, B, rail_U0, ...) → sympy.geometry.Line</p></td>
+        <td><p>Construct the line through <code class="docutils literal notranslate"><span class="pre">R</span></code> parallel to <code class="docutils literal notranslate"><span class="pre">[AB]</span></code> using <strong>only an unmarked straightedge</strong>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.staudt.throws.construct_von_staudt_addition" title="geometor.staudt.throws.construct_von_staudt_addition"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_von_staudt_addition</span></code></a>(model, P0, P1, Pinf, X, Y, *) → sympy.geometry.Point</p></td>
+        <td><p>Construct the projective sum <code class="docutils literal notranslate"><span class="pre">S</span> <span class="pre">=</span> <span class="pre">X</span> <span class="pre">+</span> <span class="pre">Y</span></code> on <code class="docutils literal notranslate"><span class="pre">(P0,</span> <span class="pre">P1,</span> <span class="pre">Pinf)</span></code> using <strong>only a straightedge</strong>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.staudt.throws.construct_von_staudt_multiplication" title="geometor.staudt.throws.construct_von_staudt_multiplication"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_von_staudt_multiplication</span></code></a>(model, P0, P1, ...) → sympy.geometry.Point</p></td>
+        <td><p>Construct the projective product <code class="docutils literal notranslate"><span class="pre">P</span> <span class="pre">=</span> <span class="pre">X</span> <span class="pre">*</span> <span class="pre">Y</span></code> on <code class="docutils literal notranslate"><span class="pre">(P0,</span> <span class="pre">P1,</span> <span class="pre">Pinf)</span></code> using <strong>only a straightedge</strong>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.staudt.throws.construct_harmonic_scale" title="geometor.staudt.throws.construct_harmonic_scale"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_harmonic_scale</span></code></a>(model, P0, P1, Pinf[, max_n]) → dict[int, sympy.geometry.Point]</p></td>
+        <td><p>Construct the Möbius–von Staudt harmonic integer scale <code class="docutils literal notranslate"><span class="pre">P_{-1},</span> <span class="pre">P_0,</span> <span class="pre">P_1,</span> <span class="pre">...,</span> <span class="pre">P_n</span></code> by straightedge.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.staudt.throws.verify_golden_throw_identity" title="geometor.staudt.throws.verify_golden_throw_identity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_golden_throw_identity</span></code></a>(P0, P1, Pinf) → dict[str, Any]</p></td>
+        <td><p>Verify over <span class="math notranslate nohighlight">\(\mathbb{Q}(\phi)\)</span> that von Staudt's straightedge product &amp; sum satisfy <span class="math notranslate nohighlight">\(P_\phi \cdot P_\phi = P_\phi + P_1\)</span>.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.staudt.throws.construct_parallel_straightedge">
+        <span class="sig-prename descclassname"><span class="pre">geometor.staudt.throws.</span></span><span class="sig-name descname"><span class="pre">construct_parallel_straightedge</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">A</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">B</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rail_U0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rail_U1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">R</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">guide</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Line</span></span></span><a class="headerlink" href="#geometor.staudt.throws.construct_parallel_straightedge" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the line through <code class="docutils literal notranslate"><span class="pre">R</span></code> parallel to <code class="docutils literal notranslate"><span class="pre">[AB]</span></code> using <strong>only an unmarked straightedge</strong>.</p>
+        <p>Given carrier line <span class="math notranslate nohighlight">\(\ell = [AB]\)</span> and a single auxiliary parallel rail
+        <span class="math notranslate nohighlight">\(m = [U_0 U_1] \parallel \ell\)</span> (representing the shared ideal point <span class="math notranslate nohighlight">\(P_\infty\)</span>
+        at infinity, with <span class="math notranslate nohighlight">\(|AB| \neq |U_0 U_1|\)</span>), executes the two-stage Steiner–Poncelet
+        pure-incidence construction:</p>
+        <ol class="arabic simple">
+        <li><p><strong>Affine midpoint via trapezoid quadrangle</strong>: <span class="math notranslate nohighlight">\(O = [A U_0] \cap [B U_1]\)</span> and
+        <span class="math notranslate nohighlight">\(K_0 = [A U_1] \cap [B U_0]\)</span>; line <span class="math notranslate nohighlight">\([O K_0]\)</span> meets <span class="math notranslate nohighlight">\(\ell\)</span> in the
+        exact harmonic conjugate <span class="math notranslate nohighlight">\(M\)</span> of <span class="math notranslate nohighlight">\(P_\infty\)</span>, i.e., the midpoint of <span class="math notranslate nohighlight">\(AB\)</span>.</p></li>
+        <li><p><strong>Parallel through R via Steiner harmonic cevian</strong>: join <span class="math notranslate nohighlight">\([AR]\)</span> meeting <span class="math notranslate nohighlight">\(m\)</span>
+        at <span class="math notranslate nohighlight">\(Q\)</span> (if <span class="math notranslate nohighlight">\(R \in m\)</span>, <span class="math notranslate nohighlight">\(m\)</span> itself is already the required parallel);
+        intersect <span class="math notranslate nohighlight">\(K = [BR] \cap [QM]\)</span> and <span class="math notranslate nohighlight">\(L = [AK] \cap [QB]\)</span>. Then
+        <span class="math notranslate nohighlight">\([RL] \parallel [AB]\)</span> with <strong>zero circles</strong> and <strong>zero coordinate helpers</strong>.</p></li>
+        </ol>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.staudt.throws.construct_von_staudt_addition">
+        <span class="sig-prename descclassname"><span class="pre">geometor.staudt.throws.</span></span><span class="sig-name descname"><span class="pre">construct_von_staudt_addition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">P0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">P1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Pinf</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">X</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">aux_U</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aux_V</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel_rail</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'S'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Point</span></span></span><a class="headerlink" href="#geometor.staudt.throws.construct_von_staudt_addition" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the projective sum <code class="docutils literal notranslate"><span class="pre">S</span> <span class="pre">=</span> <span class="pre">X</span> <span class="pre">+</span> <span class="pre">Y</span></code> on <code class="docutils literal notranslate"><span class="pre">(P0,</span> <span class="pre">P1,</span> <span class="pre">Pinf)</span></code> using <strong>only a straightedge</strong>.</p>
+        <p>Implements Karl Georg Christian von Staudt’s <em>Summen von Würfen</em> (<em>Beiträge zur Geometrie
+        der Lage</em>, Heft 2, 1857, § 19, arts. 256–267): the parabolic projectivity fixing
+        <span class="math notranslate nohighlight">\(P_\infty\)</span> with double contact (conjugate to <span class="math notranslate nohighlight">\(P_0\)</span> in the involution
+        <span class="math notranslate nohighlight">\(P_\infty P_\infty \cdot X Y\)</span>) realized as a composition of two perspectivities
+        <span class="math notranslate nohighlight">\(\ell \xrightarrow{U} a \xrightarrow{V} \ell\)</span> whose center join <span class="math notranslate nohighlight">\([UV]\)</span>
+        and perspective axis <span class="math notranslate nohighlight">\(a\)</span> both pass through <span class="math notranslate nohighlight">\(P_\infty\)</span>:</p>
+        <ol class="arabic simple">
+        <li><p>Draw horizon carrier <span class="math notranslate nohighlight">\(m\)</span> through <span class="math notranslate nohighlight">\(P_\infty\)</span> containing distinct off-line
+        centers <span class="math notranslate nohighlight">\(U\)</span> and <span class="math notranslate nohighlight">\(V\)</span> (when <code class="docutils literal notranslate"><span class="pre">Pinf</span> <span class="pre">is</span> <span class="pre">None</span></code>, <span class="math notranslate nohighlight">\(m = [U V]\)</span> is a parallel
+        rail to <span class="math notranslate nohighlight">\(\ell = [P_0 P_1]\)</span>).</p></li>
+        <li><p>Intersect <span class="math notranslate nohighlight">\(R = [U P_0] \cap [V X]\)</span> so that <span class="math notranslate nohighlight">\(P_0 \mapsto X\)</span>.</p></li>
+        <li><p>Construct perspective axis <span class="math notranslate nohighlight">\(a\)</span> joining <span class="math notranslate nohighlight">\(P_\infty\)</span> and <span class="math notranslate nohighlight">\(R\)</span> (when
+        <code class="docutils literal notranslate"><span class="pre">Pinf</span> <span class="pre">is</span> <span class="pre">None</span></code>, construct <span class="math notranslate nohighlight">\(a \parallel \ell\)</span> through <span class="math notranslate nohighlight">\(R\)</span> purely by
+        straightedge via <a class="reference internal" href="#geometor.staudt.throws.construct_parallel_straightedge" title="geometor.staudt.throws.construct_parallel_straightedge"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_parallel_straightedge()</span></code></a>).</p></li>
+        <li><p>Intersect <span class="math notranslate nohighlight">\(T = [U Y] \cap a\)</span> and project <span class="math notranslate nohighlight">\(S = [V T] \cap \ell\)</span>.</p></li>
+        </ol>
+        <p>Verifies in SymPy that <code class="docutils literal notranslate"><span class="pre">projective_abscissa(P0,</span> <span class="pre">P1,</span> <span class="pre">Pinf,</span> <span class="pre">S)</span></code> equals
+        <code class="docutils literal notranslate"><span class="pre">projective_abscissa(P0,</span> <span class="pre">P1,</span> <span class="pre">Pinf,</span> <span class="pre">X)</span> <span class="pre">+</span> <span class="pre">projective_abscissa(P0,</span> <span class="pre">P1,</span> <span class="pre">Pinf,</span> <span class="pre">Y)</span></code> and
+        that <strong>zero circles</strong> exist in <code class="docutils literal notranslate"><span class="pre">model</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.staudt.throws.construct_von_staudt_multiplication">
+        <span class="sig-prename descclassname"><span class="pre">geometor.staudt.throws.</span></span><span class="sig-name descname"><span class="pre">construct_von_staudt_multiplication</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">P0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">P1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Pinf</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">X</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">aux_U</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aux_V</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel_rail</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'P'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Point</span></span></span><a class="headerlink" href="#geometor.staudt.throws.construct_von_staudt_multiplication" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the projective product <code class="docutils literal notranslate"><span class="pre">P</span> <span class="pre">=</span> <span class="pre">X</span> <span class="pre">*</span> <span class="pre">Y</span></code> on <code class="docutils literal notranslate"><span class="pre">(P0,</span> <span class="pre">P1,</span> <span class="pre">Pinf)</span></code> using <strong>only a straightedge</strong>.</p>
+        <p>Implements Karl Georg Christian von Staudt’s <em>Produkte aus Würfen</em> (<em>Beiträge zur Geometrie
+        der Lage</em>, Heft 2, 1857, § 20, arts. 268–275): the hyperbolic projectivity fixing both
+        <span class="math notranslate nohighlight">\(P_0\)</span> and <span class="math notranslate nohighlight">\(P_\infty\)</span> while mapping <span class="math notranslate nohighlight">\(P_1 \mapsto X\)</span>, realized by two
+        perspectivities <span class="math notranslate nohighlight">\(\ell \xrightarrow{U} a \xrightarrow{V} \ell\)</span> whose center line
+        <span class="math notranslate nohighlight">\([UV]\)</span> passes through <span class="math notranslate nohighlight">\(P_0\)</span> and whose axis <span class="math notranslate nohighlight">\(a\)</span> passes through <span class="math notranslate nohighlight">\(P_\infty\)</span>:</p>
+        <ol class="arabic simple">
+        <li><p>Choose distinct off-line centers <span class="math notranslate nohighlight">\(U, V\)</span> collinear with <span class="math notranslate nohighlight">\(P_0\)</span>.</p></li>
+        <li><p>Intersect <span class="math notranslate nohighlight">\(W = [U P_1] \cap [V X]\)</span> so that <span class="math notranslate nohighlight">\(P_1 \mapsto X\)</span>.</p></li>
+        <li><p>Draw axis <span class="math notranslate nohighlight">\(a\)</span> through <span class="math notranslate nohighlight">\(P_\infty\)</span> and <span class="math notranslate nohighlight">\(W\)</span> (or parallel to <span class="math notranslate nohighlight">\(\ell\)</span>
+        via <a class="reference internal" href="#geometor.staudt.throws.construct_parallel_straightedge" title="geometor.staudt.throws.construct_parallel_straightedge"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_parallel_straightedge()</span></code></a> when <code class="docutils literal notranslate"><span class="pre">Pinf</span> <span class="pre">is</span> <span class="pre">None</span></code>).</p></li>
+        <li><p>Intersect <span class="math notranslate nohighlight">\(Z = [U Y] \cap a\)</span> and project <span class="math notranslate nohighlight">\(P = [V Z] \cap \ell\)</span>.</p></li>
+        </ol>
+        <p>Verifies in SymPy that <code class="docutils literal notranslate"><span class="pre">projective_abscissa(P0,</span> <span class="pre">P1,</span> <span class="pre">Pinf,</span> <span class="pre">P)</span></code> equals
+        <code class="docutils literal notranslate"><span class="pre">projective_abscissa(P0,</span> <span class="pre">P1,</span> <span class="pre">Pinf,</span> <span class="pre">X)</span> <span class="pre">*</span> <span class="pre">projective_abscissa(P0,</span> <span class="pre">P1,</span> <span class="pre">Pinf,</span> <span class="pre">Y)</span></code> and
+        that <strong>zero circles</strong> exist in <code class="docutils literal notranslate"><span class="pre">model</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.staudt.throws.construct_harmonic_scale">
+        <span class="sig-prename descclassname"><span class="pre">geometor.staudt.throws.</span></span><span class="sig-name descname"><span class="pre">construct_harmonic_scale</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">P0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">P1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Pinf</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_n</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">5</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.staudt.throws.construct_harmonic_scale" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the Möbius–von Staudt harmonic integer scale <code class="docutils literal notranslate"><span class="pre">P_{-1},</span> <span class="pre">P_0,</span> <span class="pre">P_1,</span> <span class="pre">...,</span> <span class="pre">P_n</span></code> by straightedge.</p>
+        <p>In <em>Beiträge</em> § 19 art. 267, von Staudt observes that <span class="math notranslate nohighlight">\((P_{k-1}, P_{k+1}; P_k, P_\infty) = -1\)</span>
+        for every integer <span class="math notranslate nohighlight">\(k\)</span>, so each successive integer mark <span class="math notranslate nohighlight">\(P_{k+1}\)</span> is the fourth
+        harmonic conjugate to <span class="math notranslate nohighlight">\((P_{k-1}, P_{k+1}; P_k, P_\infty) = -1\)</span> — equivalently
+        <span class="math notranslate nohighlight">\((P_k, P_\infty; P_{k-1}, P_{k+1}) = -1\)</span>! Constructs <code class="docutils literal notranslate"><span class="pre">P_{-1}</span></code> and <code class="docutils literal notranslate"><span class="pre">P_2</span> <span class="pre">..</span> <span class="pre">P_{max_n}</span></code>
+        exclusively via <code class="xref py py-func docutils literal notranslate"><span class="pre">construct_harmonic_fourth_straightedge()</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.staudt.throws.verify_golden_throw_identity">
+        <span class="sig-prename descclassname"><span class="pre">geometor.staudt.throws.</span></span><span class="sig-name descname"><span class="pre">verify_golden_throw_identity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">P0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">P1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Pinf</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.staudt.throws.verify_golden_throw_identity" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify over <span class="math notranslate nohighlight">\(\mathbb{Q}(\phi)\)</span> that von Staudt’s straightedge product &amp; sum satisfy <span class="math notranslate nohighlight">\(P_\phi \cdot P_\phi = P_\phi + P_1\)</span>.</p>
+        <p>With <span class="math notranslate nohighlight">\(\phi = \frac{1 + \sqrt{5}}{2}\)</span>, constructs both <span class="math notranslate nohighlight">\(P_{\phi^2} = P_\phi \cdot P_\phi\)</span>
+        and <span class="math notranslate nohighlight">\(P_{\phi + 1} = P_\phi + P_1\)</span> purely by straightedge incidence on the projective
+        line <span class="math notranslate nohighlight">\((P_0, P_1, P_\infty)\)</span> and proves exact coincidence of the two constructed points,
+        plus exact conjugate throw relations <span class="math notranslate nohighlight">\(P_\phi + P_{\hat{\phi}} = P_1\)</span> and
+        <span class="math notranslate nohighlight">\(P_\phi \cdot P_{\hat{\phi}} = P_{-1}\)</span> where <span class="math notranslate nohighlight">\(\hat{\phi} = 1 - \phi = -1/\phi\)</span>.</p>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../render/index.html" title="geometor.staudt.render">&larr; <span class="nav-label">geometor.staudt.render</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • staudt</a>
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.106-initial-codex/index.html">Initial Bilingual Book Codices & Straightedge-Only Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1847–1882 Public Domain; 2026 GEOMETOR Critical Apparatus & Symbolic Library.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

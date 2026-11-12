@@ -1,0 +1,133 @@
+geometor.staudt.concordance
+===========================
+
+.. py:module:: geometor.staudt.concordance
+
+.. autoapi-nested-parse::
+
+   Cross-corpus concordance loader and SHA-256 archival source witness verifier for
+   ``geometor.staudt``.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.staudt.concordance.ConcordanceEntry
+   geometor.staudt.concordance.SourceWitness
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.staudt.concordance.get_repo_root
+   geometor.staudt.concordance.load_concordance
+   geometor.staudt.concordance.load_sources_manifest
+   geometor.staudt.concordance.verify_source_witnesses
+
+
+Module Contents
+---------------
+
+.. py:function:: get_repo_root() -> pathlib.Path
+
+   Return the root directory of the ``geometor/staudt`` repository.
+
+
+.. py:class:: ConcordanceEntry
+
+   Single locus cross-reference across the GEOMETOR historical and formal canon.
+
+
+   .. py:attribute:: id
+      :type:  str
+
+
+   .. py:attribute:: treatise
+      :type:  str
+
+
+   .. py:attribute:: locus_de
+      :type:  str
+
+
+   .. py:attribute:: title
+      :type:  str
+
+
+   .. py:attribute:: codex_ref
+      :type:  str
+
+
+   .. py:attribute:: cross_refs
+      :type:  dict[str, str]
+
+
+   .. py:attribute:: summary
+      :type:  str
+
+
+.. py:class:: SourceWitness
+
+   Archival public-domain primary German text witness tracked by SHA-256.
+
+
+   .. py:attribute:: id
+      :type:  str
+
+
+   .. py:attribute:: author
+      :type:  str
+
+
+   .. py:attribute:: work
+      :type:  str
+
+
+   .. py:attribute:: edition
+      :type:  str
+
+
+   .. py:attribute:: year
+      :type:  int
+
+
+   .. py:attribute:: language
+      :type:  str
+
+
+   .. py:attribute:: license
+      :type:  str
+
+
+   .. py:attribute:: relative_path
+      :type:  str
+
+
+   .. py:attribute:: sha256
+      :type:  str
+
+
+   .. py:attribute:: bytes
+      :type:  int
+
+
+.. py:function:: load_concordance(repo_root: pathlib.Path | None = None) -> list[ConcordanceEntry]
+
+   Load structured cross-repository concordance entries from ``resources/staudt/concordance.json``.
+
+
+.. py:function:: load_sources_manifest(repo_root: pathlib.Path | None = None) -> list[SourceWitness]
+
+   Load archival primary source metadata from ``resources/staudt/sources_manifest.json``.
+
+
+.. py:function:: verify_source_witnesses(repo_root: pathlib.Path | None = None) -> dict[str, Any]
+
+   Verify existence, byte size, and SHA-256 digest of every primary source witness.
+
+

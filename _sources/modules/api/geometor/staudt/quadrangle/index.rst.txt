@@ -1,0 +1,75 @@
+geometor.staudt.quadrangle
+==========================
+
+.. py:module:: geometor.staudt.quadrangle
+
+.. autoapi-nested-parse::
+
+   Pure straightedge complete-quadrangle construction of the fourth harmonic point
+   and Desarguesian uniqueness verification (von Staudt, *Geometrie der Lage*, 1847, §§ 7–8).
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.staudt.quadrangle.construct_harmonic_fourth_straightedge
+   geometor.staudt.quadrangle.verify_quadrangle_independence
+   geometor.staudt.quadrangle.prove_symbolic_quadrangle_uniqueness
+
+
+Module Contents
+---------------
+
+.. py:function:: construct_harmonic_fourth_straightedge(model: geometor.model.Model, A: sympy.geometry.Point, B: sympy.geometry.Point, C: sympy.geometry.Point, aux_P: sympy.geometry.Point | None = None, aux_Q: sympy.geometry.Point | None = None, *, label: str = 'D') -> sympy.geometry.Point
+
+   Construct the fourth harmonic point ``D`` to ``(A, B; C, D) = -1`` using **only a straightedge**.
+
+   Implements Karl Georg Christian von Staudt's pure-incidence construction (*Geometrie der
+   Lage*, 1847, § 8, arts. 93–96):
+
+   1. Join carrier line :math:`\ell = [AB]` containing collinear points :math:`A, B, C`.
+   2. From auxiliary vertex :math:`E = P_{\text{aux}} \notin \ell`, draw lines
+      :math:`[AE]`, :math:`[BE]`, and first diagonal :math:`[CE]`.
+   3. Select second diagonal vertex :math:`G \in [CE] \setminus \{C, E\}` (either ``aux_Q``
+      directly if incident to :math:`[CE]`, or the straightedge intersection of :math:`[CE]`
+      with :math:`[A, Q_{\text{aux}}]`).
+   4. Intersect opposite quadrangle sides :math:`F = [AE] \cap [BG]` and
+      :math:`H = [AG] \cap [BE]`.
+   5. Draw the second diagonal :math:`[FH]` meeting :math:`\ell` in the fourth harmonic
+      conjugate :math:`D`, satisfying :math:`(A, B; C, D) = -1` with **zero circles**.
+
+   :param model: Target :class:`~geometor.model.Model` (recommended ``auto_intersect=False``).
+   :param A: First fundamental point of the harmonic pair ``{A, B}``.
+   :param B: Second fundamental point of the harmonic pair ``{A, B}``.
+   :param C: Given third collinear point (distinct from ``A`` and ``B``).
+   :param aux_P: Optional off-line auxiliary vertex ``E``.
+   :param aux_Q: Optional second auxiliary point determining ``G`` on ``[CE]``.
+   :param label: Point identifier for the constructed harmonic conjugate ``D``.
+
+   :returns: Exact :class:`sympy.geometry.Point` ``D`` registered in ``model``.
+
+
+.. py:function:: verify_quadrangle_independence(A: sympy.geometry.Point, B: sympy.geometry.Point, C: sympy.geometry.Point, quad1: tuple[sympy.geometry.Point, sympy.geometry.Point], quad2: tuple[sympy.geometry.Point, sympy.geometry.Point]) -> dict[str, Any]
+
+   Verify in SymPy that two completely distinct auxiliary quadrangles construct the identical point ``D``.
+
+   In *Geometrie der Lage* (§ 7 arts. 87–92 & § 8 art. 93), von Staudt proves without any
+   appeal to metric cross-ratios that two complete quadrangles sharing ``A``, ``B``, and ``C``
+   have perspective vertex triangles by Desargues's Theorem, forcing their sixth sides to
+   meet ``[AB]`` in the selfsame fourth harmonic point :math:`D_1 = D_2`.
+
+
+.. py:function:: prove_symbolic_quadrangle_uniqueness() -> dict[str, sympy.Expr]
+
+   Prove over free symbolic coordinates in ``SymPy`` that ``D`` is independent of the quadrangle.
+
+   Places :math:`A = (0, 0)`, :math:`B = (1, 0)`, :math:`C = (c, 0)` and constructs the
+   complete quadrangle from indeterminate parameters :math:`E = (u, v)` and
+   :math:`G = ((1 - t) c + t u, t v)` on :math:`[CE]`. Simplifies the algebraic intersection
+   :math:`D = [FH] \cap [AB]` and verifies :math:`D_x = \frac{c}{2c - 1}` with zero free
+   dependence on :math:`(u, v, t)` and exact cross-ratio :math:`(A, B; C, D) = -1`.
+
+

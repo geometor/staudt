@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 760 430" role="img" aria-label="Von Staudt §§ 1–5: Ideal Point at Infinity Unified by Central Perspectivity">
+  <title>Von Staudt §§ 1–5: Ideal Point at Infinity Unified by Central Perspectivity</title>
+  <desc>Central projection from S mapping finite points A, B, C and the parallel direction P_inf of line l onto finite points A&#x27;, B&#x27;, C&#x27;, J&#x27; of transversal m.</desc>
+  <style>
+    .euclid-graphic { width: 100%; height: auto; max-width: 760px; display: block; margin: 1.25rem auto; color: currentColor; }
+    .line-primary { stroke: currentColor; stroke-width: 2.0; stroke-linecap: round; fill: none; opacity: 0.92; }
+    .line-guide { stroke: currentColor; stroke-width: 1.15; stroke-dasharray: 5 4; fill: none; opacity: 0.52; }
+    .line-secondary { stroke: #2b7bba; stroke-width: 1.45; stroke-dasharray: 3 3; fill: none; opacity: 0.78; }
+    .line-accent { stroke: #d95f02; stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .line-result { stroke: #1b9e77; stroke-width: 2.4; stroke-linecap: round; fill: none; }
+    .conic-locus { stroke: #d95f02; stroke-width: 2.3; fill: none; }
+    .poly-fill { fill: currentColor; fill-opacity: 0.06; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; }
+    .poly-accent { fill: #2b7bba; fill-opacity: 0.09; stroke: #2b7bba; stroke-width: 1.5; stroke-linejoin: round; }
+    .pt-given { fill: currentColor; stroke: #ffffff; stroke-width: 1.3; }
+    .pt-aux { fill: #2b7bba; stroke: #ffffff; stroke-width: 1.2; }
+    .pt-result { fill: #d95f02; stroke: #ffffff; stroke-width: 1.6; }
+    .pt-emerald { fill: #1b9e77; stroke: #ffffff; stroke-width: 1.5; }
+    .glyph-label { font-family: "Libertinus Serif", "STIX Two Text", Georgia, serif; font-size: 15px; font-style: italic; fill: currentColor; paint-order: stroke; stroke: rgba(255,255,255,0.82); stroke-width: 3.2px; stroke-linejoin: round; }
+    .diagram-caption { font-family: "Libertinus Sans", system-ui, sans-serif; font-size: 13px; fill: currentColor; opacity: 0.82; }
+    @media (prefers-color-scheme: dark) {
+      .glyph-label { stroke: rgba(20,22,26,0.88); }
+      .pt-given, .pt-aux, .pt-result, .pt-emerald { stroke: #181a1f; }
+    }
+  </style>
+  <line x1="163.24" y1="323.38" x2="591.94" y2="323.38" class="line-primary" />
+  <line x1="177.69" y1="386.00" x2="500.42" y2="63.27" class="line-primary" />
+  <line x1="163.24" y1="361.92" x2="591.94" y2="361.92" class="line-guide" />
+  <line x1="192.14" y1="130.70" x2="591.94" y2="130.70" class="line-accent" />
+  <line x1="264.39" y1="130.70" x2="216.23" y2="323.38" class="line-secondary" />
+  <line x1="264.39" y1="130.70" x2="208.20" y2="355.49" class="line-secondary" />
+  <line x1="264.39" y1="130.70" x2="312.56" y2="323.38" class="line-secondary" />
+  <line x1="264.39" y1="130.70" x2="298.11" y2="265.58" class="line-secondary" />
+  <line x1="264.39" y1="130.70" x2="408.90" y2="323.38" class="line-secondary" />
+  <line x1="264.39" y1="130.70" x2="336.65" y2="227.04" class="line-secondary" />
+  <circle cx="240.31" cy="323.38" r="4.2" class="pt-given" />
+  <text x="226.31" y="341.38" text-anchor="middle" class="glyph-label">O = l ∩ m</text>
+  <circle cx="264.39" cy="130.70" r="4.2" class="pt-aux" />
+  <text x="250.39" y="122.70" text-anchor="end" class="glyph-label">S</text>
+  <circle cx="216.23" cy="323.38" r="4.2" class="pt-given" />
+  <text x="216.23" y="342.38" text-anchor="middle" class="glyph-label">A</text>
+  <circle cx="312.56" cy="323.38" r="4.2" class="pt-given" />
+  <text x="312.56" y="342.38" text-anchor="middle" class="glyph-label">B</text>
+  <circle cx="408.90" cy="323.38" r="4.2" class="pt-given" />
+  <text x="408.90" y="342.38" text-anchor="middle" class="glyph-label">C</text>
+  <circle cx="208.20" cy="355.49" r="4.2" class="pt-aux" />
+  <text x="198.20" y="347.49" text-anchor="end" class="glyph-label">A&#x27;</text>
+  <circle cx="298.11" cy="265.58" r="4.2" class="pt-aux" />
+  <text x="288.11" y="257.58" text-anchor="end" class="glyph-label">B&#x27;</text>
+  <circle cx="336.65" cy="227.04" r="4.2" class="pt-aux" />
+  <text x="345.65" y="231.04" text-anchor="start" class="glyph-label">C&#x27;</text>
+  <circle cx="432.99" cy="130.70" r="5.0" class="pt-result" />
+  <text x="442.99" y="122.70" text-anchor="start" class="glyph-label">P&#x27;∞ (vanishing point)</text>
+  <text x="590.00" y="298.00" text-anchor="middle" class="diagram-caption">to ideal point P∞ along parallel sheaf →</text>
+  <text x="380.00" y="412.00" text-anchor="middle" class="diagram-caption">Geometrie der Lage §§ 1–5: Parallel ray [S P∞] ∥ l projects the ideal point of l to the finite vanishing point P&#x27;∞ on m</text>
+</svg>

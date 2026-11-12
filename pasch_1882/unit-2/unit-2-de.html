@@ -1,0 +1,235 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Einheit 2: § 2. Von der Ebene (Axiom von Pasch), §§ 8–11 &amp; § 12. Deduktives Manifest &mdash; VORLESUNGEN ÜBER NEUERE GEOMETRIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • staudt</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">staudt</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../geometrie_der_lage/index.html"  >GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN</a>
+        </li>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >VORLESUNGEN ÜBER NEUERE GEOMETRIE</a>
+        </li>
+        <li>
+          <a href="../../mission/index.html"  >Mission & Axiomatic Synthesis</a>
+        </li>
+        <li>
+          <a href="../../demos/index.html"  >Exact Straightedge Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; staudt</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">VORLESUNGEN ÜBER NEUERE GEOMETRIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-1/unit-1-de.html" title="Unit 1: Grounding Geometry &amp; Linear Betweenness">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="unit-2-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-2-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-2-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../../mission/index.html" title="Mission &amp; Axiomatic Synthesis"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="einheit-2-2-von-der-ebene-axiom-von-pasch-811-12-deduktives-manifest">
+        <span id="pasch-unit-2-de"></span><h1>Einheit 2: § 2. Von der Ebene (Axiom von Pasch), §§ 8–11 &amp; § 12. Deduktives Manifest<a class="headerlink" href="#einheit-2-2-von-der-ebene-axiom-von-pasch-811-12-deduktives-manifest" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Moritz Pasch — <em>Vorlesungen über neuere Geometrie</em> (Leipzig: B. G. Teubner, 1882), § 2 (S. 17–27), §§ 8–11 (S. 58–93) &amp; § 12 (S. 93–100)</p>
+        <nav class="contents local" id="inhalt-dieser-einheit">
+        <p class="topic-title">Inhalt dieser Einheit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#von-der-ebene-der-iv-grundsatz-s-1727" id="id1">§ 2. Von der Ebene — Der IV. Grundsatz (S. 17–27)</a></p></li>
+        <li><p><a class="reference internal" href="#strahlenbundel-ohne-das-unendliche-harmonische-trennung-s-5893" id="id2">§§ 8–11. Strahlenbündel ohne das Unendliche &amp; harmonische Trennung (S. 58–93)</a></p></li>
+        <li><p><a class="reference internal" href="#das-hypothetisch-deduktive-manifest-s-93100" id="id3">§ 12. Das hypothetisch-deduktive Manifest (S. 93–100)</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 2" data-folio="§ 2" data-page="17">[Folio § 2 | p. 17]</div>
+        <section class="level-2" id="von-der-ebene-der-iv-grundsatz-s-1727">
+        <h2>§ 2. Von der Ebene — Der IV. Grundsatz (S. 17–27)<a class="headerlink" href="#von-der-ebene-der-iv-grundsatz-s-1727" title="Link to this heading">¶</a></h2>
+        <p><strong>I. Grundsatz.</strong> <em>Durch drei beliebige Punkte kann man immer eine ebene Fläche legen.</em></p>
+        <p><strong>II. Grundsatz.</strong> <em>Gehören zwei Punkte einer geraden Strecke einer ebenen Fläche an, so gehört bei geeigneter Erweiterung derselben jeder Punkt innerhalb der geraden Strecke der ebenen Fläche an.</em></p>
+        <p><strong>III. Grundsatz.</strong> <em>Haben zwei ebene Flächen einen Punkt gemein, so kann man stets noch einen zweiten beiden gemeinsamen Punkt angeben.</em></p>
+        <p><strong>IV. Grundsatz (Axiom von Pasch, S. 21).</strong> <em>Es seien $A, B, C$ drei nicht in einer Geraden gelegene Punkte und $a$ eine Gerade in der Ebene $ABC$, welche durch keinen der Punkte $A, B, C$ geht: wenn dann die Gerade $a$ durch einen Punkt innerhalb der Strecke $AB$ geht, so geht sie stets auch entweder durch einen Punkt innerhalb der Strecke $AC$ oder durch einen Punkt innerhalb der Strecke $BC$.</em></p>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" data-graphic-id="pasch_unit2_planar_axiom_euclid_gaps" xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 820 430" role="img" aria-label="Moritz Pasch (1882) § 2 IV. Grundsatz (p. 21) &amp; Resolution of Euclid I.21">
+          <title>Moritz Pasch (1882) § 2 IV. Grundsatz (p. 21) &amp; Resolution of Euclid I.21</title>
+          <desc>Left: Pasch&#x27;s planar line-triangle separation axiom. Right: Deductive proof of Euclid I.21 ray exit E on AC by applying Pasch&#x27;s Axiom to sub-triangle AMC.</desc>
+          <polygon points="75.48,327.16 311.61,327.16 193.55,130.39" class="poly-fill" />
+          <line x1="75.48" y1="287.81" x2="350.97" y2="209.10" class="line-accent" />
+          <circle cx="75.48" cy="327.16" r="4.2" class="pt-given" />
+          <text x="67.48" y="343.16" text-anchor="end" class="glyph-label">A</text>
+          <circle cx="311.61" cy="327.16" r="4.2" class="pt-given" />
+          <text x="319.61" y="343.16" text-anchor="start" class="glyph-label">B</text>
+          <circle cx="193.55" cy="130.39" r="4.2" class="pt-given" />
+          <text x="193.55" y="120.39" text-anchor="middle" class="glyph-label">C</text>
+          <circle cx="256.90" cy="235.97" r="4.8" class="pt-result" />
+          <text x="246.90" y="227.97" text-anchor="end" class="glyph-label">X₁ (entry)</text>
+          <circle cx="103.98" cy="279.66" r="4.8" class="pt-result" />
+          <text x="113.98" y="285.66" text-anchor="start" class="glyph-label">X₂ (forced exit)</text>
+          <polygon points="429.68,327.16 744.52,327.16 547.74,91.03" class="poly-fill" />
+          <polygon points="429.68,327.16 547.74,327.16 547.74,91.03" class="poly-accent" />
+          <line x1="547.74" y1="91.03" x2="547.74" y2="327.16" class="line-secondary" />
+          <line x1="744.52" y1="327.16" x2="438.42" y2="204.72" class="line-result" />
+          <circle cx="429.68" cy="327.16" r="4.2" class="pt-given" />
+          <text x="421.68" y="343.16" text-anchor="end" class="glyph-label">A</text>
+          <circle cx="744.52" cy="327.16" r="4.2" class="pt-given" />
+          <text x="752.52" y="343.16" text-anchor="start" class="glyph-label">B</text>
+          <circle cx="547.74" cy="91.03" r="4.2" class="pt-given" />
+          <text x="547.74" y="81.03" text-anchor="middle" class="glyph-label">C</text>
+          <circle cx="547.74" cy="327.16" r="4.2" class="pt-aux" />
+          <text x="547.74" y="345.16" text-anchor="middle" class="glyph-label">M</text>
+          <circle cx="547.74" cy="248.45" r="4.2" class="pt-result" />
+          <text x="556.74" y="244.45" text-anchor="start" class="glyph-label">D</text>
+          <circle cx="482.15" cy="222.22" r="5.0" class="pt-emerald" />
+          <text x="472.15" y="216.22" text-anchor="end" class="glyph-label">E ∈ AC</text>
+          <text x="205.00" y="412.00" text-anchor="middle" class="diagram-caption">(a) Pasch § 2 IV. Grundsatz: Entry X₁ forces exit X₂</text>
+          <text x="605.00" y="412.00" text-anchor="middle" class="diagram-caption">(b) Euclid I.21: Pasch on △AMC forces ray BD to exit AC at E</text>
+        </svg>
+        <figcaption>**IV. Grundsatz der Ebene (1882 § 2, S. 21) & 10. Lehrsatz (S. 25):** Eine Gerade $\ell$ in der Ebene $ABC$, welche keine Ecke trifft und in die offene Seite $AB$ eintritt, tritt notwendig durch genau eine der beiden übrigen offenen Seiten $AC$ oder $BC$ wieder aus.</figcaption>
+        </figure>
+        <p><strong>10. Lehrsatz (Ausschließung dreier innerer Seitenschnitte, S. 25).</strong> <em>Geht in der Ebene $ABC$ eine Gerade $a$ durch keinen der Punkte $A, B, C$, so kann sie nicht zugleich durch einen Punkt innerhalb $AB$, einen Punkt innerhalb $BC$ und einen Punkt innerhalb $AC$ gehen.</em></p>
+        <p><em>Beweis.</em> Schnitte $a$ die offenen Strecken $AB, BC, AC$ in $D, E, F$, und läge etwa auf $a$ der Punkt $F$ innerhalb $DE$, so träfe im Dreieck $\triangle BDE$ die Gerade $g = [AC]$ keine Ecke und ginge durch den inneren Punkt $F$ von $DE$, müßte also nach dem <strong>IV. Grundsatze</strong> entweder die offene Strecke $BD$ oder die offene Strecke $BE$ treffen — während doch ihre Schnittpunkte $A$ und $C$ mit $[AB]$ und $[BC]$ außerhalb $BD$ bzw. $BE$ liegen. Hieraus folgt unmittelbar die Zerlegung der Ebene durch jede Gerade $a$ in <strong>zwei</strong> getrennte Halbebenen. $\blacksquare$</p>
+        <div class="folio-milestone" id="folio-§§ 8–11" data-folio="§§ 8–11" data-page="58">[Folio §§ 8–11 | p. 58]</div>
+        </section>
+        <section class="level-2" id="strahlenbundel-ohne-das-unendliche-harmonische-trennung-s-5893">
+        <h2>§§ 8–11. Strahlenbündel ohne das Unendliche &amp; harmonische Trennung (S. 58–93)<a class="headerlink" href="#strahlenbundel-ohne-das-unendliche-harmonische-trennung-s-5893" title="Link to this heading">¶</a></h2>
+        <p><strong>§ 8.</strong> Statt wie <a class="person-ref" id="occ-person-staudt-1" href="../../persons.html#person-staudt" data-person="staudt" title="Karl Georg Christian von Staudt (1798–1867) — German Geometer; Professor of Mathematics at Erlangen">von Staudt</a> (§ 2) „unendlich ferne Punkte“ durch das Euklidische Parallelenpostulat einzuführen, gründen wir die projektiven Idealelemente allein auf im Endlichen ausführbare Ebenenschnitte: zwei komplanare Gerade $g, h$ bestimmen mit jedem außerhalb ihrer Ebene gelegenen Punkte $S$ die Schnittgerade $k = (S, g) \cap (S, h)$ und erzeugen dadurch ein wohlbestimmtes <strong>Strahlenbündel</strong>, gleichviel ob $g$ und $h$ einander im beobachtbaren Gebiete schneiden oder nicht. Indem jedes Strahlenbündel als <em>Punkt im weiteren Sinne</em> aufgefaßt wird, gelten sämtliche Verknüpfungssätze der projektiven Raumgeometrie unabhängig von jeder Annahme über Parallelen.</p>
+        <p><strong>§§ 10–11.</strong> Mit Hilfe des <em>IV. Grundsatzes</em> der Ebene wird nunmehr rein deduktiv (ohne Berufung auf die Figur) bewiesen, daß im <a class="term-ref glossary-term" id="occ-term-vollstaendiges-viereck-1" href="../../glossary.html#term-vollstaendiges-viereck" data-term="vollstaendiges-viereck" title="Vollständiges ebenes Viereck (Complete Plane Quadrangle): A configuration of four coplanar points (no three collinear) joined pairwise by six sides (three pairs of opposite sides) meeting in three diagonal points (§ 6, art. 66); dual to the complete quadrilateral (vollständiges Vierseit).">vollständigen ebenen Viereck</a> die harmonisch zugeordneten Punktepaare $(A, B)$ und $(C, D)$ einander ausnahmslos <a class="term-ref glossary-term" id="occ-term-getrennte-paare-1" href="../../glossary.html#term-getrennte-paare" data-term="getrennte-paare" title="Getrennte Punktepaare (Mutually Separating Point Pairs): Two pairs of points (A, B) and (C, D) on a closed projective line such that every passage from A to B along the line meets either C or D; satisfied invariably by every harmonic tetrad (A, B; C, D) = -1.">trennen</a>.</p>
+        <div class="folio-milestone" id="folio-§ 12" data-folio="§ 12" data-page="93">[Folio § 12 | p. 93]</div>
+        </section>
+        <section class="level-2" id="das-hypothetisch-deduktive-manifest-s-93100">
+        <h2>§ 12. Das hypothetisch-deduktive Manifest (S. 93–100)<a class="headerlink" href="#das-hypothetisch-deduktive-manifest-s-93100" title="Link to this heading">¶</a></h2>
+        <p>Am Schlusse der Grundlegung spricht <a class="person-ref" id="occ-person-pasch-1" href="../../persons.html#person-pasch" data-person="pasch" title="Moritz Pasch (1843–1930) — German Mathematician; Professor at Giessen">Pasch</a> das oberste Gesetz jeder streng deduktiven Wissenschaft aus (<em>S. 98</em>):</p>
+        <blockquote class="pull-quote">
+        <div><p>„Es muss in der That, wenn anders die Geometrie wirklich deductiv sein soll, der Process des Folgerns überall unabhängig sein vom Sinn der geometrischen Begriffe, wie er unabhängig sein muss von den Figuren; nur die in den benutzten Sätzen, beziehungsweise Definitionen niedergelegten Beziehungen zwischen den geometrischen Begriffen dürfen in Betracht kommen. Während der Deduction ist es zwar statthaft und nützlich, aber keineswegs nöthig, an die Bedeutung der auftretenden geometrischen Begriffe zu denken; in der That, gerade wenn dies nöthig wird, so zeigt sich daraus die Lückenhaftigkeit der Deduction und, wenn sich die Lücke nicht durch Abänderung des Schlusses beseitigen lässt, die Unzulänglichkeit der als Beweismittel vorausgeschickten Sätze.“</p>
+        </div></blockquote>
+        <p>Sobald sämtliche <a class="term-ref glossary-term" id="occ-term-stammsaetze-1" href="../../glossary.html#term-stammsaetze" data-term="stammsaetze" title="Stammsätze (Grundsätze / Kernsätze) (Nuclear Propositions (Axioms)): In Pasch&#x27;s 1882 § 12 manifesto (p. 98), the complete foundational set of axioms gathered initially from empirical observation of physical bodies, after which every subsequent deduction must proceed purely formally, independent of geometric intuition or diagrams.">Stammsätze</a> vollständig an die Spitze gestellt sind, wird jeder Beweis zu einer rein logischen Folgerung aus ausgesprochenen Beziehungen — und eben dadurch erweist sich das projektive <a class="term-ref glossary-term" id="occ-term-reciprocitaet-1" href="../../glossary.html#term-reciprocitaet" data-term="reciprocitaet" title="Gesetz der Reciprocität (Law of Reciprocity (Projective Duality)): The structural symmetry of three-dimensional projective space whereby points and planes are dual primitive elements while straight lines are self-dual (§ 3, art. 25), and in a single plane points and lines exchange roles.">Gesetz der Reciprocität</a> als unmittelbare logische Folge der formalen Symmetrie der Grundsätze!</p>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-1/unit-1-de.html" title="Unit 1: Grounding Geometry &amp; Linear Betweenness">&larr; <span class="nav-label">Unit 1: Grounding Geometry & Linear Betweenness</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">VORLESUNGEN ÜBER NEUERE GEOMETRIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../../mission/index.html" title="Mission &amp; Axiomatic Synthesis"><span class="nav-label">Mission & Axiomatic Synthesis</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../log/26.106-initial-codex/index.html">Initial Bilingual Book Codices & Straightedge-Only Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1847–1882 Public Domain; 2026 GEOMETOR Critical Apparatus & Symbolic Library.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

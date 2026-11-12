@@ -1,0 +1,252 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit 1: Ideal Elements, Reciprocity &amp; Uniform Fundamental Forms &mdash; GEOMETRIE DER LAGE &amp; RECHNUNG MIT WÜRFEN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • staudt</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">staudt</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN</a>
+        </li>
+        <li>
+          <a href="../../pasch_1882/index.html"  >VORLESUNGEN ÜBER NEUERE GEOMETRIE</a>
+        </li>
+        <li>
+          <a href="../../mission/index.html"  >Mission & Axiomatic Synthesis</a>
+        </li>
+        <li>
+          <a href="../../demos/index.html"  >Exact Straightedge Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; staudt</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../index.html" title="GEOMETRIE DER LAGE &amp; RECHNUNG MIT WÜRFEN">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-1-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-1-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-1-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../unit-2/unit-2-en.html" title="Unit 2: The Complete Quadrangle, Harmonic Separation &amp; Projectivity"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unit-1-ideal-elements-reciprocity-uniform-fundamental-forms">
+        <span id="geometrie-unit-1-en"></span><h1>Unit 1: Ideal Elements, Reciprocity &amp; Uniform Fundamental Forms<a class="headerlink" href="#unit-1-ideal-elements-reciprocity-uniform-fundamental-forms" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Karl Georg Christian von Staudt — <em>Geometrie der Lage</em> (1847), <em>Vorwort</em> &amp; §§ 1–5 (arts. 1–53)</p>
+        <nav class="contents local" id="in-this-unit">
+        <p class="topic-title">In This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#preface-vorwort-nuremberg-august-1847" id="id1">Preface (<em>Vorwort</em>, Nuremberg, August 1847)</a></p></li>
+        <li><p><a class="reference internal" href="#space-surfaces-lines-and-points-arts-115" id="id2">§ 1. Space, Surfaces, Lines, and Points (arts. 1–15)</a></p></li>
+        <li><p><a class="reference internal" href="#parallelism-and-infinitely-distant-elements-arts-1622" id="id3">§ 2. Parallelism and Infinitely Distant Elements (arts. 16–22)</a></p></li>
+        <li><p><a class="reference internal" href="#the-law-of-reciprocity-and-uniform-fundamental-forms-arts-2353" id="id4">§§ 3–5. The Law of Reciprocity and Uniform Fundamental Forms (arts. 23–53)</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-Vorwort" data-folio="Vorwort" data-page="iii">[Folio Vorwort | p. iii]</div>
+        <section class="level-2" id="preface-vorwort-nuremberg-august-1847">
+        <h2>Preface (<em>Vorwort</em>, Nuremberg, August 1847)<a class="headerlink" href="#preface-vorwort-nuremberg-august-1847" title="Link to this heading">¶</a></h2>
+        <p>In modern times <a class="term-ref glossary-term" id="occ-term-geometrie-der-lage-1" href="../../glossary.html#term-geometrie-der-lage" data-term="geometrie-der-lage" title="Geometrie der Lage (Geometry of Position (Pure Projective Geometry)): Von Staudt&#x27;s pure synthetic science of spatial incidence, order, harmonic separation, and polarity, developed strictly without reference to metrical magnitude (length, angle, area, or arithmetic ratio; 1847 § 1).">Geometrie der Lage</a> (<em>Geometry of Position</em>) has rightly been distinguished from the <em>Geometry of Magnitude</em> (<em>Geometrie des Maßes</em>); nevertheless, propositions in which no magnitude whatever is mentioned have commonly still been proved by means of considerations of ratio and distance. I have therefore attempted in the present treatise to make the Geometry of Position an autonomous science that stands in no need of measurement.</p>
+        <p>So that the reader may survey uninterruptedly the genuine nexus among the properties of figures that belong solely to position, I have rigorously excluded every metrical relation—length of a segment, amplitude of an angle, area, or arithmetic cross-ratio—and derived every construction and theorem from pure incidence, continuity of order, and <a class="term-ref glossary-term" id="occ-term-reciprocitaet-1" href="../../glossary.html#term-reciprocitaet" data-term="reciprocitaet" title="Gesetz der Reciprocität (Law of Reciprocity (Projective Duality)): The structural symmetry of three-dimensional projective space whereby points and planes are dual primitive elements while straight lines are self-dual (§ 3, art. 25), and in a single plane points and lines exchange roles.">reciprocity</a>.</p>
+        <div class="folio-milestone" id="folio-§ 1" data-folio="§ 1" data-page="1">[Folio § 1 | p. 1]</div>
+        </section>
+        <section class="level-2" id="space-surfaces-lines-and-points-arts-115">
+        <h2>§ 1. Space, Surfaces, Lines, and Points (arts. 1–15)<a class="headerlink" href="#space-surfaces-lines-and-points-arts-115" title="Link to this heading">¶</a></h2>
+        <p><strong>Art. 1.</strong> Geometry treats of space and of spatial configurations: bodies, surfaces, lines, and points. Every body is bounded by surfaces; two adjacent portions of a surface meet along a line; two adjacent portions of a line meet in a point. Conversely, a moving point generates a line, a moving line (not sliding strictly along itself) generates a surface, and a moving surface generates a spatial region.</p>
+        <p><strong>Art. 4.</strong> Among all lines, the <em>straight line</em> (<em>die Gerade</em>) is uniquely determined by any two of its points: through two distinct points $A$ and $B$ passes one and only one straight line $[AB]$. Two distinct straight lines cannot have more than one point in common.</p>
+        <p><strong>Art. 7.</strong> Among all surfaces, the <em>plane</em> (<em>die Ebene</em>) possesses the property that every straight line joining any two of its points lies wholly within the surface. Three points $A, B, C$ not lying in one straight line determine one and only one plane $ABC$; equally, a straight line and an external point, or two intersecting straight lines, determine a unique plane.</p>
+        <p><strong>Art. 11.</strong> Two distinct planes that meet share an entire straight line in common, for if they share one point they cannot terminate there without cutting across one another along a one-dimensional locus, which by planar flatness lies wholly as a straight line in both planes.</p>
+        <div class="folio-milestone" id="folio-§ 2" data-folio="§ 2" data-page="7">[Folio § 2 | p. 7]</div>
+        </section>
+        <section class="level-2" id="parallelism-and-infinitely-distant-elements-arts-1622">
+        <h2>§ 2. Parallelism and Infinitely Distant Elements (arts. 16–22)<a class="headerlink" href="#parallelism-and-infinitely-distant-elements-arts-1622" title="Link to this heading">¶</a></h2>
+        <p><strong>Art. 16.</strong> All straight lines in space that are parallel to a given straight line $g$ share a common <em>direction</em> (<em>Richtung</em>). Two parallel lines lie in a common plane and meet nowhere in finite space; three lines parallel to one and the same line are mutually parallel and form an axial sheaf of parallels (<em>Parallelstrahlenbündel</em>).</p>
+        <p><strong>Art. 18.</strong> Because all lines of a parallel sheaf behave toward planes and external points in strict analogy with all lines passing through an ordinary point—every external point $P$ determines with the sheaf a unique ray through $P$ belonging to the sheaf, and every non-parallel plane cuts every ray of the sheaf—we adjoin to each parallel sheaf a single <a class="term-ref glossary-term" id="occ-term-unendlich-fernes-element-1" href="../../glossary.html#term-unendlich-fernes-element" data-term="unendlich-fernes-element" title="Unendlich fernes Element (Scheinpunkt / Scheingerade) (Infinitely Distant / Ideal Element (Sheaf-Point / Ideal Line)): A direction or parallel sheaf adjoined to ordinary space (§ 2, arts. 16–22) so that every two coplanar lines meet in a unique point and every two planes meet in a unique line; reconstructed intrinsically without infinity via proper sheaves (Bündel) in Pasch 1882 §§ 8–9.">infinitely distant point</a> (<em>unendlich ferner Punkt</em> or ideal point $P_\infty$) through which all lines of that direction pass.</p>
+        <p><strong>Art. 20.</strong> All infinitely distant points of the straight lines lying in one plane $\alpha$ constitute a single <em>infinitely distant straight line</em> (<em>unendlich ferne Gerade</em> $g_\infty$) of $\alpha$; parallel planes share the exact same infinitely distant line. And the totality of all infinitely distant points and lines of three-dimensional space constitutes a single <em>infinitely distant plane</em> (<em>unendlich ferne Ebene</em> $\omega_\infty$), cut by every ordinary plane along its ideal line.</p>
+        <p><strong>Art. 22.</strong> Through this completion of space, every exception arising from parallelism disappears at a stroke:</p>
+        <ol class="arabic simple">
+        <li><p>Two distinct points (proper or ideal) determine one and only one straight line.</p></li>
+        <li><p>Two distinct coplanar straight lines share one and only one point.</p></li>
+        <li><p>Two distinct planes share one and only one straight line.</p></li>
+        <li><p>A plane and a straight line not lying in it share one and only one point.</p></li>
+        </ol>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" data-graphic-id="unit1_ideal_sheaf_perspectivity" xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 760 430" role="img" aria-label="Von Staudt §§ 1–5: Ideal Point at Infinity Unified by Central Perspectivity">
+          <title>Von Staudt §§ 1–5: Ideal Point at Infinity Unified by Central Perspectivity</title>
+          <desc>Central projection from S mapping finite points A, B, C and the parallel direction P_inf of line l onto finite points A&#x27;, B&#x27;, C&#x27;, J&#x27; of transversal m.</desc>
+          <line x1="163.24" y1="323.38" x2="591.94" y2="323.38" class="line-primary" />
+          <line x1="177.69" y1="386.00" x2="500.42" y2="63.27" class="line-primary" />
+          <line x1="163.24" y1="361.92" x2="591.94" y2="361.92" class="line-guide" />
+          <line x1="192.14" y1="130.70" x2="591.94" y2="130.70" class="line-accent" />
+          <line x1="264.39" y1="130.70" x2="216.23" y2="323.38" class="line-secondary" />
+          <line x1="264.39" y1="130.70" x2="208.20" y2="355.49" class="line-secondary" />
+          <line x1="264.39" y1="130.70" x2="312.56" y2="323.38" class="line-secondary" />
+          <line x1="264.39" y1="130.70" x2="298.11" y2="265.58" class="line-secondary" />
+          <line x1="264.39" y1="130.70" x2="408.90" y2="323.38" class="line-secondary" />
+          <line x1="264.39" y1="130.70" x2="336.65" y2="227.04" class="line-secondary" />
+          <circle cx="240.31" cy="323.38" r="4.2" class="pt-given" />
+          <text x="226.31" y="341.38" text-anchor="middle" class="glyph-label">O = l ∩ m</text>
+          <circle cx="264.39" cy="130.70" r="4.2" class="pt-aux" />
+          <text x="250.39" y="122.70" text-anchor="end" class="glyph-label">S</text>
+          <circle cx="216.23" cy="323.38" r="4.2" class="pt-given" />
+          <text x="216.23" y="342.38" text-anchor="middle" class="glyph-label">A</text>
+          <circle cx="312.56" cy="323.38" r="4.2" class="pt-given" />
+          <text x="312.56" y="342.38" text-anchor="middle" class="glyph-label">B</text>
+          <circle cx="408.90" cy="323.38" r="4.2" class="pt-given" />
+          <text x="408.90" y="342.38" text-anchor="middle" class="glyph-label">C</text>
+          <circle cx="208.20" cy="355.49" r="4.2" class="pt-aux" />
+          <text x="198.20" y="347.49" text-anchor="end" class="glyph-label">A&#x27;</text>
+          <circle cx="298.11" cy="265.58" r="4.2" class="pt-aux" />
+          <text x="288.11" y="257.58" text-anchor="end" class="glyph-label">B&#x27;</text>
+          <circle cx="336.65" cy="227.04" r="4.2" class="pt-aux" />
+          <text x="345.65" y="231.04" text-anchor="start" class="glyph-label">C&#x27;</text>
+          <circle cx="432.99" cy="130.70" r="5.0" class="pt-result" />
+          <text x="442.99" y="122.70" text-anchor="start" class="glyph-label">P&#x27;∞ (vanishing point)</text>
+          <text x="590.00" y="298.00" text-anchor="middle" class="diagram-caption">to ideal point P∞ along parallel sheaf →</text>
+          <text x="380.00" y="412.00" text-anchor="middle" class="diagram-caption">Geometrie der Lage §§ 1–5: Parallel ray [S P∞] ∥ l projects the ideal point of l to the finite vanishing point P&#x27;∞ on m</text>
+        </svg>
+        <figcaption>**Ideal Elements Under Perspectivity (1847 §§ 2 & 5):** Central projection from $S$ maps points $A, B, C$ of $\ell$ onto $A', B', C'$ of $m$, while the ray through $S$ parallel to $\ell$ sends $\ell$'s ideal point $P_\infty$ to the ordinary vanishing point $I_m \in m$.</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§§ 3–5" data-folio="§§ 3–5" data-page="13">[Folio §§ 3–5 | p. 13]</div>
+        </section>
+        <section class="level-2" id="the-law-of-reciprocity-and-uniform-fundamental-forms-arts-2353">
+        <h2>§§ 3–5. The Law of Reciprocity and Uniform Fundamental Forms (arts. 23–53)<a class="headerlink" href="#the-law-of-reciprocity-and-uniform-fundamental-forms-arts-2353" title="Link to this heading">¶</a></h2>
+        <p><strong>Art. 25 (§ 3).</strong> Once ideal elements are adjoined, all fundamental incidence propositions of three-dimensional space exhibit an exact <strong>Law of Reciprocity</strong> (<a class="term-ref glossary-term" id="occ-term-reciprocitaet-2" href="../../glossary.html#term-reciprocitaet" data-term="reciprocitaet" title="Gesetz der Reciprocität (Law of Reciprocity (Projective Duality)): The structural symmetry of three-dimensional projective space whereby points and planes are dual primitive elements while straight lines are self-dual (§ 3, art. 25), and in a single plane points and lines exchange roles.">Gesetz der Reciprocität</a>): every theorem remains valid when the words <em>point</em> and <em>plane</em> are interchanged throughout while <em>straight line</em> remains unchanged (<em>join of two points</em> $\leftrightarrow$ <em>intersection of two planes</em>; <em>collinear points</em> $\leftrightarrow$ <em>coaxial planes</em>). Within a single fixed plane, <em>point</em> and <em>straight line</em> exchange roles directly.</p>
+        <p><strong>Art. 36 (§ 4).</strong> Every closed projective straight line is a single returning cycle (<em>geschlossene Linie</em>): a single point $A$ does not divide the projective line into two severed halves, because one may pass from one side of $A$ to the other through $P_\infty$. Two distinct points $A$ and $B$ divide the entire projective line into two complementary segments; two pairs $(A, B)$ and $(C, D)$ are <a class="term-ref glossary-term" id="occ-term-getrennte-paare-1" href="../../glossary.html#term-getrennte-paare" data-term="getrennte-paare" title="Getrennte Punktepaare (Mutually Separating Point Pairs): Two pairs of points (A, B) and (C, D) on a closed projective line such that every passage from A to B along the line meets either C or D; satisfied invariably by every harmonic tetrad (A, B; C, D) = -1.">mutually separating</a> when each segment bounded by $A, B$ contains one point of $(C, D)$.</p>
+        <p><strong>Art. 45 (§ 5).</strong> Geometry builds all higher projective configurations out of three <strong>Uniform Fundamental Forms</strong> (<a class="term-ref glossary-term" id="occ-term-grundgebilde-1" href="../../glossary.html#term-grundgebilde" data-term="grundgebilde" title="Einförmiges Grundgebilde (Uniform Fundamental Form (One-Dimensional Primitive Form)): One of the three projectively dual one-dimensional primitive forms of 1847 § 5: the rectilinear range of points (gerades Gebilde), the flat pencil of rays (ebenes Strahlbüschel), and the axial pencil of planes (Ebenenbüschel).">einförmige Grundgebilde</a>) of the first grade:</p>
+        <ol class="arabic simple">
+        <li><p>The <strong>rectilinear range of points</strong> (<em>gerades Gebilde</em>): all points incident with a fixed carrier line $\ell$.</p></li>
+        <li><p>The <strong>flat pencil of rays</strong> (<em>ebenes Strahlbüschel</em>): all coplanar straight lines passing through a fixed vertex $S$ in a plane $\alpha$.</p></li>
+        <li><p>The <strong>axial pencil of planes</strong> (<em>Ebenenbüschel</em>): all planes passing through a fixed axis $g$.</p></li>
+        </ol>
+        <p>Two such fundamental forms are in <strong>perspective position</strong> (<em>perspektivische Lage</em>) when one is a section or projection of the other—for instance, when every ray of a flat pencil $(S)$ passes through the corresponding point of a range $(\ell)$ not incident with $S$.</p>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../index.html" title="GEOMETRIE DER LAGE &amp; RECHNUNG MIT WÜRFEN">&larr; <span class="nav-label">GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../unit-2/unit-2-en.html" title="Unit 2: The Complete Quadrangle, Harmonic Separation &amp; Projectivity"><span class="nav-label">Unit 2: The Complete Quadrangle, Harmonic Separation & Projectivity</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../log/26.106-initial-codex/index.html">Initial Bilingual Book Codices & Straightedge-Only Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1847–1882 Public Domain; 2026 GEOMETOR Critical Apparatus & Symbolic Library.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

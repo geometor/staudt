@@ -1,0 +1,251 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit 2: Pasch’s Planar Separation Axiom, Ideal Sheaves &amp; the Deductive Manifesto &mdash; VORLESUNGEN ÜBER NEUERE GEOMETRIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • staudt</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">staudt</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../geometrie_der_lage/index.html"  >GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN</a>
+        </li>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >VORLESUNGEN ÜBER NEUERE GEOMETRIE</a>
+        </li>
+        <li>
+          <a href="../../mission/index.html"  >Mission & Axiomatic Synthesis</a>
+        </li>
+        <li>
+          <a href="../../demos/index.html"  >Exact Straightedge Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; staudt</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">VORLESUNGEN ÜBER NEUERE GEOMETRIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-1/unit-1-en.html" title="Unit 1: Grounding Geometry &amp; Linear Betweenness">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-2-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-2-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-2-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../../mission/index.html" title="Mission &amp; Axiomatic Synthesis"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unit-2-pasch-s-planar-separation-axiom-ideal-sheaves-the-deductive-manifesto">
+        <span id="pasch-unit-2-en"></span><h1>Unit 2: Pasch’s Planar Separation Axiom, Ideal Sheaves &amp; the Deductive Manifesto<a class="headerlink" href="#unit-2-pasch-s-planar-separation-axiom-ideal-sheaves-the-deductive-manifesto" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Moritz Pasch — <em>Vorlesungen über neuere Geometrie</em> (1882), § 2 (pp. 17–27), §§ 8–11 (pp. 58–93) &amp; § 12 (pp. 93–100)</p>
+        <nav class="contents local" id="in-this-unit">
+        <p class="topic-title">In This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#on-the-plane-and-pasch-s-planar-separation-axiom-pp-1727" id="id1">§ 2. On the Plane and Pasch’s Planar Separation Axiom (pp. 17–27)</a></p></li>
+        <li><p><a class="reference internal" href="#ideal-sheaves-without-infinity-harmonic-figures-pp-5893" id="id2">§§ 8–11. Ideal Sheaves Without Infinity &amp; Harmonic Figures (pp. 58–93)</a></p></li>
+        <li><p><a class="reference internal" href="#the-hypothetico-deductive-manifesto-pp-93100" id="id3">§ 12. The Hypothetico-Deductive Manifesto (pp. 93–100)</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 2" data-folio="§ 2" data-page="17">[Folio § 2 | p. 17]</div>
+        <section class="level-2" id="on-the-plane-and-pasch-s-planar-separation-axiom-pp-1727">
+        <h2>§ 2. On the Plane and Pasch’s Planar Separation Axiom (pp. 17–27)<a class="headerlink" href="#on-the-plane-and-pasch-s-planar-separation-axiom-pp-1727" title="Link to this heading">¶</a></h2>
+        <p><strong>Grundsatz I.</strong> <em>Through any three points one can always lay a planar surface.</em></p>
+        <p><strong>Grundsatz II.</strong> <em>If two points of a straight segment belong to a planar surface (appropriately prolonged), then every interior point of the straight segment belongs to the planar surface.</em></p>
+        <p><strong>Grundsatz III.</strong> <em>If two planar surfaces share a common point, one can always specify at least a second point common to both.</em></p>
+        <p><strong>Grundsatz IV (Pasch’s Planar Separation Axiom, p. 21).</strong> <em>Let $A, B, C$ be three points not lying in one straight line, and let $a$ be a straight line lying in the plane $ABC$ that passes through none of the points $A, B, C$: if the straight line $a$ passes through a point inside the segment $AB$, then it always passes also either through a point inside the segment $AC$ or through a point inside the segment $BC$.</em></p>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" data-graphic-id="pasch_unit2_planar_axiom_euclid_gaps" xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 820 430" role="img" aria-label="Moritz Pasch (1882) § 2 IV. Grundsatz (p. 21) &amp; Resolution of Euclid I.21">
+          <title>Moritz Pasch (1882) § 2 IV. Grundsatz (p. 21) &amp; Resolution of Euclid I.21</title>
+          <desc>Left: Pasch&#x27;s planar line-triangle separation axiom. Right: Deductive proof of Euclid I.21 ray exit E on AC by applying Pasch&#x27;s Axiom to sub-triangle AMC.</desc>
+          <polygon points="75.48,327.16 311.61,327.16 193.55,130.39" class="poly-fill" />
+          <line x1="75.48" y1="287.81" x2="350.97" y2="209.10" class="line-accent" />
+          <circle cx="75.48" cy="327.16" r="4.2" class="pt-given" />
+          <text x="67.48" y="343.16" text-anchor="end" class="glyph-label">A</text>
+          <circle cx="311.61" cy="327.16" r="4.2" class="pt-given" />
+          <text x="319.61" y="343.16" text-anchor="start" class="glyph-label">B</text>
+          <circle cx="193.55" cy="130.39" r="4.2" class="pt-given" />
+          <text x="193.55" y="120.39" text-anchor="middle" class="glyph-label">C</text>
+          <circle cx="256.90" cy="235.97" r="4.8" class="pt-result" />
+          <text x="246.90" y="227.97" text-anchor="end" class="glyph-label">X₁ (entry)</text>
+          <circle cx="103.98" cy="279.66" r="4.8" class="pt-result" />
+          <text x="113.98" y="285.66" text-anchor="start" class="glyph-label">X₂ (forced exit)</text>
+          <polygon points="429.68,327.16 744.52,327.16 547.74,91.03" class="poly-fill" />
+          <polygon points="429.68,327.16 547.74,327.16 547.74,91.03" class="poly-accent" />
+          <line x1="547.74" y1="91.03" x2="547.74" y2="327.16" class="line-secondary" />
+          <line x1="744.52" y1="327.16" x2="438.42" y2="204.72" class="line-result" />
+          <circle cx="429.68" cy="327.16" r="4.2" class="pt-given" />
+          <text x="421.68" y="343.16" text-anchor="end" class="glyph-label">A</text>
+          <circle cx="744.52" cy="327.16" r="4.2" class="pt-given" />
+          <text x="752.52" y="343.16" text-anchor="start" class="glyph-label">B</text>
+          <circle cx="547.74" cy="91.03" r="4.2" class="pt-given" />
+          <text x="547.74" y="81.03" text-anchor="middle" class="glyph-label">C</text>
+          <circle cx="547.74" cy="327.16" r="4.2" class="pt-aux" />
+          <text x="547.74" y="345.16" text-anchor="middle" class="glyph-label">M</text>
+          <circle cx="547.74" cy="248.45" r="4.2" class="pt-result" />
+          <text x="556.74" y="244.45" text-anchor="start" class="glyph-label">D</text>
+          <circle cx="482.15" cy="222.22" r="5.0" class="pt-emerald" />
+          <text x="472.15" y="216.22" text-anchor="end" class="glyph-label">E ∈ AC</text>
+          <text x="205.00" y="412.00" text-anchor="middle" class="diagram-caption">(a) Pasch § 2 IV. Grundsatz: Entry X₁ forces exit X₂</text>
+          <text x="605.00" y="412.00" text-anchor="middle" class="diagram-caption">(b) Euclid I.21: Pasch on △AMC forces ray BD to exit AC at E</text>
+        </svg>
+        <figcaption>**Pasch's IV. Grundsatz (1882 § 2, p. 21) & 10. Lehrsatz (p. 25):** Left: Any coplanar line $\ell$ entering $\triangle ABC$ along open segment $AB$ without meeting $A, B, C$ must exit through open segment $AC$ or $BC$ (never both). Right: Applying *Grundsatz IV* to sub-triangle $\triangle AMC$ proves Euclid ``I.21``'s interior ray exit $E \in AC$.</figcaption>
+        </figure>
+        <p><strong>10. Lehrsatz (Exclusivity — A Line Cannot Cut All Three Open Sides, p. 25).</strong> <em>In the configuration of Grundsatz IV, the straight line $a$ cannot pass simultaneously through a point inside $AB$, a point inside $BC$, and a point inside $AC$.</em></p>
+        <p><em>Proof.</em> Suppose for contradiction that $a$ met open segments $AB$, $BC$, and $AC$ in interior points $D, E, F$ respectively. Being three distinct collinear points on $a$, one of them—say $F$—must by § 1 lie inside the segment $DE$ bounded by the other two ($D\text{--}F\text{--}E$). Now consider triangle $\triangle BDE$ and the straight line $g = [AC]$:</p>
+        <ul class="simple">
+        <li><p>Line $g$ passes through none of the vertices $B, D, E$ (since $D$ is interior to $AB$ and $E$ is interior to $BC$).</p></li>
+        <li><p>Line $g$ passes through $F$, which lies <strong>inside</strong> side $DE$ of $\triangle BDE$.</p></li>
+        <li><p>Therefore, by <strong>Grundsatz IV</strong> applied to $\triangle BDE$, line $g = [AC]$ would have to meet either segment $BD$ internally (impossible, since $[AC] \cap [AB] = A$ lies <em>outside</em> $BD$ by § 1 Grundsatz III) or segment $BE$ internally (equally impossible, since $[AC] \cap [BC] = C$ lies <em>outside</em> $BE$)!</p></li>
+        </ul>
+        <p>Hence a line avoiding $A, B, C$ that enters one open side of $\triangle ABC$ exits through <strong>one and only one</strong> of the other two open sides, and every straight line $a$ in a plane $\alpha$ partitions $\alpha \setminus a$ into <strong>two</strong> disjoint convex half-planes (<em>Halbebenen</em>): $P, Q \notin a$ lie on the <em>same side</em> of $a$ iff segment $PQ$ misses $a$, and on <em>opposite sides</em> iff $a$ meets segment $PQ$ internally. $\blacksquare$</p>
+        <div class="folio-milestone" id="folio-§§ 8–11" data-folio="§§ 8–11" data-page="58">[Folio §§ 8–11 | p. 58]</div>
+        </section>
+        <section class="level-2" id="ideal-sheaves-without-infinity-harmonic-figures-pp-5893">
+        <h2>§§ 8–11. Ideal Sheaves Without Infinity &amp; Harmonic Figures (pp. 58–93)<a class="headerlink" href="#ideal-sheaves-without-infinity-harmonic-figures-pp-5893" title="Link to this heading">¶</a></h2>
+        <p><strong>§ 8. Sheaves of Lines and Ideal Points (*Strahlenbündel und uneigentliche Punkte*).</strong> In <a class="person-ref" id="occ-person-staudt-1" href="../../persons.html#person-staudt" data-person="staudt" title="Karl Georg Christian von Staudt (1798–1867) — German Geometer; Professor of Mathematics at Erlangen">von Staudt</a>’s <em>Geometrie der Lage</em> (§ 2), infinitely distant points were introduced by invoking Euclidean parallel directions—thereby relying on Euclid’s Parallel Postulate and speaking figuratively of points “at infinity.” Yet in actual observation we operate only within a <strong>bounded spatial region</strong>, where two coplanar lines $g, h$ may fail to intersect inside our region whether they are Euclidean parallels or merely converge far outside our region!</p>
+        <p>We therefore replace “points at infinity” by a rigorous finite construction:</p>
+        <ol class="arabic simple">
+        <li><p>Two coplanar lines $g, h$ together with any external point $S$ outside their plane determine two planes $(S, g)$ and $(S, h)$ intersecting along a unique ray $k$ through $S$. The totality of all such lines $k$ determined across space forms a <strong>sheaf of rays</strong> (<em>Strahlenbündel</em>).</p></li>
+        <li><p>If $g$ and $h$ meet in an ordinary point $P$, the sheaf consists simply of all lines through $P$ (<em>eigentliches Bündel</em>). If $g$ and $h$ do not meet, the sheaf is still completely determined by finite plane intersections (<em>uneigentliches Bündel</em>)—without ever assuming whether parallels are unique!</p></li>
+        <li><p>Calling <strong>every</strong> sheaf of rays a <em>projective point</em> (<em>Punkt im weiteren Sinne</em>), every planar flat pencil a <em>projective line</em>, and every planar sheaf a <em>projective plane</em>, all incidence axioms of three-dimensional projective geometry hold <strong>unconditionally and without appeal to infinity</strong>.</p></li>
+        </ol>
+        <p><strong>§§ 10–11. Complete Quadrangle &amp; Harmonic Separation Grounded on Order.</strong> Armed with ideal sheaves (§§ 8–9) and planar separation (§ 2), <a class="person-ref" id="occ-person-staudt-2" href="../../persons.html#person-staudt" data-person="staudt" title="Karl Georg Christian von Staudt (1798–1867) — German Geometer; Professor of Mathematics at Erlangen">von Staudt</a>’s <a class="term-ref glossary-term" id="occ-term-vollstaendiges-viereck-1" href="../../glossary.html#term-vollstaendiges-viereck" data-term="vollstaendiges-viereck" title="Vollständiges ebenes Viereck (Complete Plane Quadrangle): A configuration of four coplanar points (no three collinear) joined pairwise by six sides (three pairs of opposite sides) meeting in three diagonal points (§ 6, art. 66); dual to the complete quadrilateral (vollständiges Vierseit).">complete quadrangle</a> construction (§ 6) now rests on complete logical foundations: using <em>Grundsatz IV</em> repeatedly across the four sub-triangles of quadrangle $EFGH$, one proves <strong>purely deductively</strong> (without glancing at a figure!) that the harmonic conjugates $(A, B)$ and $(C, D)$ invariably <a class="term-ref glossary-term" id="occ-term-getrennte-paare-1" href="../../glossary.html#term-getrennte-paare" data-term="getrennte-paare" title="Getrennte Punktepaare (Mutually Separating Point Pairs): Two pairs of points (A, B) and (C, D) on a closed projective line such that every passage from A to B along the line meets either C or D; satisfied invariably by every harmonic tetrad (A, B; C, D) = -1.">separate one another</a> on the projective line.</p>
+        <div class="folio-milestone" id="folio-§ 12" data-folio="§ 12" data-page="93">[Folio § 12 | p. 93]</div>
+        </section>
+        <section class="level-2" id="the-hypothetico-deductive-manifesto-pp-93100">
+        <h2>§ 12. The Hypothetico-Deductive Manifesto (pp. 93–100)<a class="headerlink" href="#the-hypothetico-deductive-manifesto-pp-93100" title="Link to this heading">¶</a></h2>
+        <p>Looking back over the edifice erected from §§ 1–11, we recognize the strict logical law that governs every genuinely deductive mathematical science (<em>p. 98</em>):</p>
+        <blockquote class="pull-quote">
+        <div><p><em>“Indeed, if geometry is to be genuinely deductive, the process of inference must everywhere be independent of the meaning of the geometrical concepts, just as it must be independent of the diagrams; only the relations among the geometrical concepts laid down in the propositions and definitions employed may be taken into account. During the deduction it is certainly permissible and useful, though in no way necessary, to think of the meaning of the geometrical concepts appearing therein; in fact, precisely when this becomes necessary does a gap become manifest in the deduction and, when the gap cannot be eliminated by modifying the reasoning, the insufficiency of the propositions invoked as tools of proof.”</em></p>
+        </div></blockquote>
+        <p>Whenever a classical proof appears to succeed only when we picture what “straight segment” or “interior” looks like in a drawing, an <strong>unstated axiom</strong> is hiding in our visual intuition. Once all <a class="term-ref glossary-term" id="occ-term-stammsaetze-1" href="../../glossary.html#term-stammsaetze" data-term="stammsaetze" title="Stammsätze (Grundsätze / Kernsätze) (Nuclear Propositions (Axioms)): In Pasch&#x27;s 1882 § 12 manifesto (p. 98), the complete foundational set of axioms gathered initially from empirical observation of physical bodies, after which every subsequent deduction must proceed purely formally, independent of geometric intuition or diagrams.">nuclear propositions</a> (<em>Stammsätze</em>) are explicitly recorded at the threshold of the science:</p>
+        <ul class="simple">
+        <li><p>Every mathematical proof reduces to purely formal logical transformation of the stated relational hypotheses; and</p></li>
+        <li><p>Every valid theorem admits an immediate <strong>dual or structural reinterpretation</strong> (such as projective <a class="term-ref glossary-term" id="occ-term-reciprocitaet-1" href="../../glossary.html#term-reciprocitaet" data-term="reciprocitaet" title="Gesetz der Reciprocität (Law of Reciprocity (Projective Duality)): The structural symmetry of three-dimensional projective space whereby points and planes are dual primitive elements while straight lines are self-dual (§ 3, art. 25), and in a single plane points and lines exchange roles.">reciprocity</a> between points and planes, or algebraic coordinate models) simply by substituting any new system of objects that satisfies the exact same formal relations!</p></li>
+        </ul>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-1/unit-1-en.html" title="Unit 1: Grounding Geometry &amp; Linear Betweenness">&larr; <span class="nav-label">Unit 1: Grounding Geometry & Linear Betweenness</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">VORLESUNGEN ÜBER NEUERE GEOMETRIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../../mission/index.html" title="Mission &amp; Axiomatic Synthesis"><span class="nav-label">Mission & Axiomatic Synthesis</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../log/26.106-initial-codex/index.html">Initial Bilingual Book Codices & Straightedge-Only Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1847–1882 Public Domain; 2026 GEOMETOR Critical Apparatus & Symbolic Library.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

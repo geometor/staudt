@@ -1,0 +1,327 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Einheit 4: Rechnung mit Würfen — Summen, Produkte &amp; projektivische Abscissen &mdash; GEOMETRIE DER LAGE &amp; RECHNUNG MIT WÜRFEN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • staudt</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">staudt</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN</a>
+        </li>
+        <li>
+          <a href="../../pasch_1882/index.html"  >VORLESUNGEN ÜBER NEUERE GEOMETRIE</a>
+        </li>
+        <li>
+          <a href="../../mission/index.html"  >Mission & Axiomatic Synthesis</a>
+        </li>
+        <li>
+          <a href="../../demos/index.html"  >Exact Straightedge Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; staudt</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-3/unit-3-de.html" title="Unit 3: Involutions, Planar Polar Systems &amp; Order Curves (Conics)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="unit-4-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-4-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-4-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../../pasch_1882/index.html" title="VORLESUNGEN ÜBER NEUERE GEOMETRIE"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="einheit-4-rechnung-mit-wurfen-summen-produkte-projektivische-abscissen">
+        <span id="geometrie-unit-4-de"></span><h1>Einheit 4: Rechnung mit Würfen — Summen, Produkte &amp; projektivische Abscissen<a class="headerlink" href="#einheit-4-rechnung-mit-wurfen-summen-produkte-projektivische-abscissen" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Karl Georg Christian von Staudt — <em>Beiträge zur Geometrie der Lage, Zweites Heft</em> (Nürnberg, 1857), §§ 19, 20, 29 (Art. 256–269, 403–404)</p>
+        <nav class="contents local" id="inhalt-dieser-einheit">
+        <p class="topic-title">Inhalt dieser Einheit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#rechnung-mit-wurfen-begriff-und-addition-art-256267" id="id1">§ 19. Rechnung mit Würfen — Begriff und Addition (Art. 256–267)</a></p></li>
+        <li><p><a class="reference internal" href="#produkte-aus-wurfen-art-268269" id="id2">§ 20. Produkte aus Würfen (Art. 268–269)</a></p></li>
+        <li><p><a class="reference internal" href="#harmonische-reihen-und-projektivische-koordinaten-art-403404" id="id3">§ 29. Harmonische Reihen und projektivische Koordinaten (Art. 403–404)</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 19" data-folio="§ 19" data-page="166">[Folio § 19 | p. 166]</div>
+        <section class="level-2" id="rechnung-mit-wurfen-begriff-und-addition-art-256267">
+        <h2>§ 19. Rechnung mit Würfen — Begriff und Addition (Art. 256–267)<a class="headerlink" href="#rechnung-mit-wurfen-begriff-und-addition-art-256267" title="Link to this heading">¶</a></h2>
+        <p><strong>Art. 256.</strong> Vier Elemente $A, B, C, D$ eines <a class="term-ref glossary-term" id="occ-term-grundgebilde-1" href="../../glossary.html#term-grundgebilde" data-term="grundgebilde" title="Einförmiges Grundgebilde (Uniform Fundamental Form (One-Dimensional Primitive Form)): One of the three projectively dual one-dimensional primitive forms of 1847 § 5: the rectilinear range of points (gerades Gebilde), the flat pencil of rays (ebenes Strahlbüschel), and the axial pencil of planes (Ebenenbüschel).">einförmigen Grundgebildes</a> bestimmen in einer festgesetzten Reihenfolge einen <a class="term-ref glossary-term" id="occ-term-wurf-1" href="../../glossary.html#term-wurf" data-term="wurf" title="Wurf (Throw): An ordered tetrad (ABCD) of four elements in a uniform primitive form, considered up to projectivity (Beiträge Heft 2, 1857 § 19, arts. 256–257); the pure synthetic invariant underlying the numerical cross-ratio.">Wurf</a> $(ABCD)$. Zwei Würfe $(ABCD)$ und $(A'B'C'D')$ heißen <strong>einander gleich</strong>, wenn die beiden Grundgebilde projektivisch so aufeinander bezogen werden können, daß den Elementen $A, B, C, D$ der Reihe nach die Elemente $A', B', C', D'$ entsprechen.</p>
+        <p>Wählt man auf einem geraden Träger $\ell$ drei feste verschiedene Grundpunkte $P_0$ (<em>Nullpunkt</em>), $P_1$ (<em>Einheitspunkt</em>) und $P_\infty$ (<em>Grenzpunkt</em>), so vertritt jeder von $P_\infty$ verschiedene Punkt $X$ der Geraden eindeutig den Wurf $(P_\infty P_0 P_1 X)$; $P_0$ vertritt den <strong>Nullwurf</strong>, $P_1$ den <strong>Einheitswurf</strong>.</p>
+        <p><strong>Art. 259 (Summen von Würfen allein mit dem Lineal).</strong> Um zu zwei von $P_\infty$ verschiedenen Punkten $X, Y$ des Trägers $\ell$ in bezug auf $(P_0, P_1, P_\infty)$ den Summenpunkt $S = X + Y$ allein mittels des Lineals zu konstruieren:</p>
+        <ol class="arabic simple">
+        <li><p>Man ziehe durch $P_\infty$ eine beliebige Hilfsgerade $m \neq \ell$ und nehme auf ihr zwei verschiedene Punkte $U, V$ außerhalb $\ell$ an.</p></li>
+        <li><p>Man verbinde $[U P_0]$ und $[V X]$ bis zu ihrem Schnittpunkte $R = [U P_0] \cap [V X]$.</p></li>
+        <li><p>Man ziehe die Perspektivitätsachse $a = [P_\infty R]$ durch $P_\infty$ und $R$.</p></li>
+        <li><p>Man schneide $[U Y]$ mit $a$ in $T = [U Y] \cap a$; alsdann schneidet $[V T]$ den Träger $\ell$ in dem gesuchten Summenpunkte $S = X + Y$.</p></li>
+        </ol>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" data-graphic-id="unit4_addition_of_throws" xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 780 450" role="img" aria-label="Von Staudt Beiträge § 19 (Arts. 256–267): Pure Straightedge Addition of Throws (P2 + P3 = P5)">
+          <title>Von Staudt Beiträge § 19 (Arts. 256–267): Pure Straightedge Addition of Throws (P2 + P3 = P5)</title>
+          <desc>Straightedge addition on carrier line (P0, P1, P_inf) using horizon centers U, V on [P_inf U] and perspective axis a = [P_inf R].</desc>
+          <line x1="118.50" y1="261.20" x2="661.50" y2="261.20" class="line-primary" />
+          <line x1="637.37" y1="261.20" x2="215.03" y2="80.20" class="line-secondary" />
+          <line x1="124.53" y1="334.46" x2="637.37" y2="261.20" class="line-accent" />
+          <line x1="215.03" y1="80.20" x2="130.57" y2="333.60" class="line-guide" />
+          <line x1="426.20" y1="170.70" x2="130.57" y2="333.60" class="line-guide" />
+          <line x1="215.03" y1="80.20" x2="299.50" y2="261.20" class="line-guide" />
+          <line x1="215.03" y1="80.20" x2="320.62" y2="306.45" class="line-guide" />
+          <line x1="426.20" y1="170.70" x2="355.81" y2="261.20" class="line-result" />
+          <line x1="426.20" y1="170.70" x2="320.62" y2="306.45" class="line-result" />
+          <circle cx="154.70" cy="261.20" r="4.2" class="pt-given" />
+          <text x="150.70" y="279.20" text-anchor="middle" class="glyph-label">P₀ (0)</text>
+          <circle cx="215.03" cy="261.20" r="4.2" class="pt-given" />
+          <text x="215.03" y="279.20" text-anchor="middle" class="glyph-label">P₁ (1)</text>
+          <circle cx="261.96" cy="261.20" r="4.2" class="pt-given" />
+          <text x="261.96" y="250.20" text-anchor="middle" class="glyph-label">P₂ (2)</text>
+          <circle cx="299.50" cy="261.20" r="4.2" class="pt-given" />
+          <text x="303.50" y="279.20" text-anchor="middle" class="glyph-label">P₃ (3)</text>
+          <circle cx="355.81" cy="261.20" r="5.2" class="pt-result" />
+          <text x="355.81" y="249.20" text-anchor="middle" class="glyph-label">P₅ = P₂ + P₃</text>
+          <circle cx="637.37" cy="261.20" r="4.2" class="pt-aux" />
+          <text x="645.37" y="255.20" text-anchor="start" class="glyph-label">P∞</text>
+          <circle cx="215.03" cy="80.20" r="4.2" class="pt-aux" />
+          <text x="207.03" y="74.20" text-anchor="end" class="glyph-label">U</text>
+          <circle cx="426.20" cy="170.70" r="4.2" class="pt-aux" />
+          <text x="434.20" y="164.70" text-anchor="start" class="glyph-label">V</text>
+          <circle cx="130.57" cy="333.60" r="4.2" class="pt-aux" />
+          <text x="140.57" y="345.60" text-anchor="start" class="glyph-label">R = [UP₀] ∩ [VP₂]</text>
+          <circle cx="320.62" cy="306.45" r="4.2" class="pt-emerald" />
+          <text x="310.62" y="320.45" text-anchor="end" class="glyph-label">T = [UP₃] ∩ a</text>
+          <text x="390.00" y="432.00" text-anchor="middle" class="diagram-caption">Beiträge § 19: Centers U, V ∈ [P∞ U] and axis a = [P∞ R] construct P₂ + P₃ = P₅ purely by straightedge with zero circles</text>
+        </svg>
+        <figcaption>**Summen von Würfen (1857 § 19, Art. 259):** Die durch $P_\infty$ gehende Zentrengerade $[P_\infty U V]$ und die Achse $a = [P_\infty R]$ liefern $S = X + Y$ allein durch sechs Linealschnitte.</figcaption>
+        </figure>
+        <p><strong>Art. 262.</strong> Vermöge des Vierecksatzes ist $S$ von der Wahl der Hilfsgeraden $m$ und der Zentren $U, V$ völlig unabhängig, und es gelten allgemein die Gesetze:</p>
+        <div class="math notranslate nohighlight">
+        \[X + P_0 = X, \qquad X + Y = Y + X, \qquad (X + Y) + Z = X + (Y + Z),\]</div>
+        <p>sowie für jedes $X \neq P_\infty$ die Existenz des entgegengesetzten Punktes $-X$ mit $X + (-X) = P_0$ als vierten harmonischen Punktes zu $(P_0, P_\infty; X)$.</p>
+        <div class="folio-milestone" id="folio-§ 20" data-folio="§ 20" data-page="174">[Folio § 20 | p. 174]</div>
+        </section>
+        <section class="level-2" id="produkte-aus-wurfen-art-268269">
+        <h2>§ 20. Produkte aus Würfen (Art. 268–269)<a class="headerlink" href="#produkte-aus-wurfen-art-268269" title="Link to this heading">¶</a></h2>
+        <p><strong>Art. 268.</strong> Um in bezug auf dieselben Grundpunkte $(P_0, P_1, P_\infty)$ zu zwei Punkten $X, Y \in \ell \setminus \{P_0, P_\infty\}$ den Produktpunkt $P = X \cdot Y$ allein mit dem Lineal zu konstruieren:</p>
+        <ol class="arabic simple">
+        <li><p>Man lege durch den <strong>Nullpunkt</strong> $P_0$ eine beliebige Hilfsgerade $c \neq \ell$ und wähle auf ihr zwei verschiedene Punkte $U, V$ außerhalb $\ell$.</p></li>
+        <li><p>Man bestimme den Schnittpunkt $W = [U P_1] \cap [V X]$.</p></li>
+        <li><p>Man ziehe durch den <strong>Grenzpunkt</strong> $P_\infty$ und $W$ die Perspektivitätsachse $a = [P_\infty W]$.</p></li>
+        <li><p>Man schneide $[U Y]$ mit $a$ in $Z = [U Y] \cap a$; alsdann trifft $[V Z]$ den Träger $\ell$ in dem gesuchten Produktpunkte $P = X \cdot Y$.</p></li>
+        </ol>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" data-graphic-id="unit4_multiplication_of_throws" xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 780 450" role="img" aria-label="Von Staudt Beiträge § 20 (Arts. 268–275): Pure Straightedge Multiplication of Throws (P2 · P3 = P6)">
+          <title>Von Staudt Beiträge § 20 (Arts. 268–275): Pure Straightedge Multiplication of Throws (P2 · P3 = P6)</title>
+          <desc>Straightedge multiplication on (P0, P1, P_inf) using centers U, V collinear with P0 and perspective axis a = [P_inf W].</desc>
+          <line x1="103.42" y1="255.17" x2="670.55" y2="255.17" class="line-primary" />
+          <line x1="224.08" y1="74.17" x2="123.53" y2="375.83" class="line-secondary" />
+          <line x1="163.75" y1="299.05" x2="646.42" y2="255.17" class="line-accent" />
+          <line x1="224.08" y1="74.17" x2="224.08" y2="293.56" class="line-guide" />
+          <line x1="123.53" y1="375.83" x2="271.01" y2="255.17" class="line-guide" />
+          <line x1="224.08" y1="74.17" x2="308.55" y2="255.17" class="line-guide" />
+          <line x1="123.53" y1="375.83" x2="386.52" y2="255.17" class="line-result" />
+          <circle cx="163.75" cy="255.17" r="4.2" class="pt-given" />
+          <text x="153.75" y="247.17" text-anchor="end" class="glyph-label">P₀ (0)</text>
+          <circle cx="224.08" cy="255.17" r="4.2" class="pt-given" />
+          <text x="220.08" y="273.17" text-anchor="middle" class="glyph-label">P₁ (1)</text>
+          <circle cx="271.01" cy="255.17" r="4.2" class="pt-given" />
+          <text x="271.01" y="244.17" text-anchor="middle" class="glyph-label">P₂ (2)</text>
+          <circle cx="308.55" cy="255.17" r="4.2" class="pt-given" />
+          <text x="310.55" y="273.17" text-anchor="middle" class="glyph-label">P₃ (3)</text>
+          <circle cx="386.52" cy="255.17" r="5.2" class="pt-result" />
+          <text x="392.52" y="243.17" text-anchor="start" class="glyph-label">P₆ = P₂ · P₃</text>
+          <circle cx="646.42" cy="255.17" r="4.2" class="pt-aux" />
+          <text x="654.42" y="249.17" text-anchor="start" class="glyph-label">P∞</text>
+          <circle cx="224.08" cy="74.17" r="4.2" class="pt-aux" />
+          <text x="232.08" y="70.17" text-anchor="start" class="glyph-label">U</text>
+          <circle cx="123.53" cy="375.83" r="4.2" class="pt-aux" />
+          <text x="133.53" y="381.83" text-anchor="start" class="glyph-label">V ∈ [P₀U]</text>
+          <circle cx="224.08" cy="293.56" r="4.2" class="pt-aux" />
+          <text x="214.08" y="285.56" text-anchor="end" class="glyph-label">W = [UP₁] ∩ [VP₂]</text>
+          <circle cx="322.30" cy="284.63" r="4.2" class="pt-emerald" />
+          <text x="332.30" y="278.63" text-anchor="start" class="glyph-label">Z = [UP₃] ∩ a</text>
+          <text x="390.00" y="432.00" text-anchor="middle" class="diagram-caption">Beiträge § 20: Centers U, V ∈ [P₀ U] and axis a = [P∞ W] construct P₂ · P₃ = P₆ purely by straightedge incidence</text>
+        </svg>
+        <figcaption>**Produkte aus Würfen (1857 § 20, Art. 268):** Die durch $P_0$ gehende Zentrengerade $[P_0 U V]$ und die durch $P_\infty$ gehende Achse $a = [P_\infty W]$ lassen $P_0$ und $P_\infty$ fest und überführen $P_1 \mapsto X$, $Y \mapsto P = X \cdot Y$.</figcaption>
+        </figure>
+        <p><strong>Art. 269.</strong> Für diese <a class="term-ref glossary-term" id="occ-term-rechnung-mit-wuerfen-1" href="../../glossary.html#term-rechnung-mit-wuerfen" data-term="rechnung-mit-wuerfen" title="Rechnung mit Würfen (Algebra of Throws): Von Staudt&#x27;s straightedge-only addition and multiplication of collinear points (or throws) relative to three fixed gauge elements (P_0, P_1, P_inf) on a carrier line (1857 §§ 19–20, arts. 256–269), endowing the punctured projective line with the exact structure of a commutative field.">Rechnung mit Würfen</a> gelten ohne jede Berufung auf Streckenlängen sämtliche Grundgesetze der Arithmetik: Kommutativität, Assoziativität und das Distributionsgesetz $X \cdot (Y + Z) = X \cdot Y + X \cdot Z$.</p>
+        <div class="folio-milestone" id="folio-§ 29" data-folio="§ 29" data-page="255">[Folio § 29 | p. 255]</div>
+        </section>
+        <section class="level-2" id="harmonische-reihen-und-projektivische-koordinaten-art-403404">
+        <h2>§ 29. Harmonische Reihen und projektivische Koordinaten (Art. 403–404)<a class="headerlink" href="#harmonische-reihen-und-projektivische-koordinaten-art-403404" title="Link to this heading">¶</a></h2>
+        <p><strong>Art. 403.</strong> Durch fortgesetzte Addition des Einheitspunktes $P_1$ entsteht auf $\ell$ die <a class="term-ref glossary-term" id="occ-term-harmonische-reihe-1" href="../../glossary.html#term-harmonische-reihe" data-term="harmonische-reihe" title="Harmonische Reihe (Harmonisches Netz) (Harmonic Scale (Möbius Net)): The sequence of points P_0, P_1, P_2, P_3, ..., P_inf generated by iterated harmonic reflection where (P_{n-1}, P_{n+1}; P_n, P_inf) = -1, together with all rational subdivisions generated by quadrangle constructions.">harmonische Reihe</a> $P_1, P_2, P_3, \dots, P_n, \dots$, worin durchgängig $(P_{n-1}, P_{n+1}; P_n, P_\infty)$ ein harmonisches Gebilde ist, und durch Umkehrung der Addition und Multiplikation entspricht jeder rationalen Zahl $p/q$ ein einziger konstruierbarer Punkt $P_{p/q}$ auf $\ell$.</p>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" data-graphic-id="unit4_harmonic_scale_abscissae" xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 780 390" role="img" aria-label="Von Staudt Beiträge §§ 19 &amp; 29 (Arts. 267, 404): Harmonic Scale &amp; Projective Abscissae">
+          <title>Von Staudt Beiträge §§ 19 &amp; 29 (Arts. 267, 404): Harmonic Scale &amp; Projective Abscissae</title>
+          <desc>Projective integer scale P_-1, P_0, P_1, P_2, P_3, P_4, P_5 generated by iterated harmonic quadrangles accumulating toward finite horizon P_inf.</desc>
+          <line x1="58.62" y1="260.79" x2="716.51" y2="260.79" class="line-primary" />
+          <line x1="209.69" y1="114.59" x2="697.01" y2="260.79" class="line-secondary" />
+          <line x1="63.49" y1="324.14" x2="697.01" y2="260.79" class="line-accent" />
+          <line x1="209.69" y1="114.59" x2="209.69" y2="260.79" class="line-guide" />
+          <line x1="453.35" y1="187.69" x2="209.69" y2="309.52" class="line-guide" />
+          <line x1="453.35" y1="187.69" x2="307.15" y2="260.79" class="line-guide" />
+          <line x1="209.69" y1="114.59" x2="307.15" y2="260.79" class="line-guide" />
+          <line x1="453.35" y1="187.69" x2="331.52" y2="297.34" class="line-guide" />
+          <line x1="453.35" y1="187.69" x2="372.13" y2="260.79" class="line-guide" />
+          <line x1="209.69" y1="114.59" x2="372.13" y2="260.79" class="line-guide" />
+          <line x1="453.35" y1="187.69" x2="404.62" y2="290.03" class="line-guide" />
+          <line x1="453.35" y1="187.69" x2="418.54" y2="260.79" class="line-guide" />
+          <line x1="209.69" y1="114.59" x2="418.54" y2="260.79" class="line-guide" />
+          <line x1="453.35" y1="187.69" x2="453.35" y2="285.15" class="line-guide" />
+          <line x1="453.35" y1="187.69" x2="453.35" y2="260.79" class="line-guide" />
+          <line x1="209.69" y1="114.59" x2="453.35" y2="260.79" class="line-guide" />
+          <line x1="453.35" y1="187.69" x2="488.16" y2="281.67" class="line-guide" />
+          <line x1="453.35" y1="187.69" x2="480.43" y2="260.79" class="line-guide" />
+          <circle cx="209.69" cy="114.59" r="4.2" class="pt-aux" />
+          <text x="201.69" y="108.59" text-anchor="end" class="glyph-label">U</text>
+          <circle cx="453.35" cy="187.69" r="4.2" class="pt-aux" />
+          <text x="461.35" y="181.69" text-anchor="start" class="glyph-label">V</text>
+          <circle cx="47.25" cy="260.79" r="4.2" class="pt-result" />
+          <text x="47.25" y="248.79" text-anchor="middle" class="glyph-label">P_-1</text>
+          <circle cx="209.69" cy="260.79" r="4.2" class="pt-given" />
+          <text x="209.69" y="280.79" text-anchor="middle" class="glyph-label">P0</text>
+          <circle cx="307.15" cy="260.79" r="4.2" class="pt-given" />
+          <text x="307.15" y="248.79" text-anchor="middle" class="glyph-label">P1</text>
+          <circle cx="372.13" cy="260.79" r="4.2" class="pt-result" />
+          <text x="372.13" y="280.79" text-anchor="middle" class="glyph-label">P2</text>
+          <circle cx="418.54" cy="260.79" r="4.2" class="pt-result" />
+          <text x="418.54" y="248.79" text-anchor="middle" class="glyph-label">P3</text>
+          <circle cx="453.35" cy="260.79" r="4.2" class="pt-result" />
+          <text x="453.35" y="280.79" text-anchor="middle" class="glyph-label">P4</text>
+          <circle cx="480.43" cy="260.79" r="4.2" class="pt-result" />
+          <text x="480.43" y="248.79" text-anchor="middle" class="glyph-label">P5</text>
+          <circle cx="697.01" cy="260.79" r="5.0" class="pt-emerald" />
+          <text x="703.01" y="276.79" text-anchor="start" class="glyph-label">P∞ (∞)</text>
+          <text x="390.00" y="372.00" text-anchor="middle" class="diagram-caption">Beiträge §§ 19 &amp; 29: Each triple (P_{k−1}, P_k, P_{k+1}) is harmonic with P∞, assigning exact projective abscissae (P∞, P₀; P₁, P_k) = k</text>
+        </svg>
+        <figcaption>**Harmonische Reihe und projektivische Abscissen (1857 § 29, Art. 403–404):** Fortgesetzte Viereckskonstruktionen erzeugen die ganzzahligen Punkte $P_n$ auf dem Träger $\ell$ ohne jeden Zirkel oder Maßstab.</figcaption>
+        </figure>
+        <p><strong>Art. 404.</strong> Vermöge der Stetigkeit der Anordnung kommt hierdurch jedem reellen Punkte $X \neq P_\infty$ des Trägers $\ell$ in bezug auf $(P_0, P_1, P_\infty)$ eine vollkommen bestimmte Zahl als <a class="term-ref glossary-term" id="occ-term-abscisse-1" href="../../glossary.html#term-abscisse" data-term="abscisse" title="Projektivische Abscisse (Projective Abscissa): The intrinsic coordinate assigned to a point X on a line relative to the projective frame (P_0, P_1, P_inf) by the Algebra of Throws (1857 § 29, arts. 403–404), equal algebraically to the cross-ratio (X, P_1; P_0, P_inf).">projektivische Abscisse</a> zu — gewonnen <strong>allein aus Verknüpfung und Anordnung</strong>, ehe irgendein Maßbegriff eingeführt wird.</p>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-3/unit-3-de.html" title="Unit 3: Involutions, Planar Polar Systems &amp; Order Curves (Conics)">&larr; <span class="nav-label">Unit 3: Involutions, Planar Polar Systems & Order Curves (Conics)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../../pasch_1882/index.html" title="VORLESUNGEN ÜBER NEUERE GEOMETRIE"><span class="nav-label">VORLESUNGEN ÜBER NEUERE GEOMETRIE</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../log/26.106-initial-codex/index.html">Initial Bilingual Book Codices & Straightedge-Only Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1847–1882 Public Domain; 2026 GEOMETOR Critical Apparatus & Symbolic Library.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

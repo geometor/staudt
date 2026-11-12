@@ -1,0 +1,28 @@
+geometor.staudt.cli
+===================
+
+.. py:module:: geometor.staudt.cli
+
+.. autoapi-nested-parse::
+
+   Command-line interface (``geometor-staudt``) for inspecting the codex concordance,
+   running exact symbolic projective & order verification suites, and regenerating SVGs.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.staudt.cli.main
+
+
+Module Contents
+---------------
+
+.. py:function:: main(argv: collections.abc.Sequence[str] | None = None) -> int
+
+   Entry point for ``geometor-staudt``.
+
+
