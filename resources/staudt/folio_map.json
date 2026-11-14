@@ -1,0 +1,79 @@
+{
+  "_meta": {
+    "repository": "staudt",
+    "edition": "staudt",
+    "description": "Primary-source text locus anchors for Karl Georg Christian von Staudt (1847, 1857) and Moritz Pasch (1882)"
+  },
+  "folios": {
+    "Vorwort": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L8",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L8",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L8"
+    },
+    "§ 1": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L49",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L49",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L49"
+    },
+    "§ 2": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L76",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L76",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L76"
+    },
+    "§§ 3–5": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L82",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L82",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L82"
+    },
+    "§ 6": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L127",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L127",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L127"
+    },
+    "§§ 7–8": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L138",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L138",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L138"
+    },
+    "§ 9": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L207",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L207",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L207"
+    },
+    "§§ 18–19": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L229",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L229",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L229"
+    },
+    "§ 19": {
+      "default": "resources/staudt/sources/staudt_1857_beitraege_wuerfe_de.txt#L9",
+      "de": "resources/staudt/sources/staudt_1857_beitraege_wuerfe_de.txt#L9",
+      "en": "resources/staudt/sources/staudt_1857_beitraege_wuerfe_de.txt#L9"
+    },
+    "§ 20": {
+      "default": "resources/staudt/sources/staudt_1857_beitraege_wuerfe_de.txt#L74",
+      "de": "resources/staudt/sources/staudt_1857_beitraege_wuerfe_de.txt#L74",
+      "en": "resources/staudt/sources/staudt_1857_beitraege_wuerfe_de.txt#L74"
+    },
+    "§ 29": {
+      "default": "resources/staudt/sources/staudt_1857_beitraege_wuerfe_de.txt#L104",
+      "de": "resources/staudt/sources/staudt_1857_beitraege_wuerfe_de.txt#L104",
+      "en": "resources/staudt/sources/staudt_1857_beitraege_wuerfe_de.txt#L104"
+    },
+    "Vorwort & Einleitung": {
+      "default": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt#L8",
+      "de": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt#L8",
+      "en": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt#L8"
+    },
+    "§§ 8–11": {
+      "default": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt#L163",
+      "de": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt#L163",
+      "en": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt#L163"
+    },
+    "§ 12": {
+      "default": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt#L163",
+      "de": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt#L163",
+      "en": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt#L163"
+    }
+  }
+}
