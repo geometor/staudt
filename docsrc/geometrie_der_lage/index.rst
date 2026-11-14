@@ -1,18 +1,25 @@
 :navigation: header
 :order: 1
+:nav_title: Geometry of Position
 :layout: book
+:book_title: Geometry of Position & Calculus of Throws
+:book_subtitle: Geometrie der Lage (1847) & Beiträge zur Geometrie der Lage (1856–1860) — K. G. C. von Staudt
+:author: Karl Georg Christian von Staudt
+:year: 1847
 
 .. _geometrie-index:
 
-GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN
-========================================
+Geometry of Position & Calculus of Throws
+=========================================
 
-.. rubric:: *Geometry of Position* (1847) & *The Algebra of Throws* (1857) — Karl Georg Christian von Staudt
+.. rubric:: *Geometrie der Lage* & *Beiträge zur Geometrie der Lage* — Karl Georg Christian von Staudt
 
-| **Editio Princeps I (Deutsch, 1847):** *Geometrie der Lage*, Nürnberg: Verlag der Friedr. Korn'schen Buchhandlung, 1847.
-| **Editio Princeps II (Deutsch, 1857):** *Beiträge zur Geometrie der Lage, Zweites Heft*, §§ 19, 20, 29, Nürnberg: Fr. Korn, 1857.
-| **English Translation:** Original scholarly translation curated for the GEOMETOR Digital Scriptorium (2026).
-| **Digital Critical Codex:** Synchronized 4-track edition (*English · Deutsch · Summary · Notes*) with calibrated ``.euclid-graphic`` vector figures.
+.. container:: title-page
+
+   | **Author:** :person:`Karl Georg Christian von Staudt <staudt>`
+   | **First German Editions (1847 / 1856–1860):** *Geometrie der Lage*, Nürnberg: Verlag der Friedr. Korn'schen Buchhandlung, 1847; *Beiträge zur Geometrie der Lage, Zweites Heft*, Nürnberg: Fr. Korn, 1857.
+   | **English Translation:** Original scholarly translation curated for the GEOMETOR Digital Scriptorium (2026).
+   | **Digital Critical Codex:** Synchronized 4-track edition (*English · Deutsch · Summary · Notes*) with calibrated vector figures.
 
 .. epigraph::
 
@@ -24,7 +31,7 @@ GEOMETRIE DER LAGE & RECHNUNG MIT WÜRFEN
 
 ----
 
-Conspectus Operis
+Table of Contents
 -----------------
 
 **Unit 1: Ideal Elements, Projective Space & Uniform Fundamental Forms** (*Vorwort & §§ 1–5, arts. 1–53*)
@@ -41,10 +48,10 @@ Conspectus Operis
 
 ----
 
-Apparatus Criticus
-------------------
+Scholarly Apparatus
+-------------------
 
-* :ref:`Master Cross-Corpus Concordance <concordance>` · :ref:`Systematic Bibliography <bibliography>` · :ref:`Index of Persons <persons>` · :ref:`Bilingual Mathematical Glossary <glossary>`
+* :ref:`Cross-Corpus Concordance <concordance>` · :ref:`Systematic Bibliography <bibliography>` · :ref:`People <persons>` · :ref:`Bilingual Mathematical Glossary <glossary>`
 
 .. toctree::
    :maxdepth: 1

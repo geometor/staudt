@@ -12,15 +12,15 @@ Digital critical edition, synchronized bilingual 4-track Book Codices (*English 
 
 ----
 
-Primary Book Codices (*Opera*)
-------------------------------
+Primary Book Codices
+--------------------
 
 :doc:`Codex I · Geometrie der Lage (1847) & Rechnung mit Würfen (1857) <geometrie_der_lage/index>`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *Nürnberg: Verlag der Friedr. Korn'schen Buchhandlung, 1847 & 1857 · Synchronized 4-Track Edition (English · Deutsch · Summary · Notes).*
 
-* :ref:`Conspectus Operis <geometrie-index>`
+* :ref:`Table of Contents <geometrie-index>`
 * :ref:`Unit 1: Ideal Elements, Reciprocity & Fundamental Forms (Vorwort & §§ 1–5) <geometrie-unit-1-en>` · :ref:`Deutsch <geometrie-unit-1-de>`
 * :ref:`Unit 2: Complete Quadrangle, Harmonic Separation & Projectivity (§§ 6–8) <geometrie-unit-2-en>` · :ref:`Deutsch <geometrie-unit-2-de>`
 * :ref:`Unit 3: Involutions, Polar Systems & Order Curves (§§ 9, 18–19) <geometrie-unit-3-en>` · :ref:`Deutsch <geometrie-unit-3-de>`
@@ -31,7 +31,7 @@ Primary Book Codices (*Opera*)
 
 *Leipzig: Verlag von B. G. Teubner, 1882 · Synchronized 4-Track Edition (English · Deutsch · Summary · Notes).*
 
-* :ref:`Conspectus Operis <pasch-index>`
+* :ref:`Table of Contents <pasch-index>`
 * :ref:`Unit 1: Grounding Geometry & Linear Betweenness (Vorwort, Einleitung & § 1) <pasch-unit-1-en>` · :ref:`Deutsch <pasch-unit-1-de>`
 * :ref:`Unit 2: Pasch's Planar Separation Axiom, Ideal Sheaves & the Deductive Manifesto (§ 2 & §§ 8–12) <pasch-unit-2-en>` · :ref:`Deutsch <pasch-unit-2-de>`
 
@@ -41,13 +41,14 @@ Scholarly Apparatus & Constructive Architecture
 -----------------------------------------------
 
 * :ref:`Cross-Corpus Concordance (Euclid · Pappus · von Staudt · Pasch · Hilbert · Russell · Hoenen) <concordance>`
-* :ref:`Systematic Bibliography <bibliography>` · :ref:`Prosopographical Index <persons>` · :ref:`Bilingual Mathematical Glossary <glossary>`
-* :doc:`Mission & Axiomatic Synthesis <mission/index>` · :doc:`Exact Straightedge Demonstrations <demos/index>` · :doc:`Python Symbolic API <modules/index>` · :doc:`Curation Log <log/index>`
+* :ref:`Systematic Bibliography <bibliography>` · :ref:`People <persons>` · :ref:`Bilingual Mathematical Glossary <glossary>`
+* :doc:`Using This Edition (Reader's Guide) <usage/index>` · :doc:`Mission & Axiomatic Synthesis <mission/index>` · :doc:`Exact Straightedge Demonstrations <demos/index>` · :doc:`Python Symbolic API <modules/index>` · :doc:`Curation Log <log/index>`
 
 .. toctree::
    :maxdepth: 2
    :hidden:
 
+   usage/index
    concordance
    bibliography
    persons
