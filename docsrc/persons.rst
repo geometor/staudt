@@ -1,9 +1,16 @@
+:navigation: header
+:order: 5
+:nav_title: People
+
 .. _persons:
 
-Prosopographical Index of Persons
-=================================
+People
+======
 
 .. rubric:: Geometers, Algebraists & Philosophers of the Projective and Axiomatic Tradition
+
+Authors & Primary Pioneers
+--------------------------
 
 .. _person-staudt:
 
@@ -14,6 +21,9 @@ Prosopographical Index of Persons
 
 **Moritz Pasch** (*1843–1930*)
    Professor of Mathematics at the University of Giessen. In *Vorlesungen über neuere Geometrie* (:cite:`1882 <pasch:1882>`), he uncovered the unstated order hypotheses of classical and projective geometry, axiomatized linear :term:`betweenness <zwischen>` and planar triangle separation (:term:`Pasch's Axiom <pasch-grundsatz>`), constructed ideal projective sheaves intrinsically from proper segments and planes, and articulated the modern hypothetico-deductive criterion of formal proof (§ 12, p. 98).
+
+Cited Geometers, Philosophers & Scholars
+----------------------------------------
 
 .. _person-euclid:
 

@@ -1,17 +1,25 @@
 :navigation: header
 :order: 2
+:nav_title: Modern Geometry
 :layout: book
+:book_title: Lectures on Modern Geometry
+:book_subtitle: Vorlesungen über neuere Geometrie — Moritz Pasch (1882)
+:author: Moritz Pasch
+:year: 1882
 
 .. _pasch-index:
 
-VORLESUNGEN ÜBER NEUERE GEOMETRIE
-=================================
+Lectures on Modern Geometry
+===========================
 
-.. rubric:: *Lectures on Modern Geometry* (1882) — Moritz Pasch
+.. rubric:: *Vorlesungen über neuere Geometrie* — Moritz Pasch (1882)
 
-| **Editio Princeps (Deutsch, 1882):** *Vorlesungen über neuere Geometrie*, Leipzig: Verlag von B. G. Teubner, 1882.
-| **English Translation:** Original scholarly translation curated for the GEOMETOR Digital Scriptorium (2026).
-| **Digital Critical Codex:** Synchronized 4-track edition (*English · Deutsch · Summary · Notes*) with calibrated ``.euclid-graphic`` vector figures.
+.. container:: title-page
+
+   | **Author:** :person:`Moritz Pasch <pasch>`
+   | **First German Edition (1882):** *Vorlesungen über neuere Geometrie*, Leipzig: Verlag von B. G. Teubner, 1882.
+   | **English Translation:** Original scholarly translation curated for the GEOMETOR Digital Scriptorium (2026).
+   | **Digital Critical Codex:** Synchronized 4-track edition (*English · Deutsch · Summary · Notes*) with calibrated vector figures.
 
 .. epigraph::
 
@@ -23,7 +31,7 @@ VORLESUNGEN ÜBER NEUERE GEOMETRIE
 
 ----
 
-Conspectus Operis
+Table of Contents
 -----------------
 
 **Unit 1: Grounding Geometry & The Eight Nuclear Axioms of Linear Betweenness** (*Vorwort, Einleitung & § 1: Von der geraden Linie, pp. 1–17*)
@@ -34,10 +42,10 @@ Conspectus Operis
 
 ----
 
-Apparatus Criticus
-------------------
+Scholarly Apparatus
+-------------------
 
-* :ref:`Master Cross-Corpus Concordance <concordance>` · :ref:`Systematic Bibliography <bibliography>` · :ref:`Index of Persons <persons>` · :ref:`Bilingual Mathematical Glossary <glossary>`
+* :ref:`Cross-Corpus Concordance <concordance>` · :ref:`Systematic Bibliography <bibliography>` · :ref:`People <persons>` · :ref:`Bilingual Mathematical Glossary <glossary>`
 
 .. toctree::
    :maxdepth: 1

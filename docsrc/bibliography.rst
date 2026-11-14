@@ -1,7 +1,11 @@
+:navigation: header
+:order: 6
+:nav_title: Bibliography
+
 .. _bibliography:
 
-Systematic Bibliography
-=======================
+Bibliography
+============
 
 .. rubric:: Primary Editions, Projective Treatises & Axiomatic Foundations
 
