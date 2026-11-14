@@ -42,12 +42,13 @@ Scholarly Apparatus & Constructive Architecture
 
 * :ref:`Cross-Corpus Concordance (Euclid · Pappus · von Staudt · Pasch · Hilbert · Russell · Hoenen) <concordance>`
 * :ref:`Systematic Bibliography <bibliography>` · :ref:`People <persons>` · :ref:`Bilingual Mathematical Glossary <glossary>`
-* :doc:`Using This Edition (Reader's Guide) <usage/index>` · :doc:`Mission & Axiomatic Synthesis <mission/index>` · :doc:`Exact Straightedge Demonstrations <demos/index>` · :doc:`Python Symbolic API <modules/index>` · :doc:`Curation Log <log/index>`
+* :doc:`About This Edition <about/index>` · :doc:`Using This Edition (Reader's Guide) <usage/index>` · :doc:`Exact Straightedge Demonstrations <demos/index>` · :doc:`Python Symbolic API <modules/index>` · :doc:`Curation Log <log/index>`
 
 .. toctree::
    :maxdepth: 2
    :hidden:
 
+   about/index
    usage/index
    concordance
    bibliography
