@@ -2,6 +2,11 @@
 Changelog
 =========
 
+0.1.1 (2026-11-13)
+==================
+
+* **added**: Added track-aware primary-source folio map (``resources/staudt/folio_map.json``) resolving 32/32 folio directives to verified German text loci and source files across *Geometrie der Lage* and *Vorlesungen über neuere Geometrie*.
+
 0.1.0 (2026-11-12)
 ==================
 
