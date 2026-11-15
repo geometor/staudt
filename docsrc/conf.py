@@ -34,7 +34,6 @@ author = "Karl Georg Christian von Staudt & Moritz Pasch (ed. phi ARCHITECT)"
 copyright = "1847–1882 Public Domain; 2026 GEOMETOR Critical Apparatus & Symbolic Library"
 
 html_static_path = ["_static"]
-html_logo = None
 
 # AutoAPI configuration for src/geometor/staudt
 autoapi_dirs = [str(_REPO_ROOT / "src" / "geometor")]
