@@ -49,7 +49,7 @@ Point = spg.Point
 
 
 def test_version_and_straightedge_guard() -> None:
-    assert __version__ == "0.1.4"
+    assert __version__ == "0.1.5"
     model = Model("straightedge_test", auto_intersect=False)
     A = model.set_point(0, 0, classes=["given"], label="A")
     B = model.set_point(1, 0, classes=["given"], label="B")
