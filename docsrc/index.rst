@@ -2,13 +2,13 @@
 
 .. container:: author-overline
 
-   the works of
+   semantic digital archive • the works of
 
 ===============================
 Karl Georg Christian von Staudt
 ===============================
 
-The mission of this project is to capture a semantic digital library of the works of :person:`Karl Georg Christian von Staudt <staudt>` (1798–1867), the German mathematician who founded pure synthetic projective geometry and the metric-free Algebra of Throws without measurement or coordinates.
+The works of :person:`Karl Georg Christian von Staudt <staudt>` (1798–1867), German mathematician and geometer, founded pure synthetic projective geometry and the metric-free Algebra of Throws (*Rechnung mit Würfen*) without measurement or coordinates. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, these foundational treatises are liberated from static print bounds—decomposed into addressable semantic units, synchronized bilingual codices, calibrated vector diagrams, and cross-corpus citations speaking one shared geometric language.
 
 .. collection::
    :type: book
