@@ -15,7 +15,7 @@ The four standalone scripts in ``demos/`` verify every constructive theorem of :
 ------------------------------------------------------------------
 
 * **Script**: ``demos/01_harmonic_fourth_straightedge.py``
-* **Locus**: :cite:`Staudt 1847 §§ 6–8, arts. 66–98 <staudt:1847>` (:ref:`Codex I, Unit 2 <geometrie-unit-2-en>`)
+* **Locus**: :cite:`Staudt 1847 §§ 6–8, arts. 66–98 <staudt:1847>` (:ref:`Geometrie der Lage § 6 <geometrie-sec-06-en>`)
 * **Verification**: Constructs the harmonic fourth $D = (-6, 0)$ of $A=(0,0), B=(6,0), C=(2,0)$ using 7 straightedge lines and 0 circles, proves $(A, B; C, D) = -1$ and mutual pair separation $AB \parallel CD$, confirms numerical invariance across distinct auxiliary quadrangles, and proves universally over $\mathbb{Q}(c, u, v, t)$ via ``prove_symbolic_quadrangle_uniqueness()`` that $x_D = \frac{c}{2c - 1}$ is completely independent of the off-line quadrangle parameters $(u, v, t)$.
 
 .. picture:: /_static/figures/unit2_complete_quadrangle_harmonic.svg
@@ -28,7 +28,7 @@ The four standalone scripts in ``demos/`` verify every constructive theorem of :
 --------------------------------------------------------------
 
 * **Script**: ``demos/02_von_staudt_addition.py``
-* **Locus**: :cite:`Staudt 1857 Heft 2, §§ 19 & 29, arts. 256–267, 403–404 <staudt:1857>` (:ref:`Codex I, Unit 4 <geometrie-unit-4-en>`)
+* **Locus**: :cite:`Staudt 1857 Heft 2, §§ 19 & 29, arts. 256–267, 403–404 <staudt:1857>` (:ref:`Beiträge (1857) § 19 <beitraege-sec-19-en>`)
 * **Verification**: Executes parabolic double-perspectivity addition $S = X + Y$ both for a finite horizon point $P_\infty = (8, 0)$ and for the ideal horizon $P_\infty = \infty$ (via ``construct_parallel_straightedge``), verifying $P_1 + P_1 = P_2$ and $P_2 + P_3 = P_5$, and builds the integer harmonic ladder $P_{-1}, P_0, P_1, \dots, P_5$.
 
 .. picture:: /_static/figures/unit4_addition_of_throws.svg
@@ -41,7 +41,7 @@ The four standalone scripts in ``demos/`` verify every constructive theorem of :
 ------------------------------------------------------------------------------------
 
 * **Script**: ``demos/03_von_staudt_multiplication_golden.py``
-* **Locus**: :cite:`Staudt 1857 Heft 2, § 20, arts. 268–269 <staudt:1857>` (:ref:`Codex I, Unit 4 <geometrie-unit-4-en>`)
+* **Locus**: :cite:`Staudt 1857 Heft 2, § 20, arts. 268–269 <staudt:1857>` (:ref:`Beiträge (1857) § 20 <beitraege-sec-20-en>`)
 * **Verification**: Executes hyperbolic double-perspectivity multiplication $P = X \cdot Y$ fixing $P_0$ and $P_\infty$, verifies $P_2 \cdot P_3 = P_6$ and distributivity $(P_2 + P_3) \cdot P_2 = P_2 \cdot P_2 + P_3 \cdot P_2$, and proves over $\mathbb{Q}(\phi)$ ($\phi = \frac{1 + \sqrt{5}}{2}$) that the straightedge product $P_\phi \cdot P_\phi$ and the straightedge sum $P_\phi + P_1$ land on the **exact same symbolic point** $P_{\phi^2} = \left(\frac{92 + 28\sqrt{5}}{71}, 0\right)$ on the projective carrier!
 
 .. picture:: /_static/figures/unit4_multiplication_of_throws.svg
