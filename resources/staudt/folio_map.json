@@ -74,6 +74,41 @@
       "default": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt#L163",
       "de": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt#L163",
       "en": "resources/staudt/sources/pasch_1882_vorlesungen_de.txt#L163"
+    },
+    "§ 3": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L82",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L82",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L82"
+    },
+    "§ 4": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L59",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L59",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L59"
+    },
+    "§ 5": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L94",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L94",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L94"
+    },
+    "§ 7": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L138",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L138",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L138"
+    },
+    "§ 8": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L179",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L179",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L179"
+    },
+    "§ 18": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L229",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L229",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L229"
+    },
+    "§ 19 (1847)": {
+      "default": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L229",
+      "de": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L229",
+      "en": "resources/staudt/sources/staudt_1847_geometrie_der_lage_de.txt#L229"
     }
   }
 }

@@ -29,9 +29,12 @@ repo_name = "staudt"
 
 setup_globals(org, org_name, repo, repo_name)
 
-project = "GEOMETOR • staudt"
-author = "Karl Georg Christian von Staudt & Moritz Pasch (ed. phi ARCHITECT)"
-copyright = "1847–1882 Public Domain; 2026 GEOMETOR Critical Apparatus & Symbolic Library"
+site_title = "Karl Georg Christian von Staudt"
+project = site_title
+html_title = f"{site_title} • {org_name}"
+blog_title = site_title
+author = "Karl Georg Christian von Staudt (ed. phi ARCHITECT)"
+copyright = "1847–1857 Public Domain; 2026 GEOMETOR Critical Apparatus & Symbolic Library"
 
 html_static_path = ["_static"]
 
@@ -44,6 +47,7 @@ suppress_warnings = ["autoapi.python_import_resolution", "toc.not_included"]
 # Offline-first cross-repository intersphinx mappings (replace network-only defaults)
 intersphinx_mapping = {}
 for _sister in (
+    "pasch",
     "euclid",
     "elements",
     "pappus",

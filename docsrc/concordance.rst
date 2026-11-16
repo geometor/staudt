@@ -16,57 +16,57 @@ This concordance synchronizes the 15 canonical loci of ``resources/staudt/concor
 
    * - ID
      - Source Locus
-     - Codex Unit & API
+     - Codex Section & API
      - Sister Repositories
      - Deductive & Algebraic Role
    * - ``staudt-01``
      - Staudt 1847 *Vorwort* & § 1 (arts. 1–15)
-     - :ref:`Codex I Unit 1 <geometrie-unit-1-en>` · ``assert_straightedge_only``
+     - :ref:`Geometrie (1847) § 1 <geometrie-sec-01-en>` · ``assert_straightedge_only``
      - ``euclid`` Book I Post. 1–2; ``hilbert`` § 2 Group I; ``lemoine`` ``S = R``
      - Pure incidence foundation; complete exclusion of compass circles and metric ratios.
    * - ``staudt-02``
      - Staudt 1847 §§ 2–5 (arts. 16–53)
-     - :ref:`Codex I Unit 1 <geometrie-unit-1-en>` · ``construct_parallel_straightedge``
+     - :ref:`Geometrie (1847) § 2 <geometrie-sec-02-en>` · ``construct_parallel_straightedge``
      - ``euclid`` I.27–I.31; ``pappus`` ``ideal_elements``; ``hilbert`` § 4 Group III
      - Ideal points/lines via parallel sheaves and three-dimensional :term:`reciprocity <reciprocitaet>`.
    * - ``staudt-03``
      - Staudt 1847 § 6 (arts. 66–74)
-     - :ref:`Codex I Unit 2 <geometrie-unit-2-en>` · ``construct_harmonic_fourth_straightedge``
+     - :ref:`Geometrie (1847) § 6 <geometrie-sec-06-en>` · ``construct_harmonic_fourth_straightedge``
      - ``pappus`` VII.129–131; ``altshiller-court`` Ch. VI; ``bertrand-russell`` 1897 § 114
      - Pure straightedge :term:`complete quadrangle <vollstaendiges-viereck>` definition of $(A, B; C, D) = -1$ and 3D uniqueness proof.
    * - ``staudt-04``
      - Staudt 1847 §§ 7–8 (arts. 75–98)
-     - :ref:`Codex I Unit 2 <geometrie-unit-2-en>` · ``verify_quadrangle_independence``
+     - :ref:`Geometrie (1847) § 8 <geometrie-sec-08-en>` · ``verify_quadrangle_independence``
      - ``pappus`` VII.139; ``hilbert`` Kap. V (Desargues); ``bertrand-russell`` 1903 Ch. XLV
      - Harmonic preservation defines :term:`projectivity <projektivisch>`; Fundamental Theorem of Projective Geometry.
    * - ``staudt-05``
      - Staudt 1847 § 9 (arts. 103–115)
-     - :ref:`Codex I Unit 3 <geometrie-unit-3-en>` · ``pair_separates``
+     - :ref:`Geometrie (1847) § 9 <geometrie-sec-09-en>` · ``pair_separates``
      - ``pappus`` involution lemmas; ``altshiller-court`` Ch. IX (Involution)
      - Hyperbolic vs. elliptic involutions; double points as harmonic conjugates of every pair.
    * - ``staudt-06``
      - Staudt 1847 §§ 18–19 (arts. 235–257)
-     - :ref:`Codex I Unit 3 <geometrie-unit-3-en>` · ``unit3_polar_conic_self_conjugate.svg``
+     - :ref:`Geometrie (1847) § 19 <geometrie-sec-19-en>` · ``unit3_polar_conic_self_conjugate.svg``
      - ``pappus`` Pascal/Brianchon; ``hilbert`` Kap. VI; ``altshiller-court`` Poles & Polars
      - :term:`Order curve <ordnungscurve>` defined as self-conjugate locus $P \in \pi(P)$ of a :term:`polar system <polarsystem>`.
    * - ``staudt-07``
      - Staudt 1857 Heft 2, § 19 (arts. 256–267)
-     - :ref:`Codex I Unit 4 <geometrie-unit-4-en>` · ``construct_von_staudt_addition``
+     - :ref:`Beiträge (1857) § 19 <beitraege-sec-19-en>` · ``construct_von_staudt_addition``
      - ``hilbert`` § 15 segment addition; ``codes`` projective arithmetic
      - Straightedge addition $S = X + Y$ fixing $P_\infty$ via parabolic double perspectivity.
    * - ``staudt-08``
      - Staudt 1857 Heft 2, § 20 (arts. 268–269)
-     - :ref:`Codex I Unit 4 <geometrie-unit-4-en>` · ``construct_von_staudt_multiplication``
+     - :ref:`Beiträge (1857) § 20 <beitraege-sec-20-en>` · ``construct_von_staudt_multiplication``
      - ``pappus`` VII.139 (commutativity); ``hilbert`` §§ 15–16; ``euclid`` VI.12
      - Straightedge multiplication $P = X \cdot Y$ fixing $P_0, P_\infty$; commutative iff Pappus holds.
    * - ``staudt-09``
      - Staudt 1857 Heft 2, § 29 (arts. 403–404)
-     - :ref:`Codex I Unit 4 <geometrie-unit-4-en>` · ``construct_harmonic_scale``, ``projective_abscissa``
+     - :ref:`Beiträge (1857) § 29 <beitraege-sec-29-en>` · ``construct_harmonic_scale``, ``projective_abscissa``
      - ``bertrand-russell`` 1897 §§ 118–124; ``hilbert`` § 17 coordinates
      - :term:`Harmonic scale <harmonische-reihe>` (Möbius net) and intrinsic :term:`projective abscissae <abscisse>` without distance.
    * - ``staudt-10``
      - Staudt 1857 §§ 19–20 over $\mathbb{Q}(\phi)$
-     - :ref:`Codex I Unit 4 <geometrie-unit-4-en>` · ``verify_golden_throw_identity``
+     - :ref:`Beiträge (1857) § 19 <beitraege-sec-19-en>` · ``verify_golden_throw_identity``
      - ``divine`` golden section; ``euclid`` II.11 & VI.30; ``pappus`` $\mathbb{Q}(\phi)$ ranges
      - Exact straightedge verification that $P_\phi \cdot P_\phi = P_\phi + P_1$ on any projective carrier.
    * - ``pasch-01``

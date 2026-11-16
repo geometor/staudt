@@ -5,7 +5,7 @@
       "treatise": "von Staudt 1847",
       "locus_de": "Vorwort, S. III–IV",
       "title": "Autonomy of Geometry of Position Without Measurement",
-      "codex_ref": "geometrie-unit-1-en",
+      "codex_ref": "geometrie-vorwort-en",
       "cross_refs": {
         "bertrand-russell": "EFG §§ 109–116 & PoM §§ 208–211 (pure projective space prior to metrical quantity)",
         "hilbert": "Grundlagen Ch. I & V (eliminating metric ratios from projective incidence)",
@@ -19,7 +19,7 @@
       "treatise": "von Staudt 1847",
       "locus_de": "§§ 1–2, Art. 1–28",
       "title": "Primitive Forms of the First, Second, and Third Grades",
-      "codex_ref": "geometrie-unit-1-en",
+      "codex_ref": "geometrie-sec-01-en",
       "cross_refs": {
         "hilbert": "Grundlagen § 1 Incidence Axioms I 1–8",
         "bertrand-russell": "PoM Ch. XXIV–XXV (straight line, pencil, sheaf)",
@@ -32,7 +32,7 @@
       "treatise": "von Staudt 1847",
       "locus_de": "§ 5, Art. 54–65",
       "title": "Ideal Elements at Infinity via Directions and Positions",
-      "codex_ref": "geometrie-unit-1-en",
+      "codex_ref": "geometrie-sec-05-en",
       "cross_refs": {
         "pasch": "Vorlesungen §§ 7–8 (rigorous sheaf-theoretic construction of improper points, lines, and planes)",
         "bertrand-russell": "PoM § 210 (ideal elements as classes of sheaves)",
@@ -45,7 +45,7 @@
       "treatise": "von Staudt 1847",
       "locus_de": "§ 6, Art. 66–78",
       "title": "Spatial and Planar Law of Reciprocity (Duality)",
-      "codex_ref": "geometrie-unit-2-en",
+      "codex_ref": "geometrie-sec-06-en",
       "cross_refs": {
         "pasch": "Vorlesungen § 12 (formal proof of duality by permuting primitive terms in Stammsätze)",
         "pappus": "Dual point/line configurations in Steiner and Pascal-Brianchon",
@@ -58,7 +58,7 @@
       "treatise": "von Staudt 1847",
       "locus_de": "§ 7, Art. 80–91",
       "title": "Complete Quadrangle, Spatial Desargues, and Sixth-Side Uniqueness",
-      "codex_ref": "geometrie-unit-2-en",
+      "codex_ref": "geometrie-sec-06-en",
       "cross_refs": {
         "hilbert": "Grundlagen Ch. V §§ 22–23 (Desargues's Theorem & non-Desarguesian plane counterexample)",
         "pappus": "Desarguesian perspective triangles and complete quadrangle configurations",
@@ -71,7 +71,7 @@
       "treatise": "von Staudt 1847",
       "locus_de": "§ 8, Art. 93–98",
       "title": "Pure Straightedge Fourth Harmonic Point & Pair Separation",
-      "codex_ref": "geometrie-unit-2-en",
+      "codex_ref": "geometrie-sec-08-en",
       "cross_refs": {
         "pappus": "Book VII Prop. 129–131 harmonic ranges constructed without circles",
         "altshiller-court": "College Geometry Ch. VII (harmonic division and complete quadrilateral)",
@@ -85,7 +85,7 @@
       "treatise": "von Staudt 1847",
       "locus_de": "§ 9, Art. 103–115",
       "title": "Harmonic Projectivity, Fundamental Theorem, and Quadric Regulus",
-      "codex_ref": "geometrie-unit-3-en",
+      "codex_ref": "geometrie-sec-09-en",
       "cross_refs": {
         "pappus": "Pappus's Hexagon Theorem equivalent to commutativity & Fundamental Theorem (Hessenberg 1905)",
         "hilbert": "Grundlagen Ch. VI §§ 31–35 (Pascal's Theorem, commutativity, and Archimedes/continuity)",
@@ -98,7 +98,7 @@
       "treatise": "von Staudt 1847",
       "locus_de": "§§ 18–19, Art. 234–258",
       "title": "Intrinsic Polar Conic Theory, Steiner Pencils, and Pascal–Brianchon",
-      "codex_ref": "geometrie-unit-3-en",
+      "codex_ref": "geometrie-sec-19-en",
       "cross_refs": {
         "pappus": "Hexagrammum Mysticum (Pascal's Theorem) & Steiner conic generation",
         "altshiller-court": "College Geometry poles, polars, and self-polar triangles",
@@ -111,7 +111,7 @@
       "treatise": "von Staudt 1857",
       "locus_de": "Heft 2, § 19, Art. 256–267",
       "title": "Rechnung mit Würfen: Pure Straightedge Addition & Harmonic Scale",
-      "codex_ref": "geometrie-unit-4-en",
+      "codex_ref": "beitraege-sec-19-en",
       "cross_refs": {
         "hilbert": "Grundlagen Ch. V §§ 24–26 (Streckenrechnung segment addition via Desargues)",
         "bertrand-russell": "PoM §§ 211, 242 (projective coordinates and Möbius-von Staudt harmonic net)",
@@ -124,7 +124,7 @@
       "treatise": "von Staudt 1857",
       "locus_de": "Heft 2, § 20, Art. 268–269",
       "title": "Rechnung mit Würfen: Pure Straightedge Multiplication of Throws",
-      "codex_ref": "geometrie-unit-4-en",
+      "codex_ref": "beitraege-sec-20-en",
       "cross_refs": {
         "hilbert": "Grundlagen Ch. V–VI §§ 24–34 (segment multiplication & Pappus-Pascal commutativity)",
         "pappus": "Commutativity U * U1 = U1 * U equivalent to Pappus's Hexagon Theorem",
@@ -137,7 +137,7 @@
       "treatise": "von Staudt 1857",
       "locus_de": "Heft 2, § 29, Art. 403–404",
       "title": "Projective Abscissae Without Metric Distance",
-      "codex_ref": "geometrie-unit-4-en",
+      "codex_ref": "beitraege-sec-29-en",
       "cross_refs": {
         "bertrand-russell": "EFG §§ 117–125 & PoM Ch. XLV (non-metrical projective coordinates)",
         "hilbert": "Grundlagen § 27 & § 35 (coordinatization of Desarguesian and Pappian planes)"
