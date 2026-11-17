@@ -21,20 +21,6 @@ Books in This Archive
 - `Geometry of Position <https://geometor.github.io/staudt/geometrie_der_lage/>`_ — *Geometrie der Lage* (Karl Georg Christian von Staudt, 1847), establishing harmonic conjugates purely via the complete quadrangle, the Fundamental Theorem of Projective Geometry, and conics as polarities without distance or circles.
 - `Contributions to the Geometry of Position <https://geometor.github.io/staudt/beitraege_1857/>`_ — *Beiträge zur Geometrie der Lage* (Zweites Heft: Die Rechnung mit Würfen, 1857), constructing projective addition and multiplication of throws purely with an unmarked straightedge to recover field arithmetic directly from incidence.
 
-Python Package & Modules
-------------------------
-
-The ``geometor-staudt`` Python package (``import geometor.staudt``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
-
-- ``concordance.py`` — Cross-corpus concordance loader and SHA-256 archival source witness verifier for
-- ``pasch.py`` — Moritz Pasch's Planar Separation Axiom (*Vorlesungen über neuere Geometrie*, 1882,
-- ``projective.py`` — Exact projective coordinates (Abscissen), linear betweenness, cyclic pair separation,
-- ``quadrangle.py`` — Pure straightedge complete-quadrangle construction of the fourth harmonic point
-- ``render.py`` — Exact SymPy-driven SVG figure builder generating the 8 standalone ``.euclid-graphic``
-- ``throws.py`` — Von Staudt's *Rechnung mit Würfen* (*Algebra of Throws*, *Beiträge zur Geometrie der Lage*,
-- ``cli.py`` — Command-line interface (``geometor-staudt``) for inspecting the codex concordance,
-
-See the `API Reference <https://geometor.github.io/staudt/modules/>`_ for full module documentation.
 
 Repository Contents
 -------------------
