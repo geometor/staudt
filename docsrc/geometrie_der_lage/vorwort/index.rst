@@ -1,9 +1,9 @@
 :layout: book
-:canonical_id: Vorwort
-:breadcrumb_title: Vorwort
+:canonical_id: Preface
+:breadcrumb_title: Preface
 :order: 1
 :folio: Vorwort
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _geometrie-vorwort-en:
 .. _geometrie-vorwort:
@@ -12,8 +12,8 @@
 .. folio:: Vorwort
    :page: iii
 
-Preface (*Vorwort*, Nuremberg, August 1847)
-===========================================
+Preface (Nuremberg, August 1847)
+================================
 
 .. rubric:: Karl Georg Christian von Staudt — *Geometrie der Lage* (1847), *Vorwort* (pp. iii–iv)
 

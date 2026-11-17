@@ -2,7 +2,7 @@
 :canonical_id: § 20
 :breadcrumb_title: § 20
 :order: 2
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _beitraege-sec_20-notes:
 

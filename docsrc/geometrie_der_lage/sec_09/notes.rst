@@ -2,7 +2,7 @@
 :canonical_id: § 9
 :breadcrumb_title: § 9
 :order: 10
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _geometrie-sec_09-notes:
 .. _geometrie-unit-3-notes:

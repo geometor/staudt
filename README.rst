@@ -3,6 +3,11 @@ GEOMETOR • staudt
 
 **Visit the Online Archive:** https://geometor.github.io/staudt/
 
+.. image:: docsrc/_static/figures/unit2_complete_quadrangle_harmonic.svg
+   :alt: GEOMETOR • staudt featured geometric construction
+   :target: https://geometor.github.io/staudt/
+   :align: center
+
 **Karl Georg Christian von Staudt • Geometrie der Lage, Beiträge zur Geometrie der Lage • semantic digital archive**
 
 Mission
@@ -13,8 +18,8 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`Geometrie der Lage <https://geometor.github.io/staudt/geometrie_der_lage/>`_** — Karl Georg Christian von Staudt (1847), establishing harmonic conjugates purely via the complete quadrangle, the Fundamental Theorem of Projective Geometry, and conics as polarities without distance or circles.
-- **`Beiträge zur Geometrie der Lage <https://geometor.github.io/staudt/beitraege_1857/>`_** — Zweites Heft: Die Rechnung mit Würfen (1857), constructing projective addition and multiplication of throws purely with an unmarked straightedge to recover field arithmetic directly from incidence.
+- **`Geometry of Position <https://geometor.github.io/staudt/geometrie_der_lage/>`_** — *Geometrie der Lage* (Karl Georg Christian von Staudt, 1847), establishing harmonic conjugates purely via the complete quadrangle, the Fundamental Theorem of Projective Geometry, and conics as polarities without distance or circles.
+- **`Contributions to the Geometry of Position <https://geometor.github.io/staudt/beitraege_1857/>`_** — *Beiträge zur Geometrie der Lage* (Zweites Heft: Die Rechnung mit Würfen, 1857), constructing projective addition and multiplication of throws purely with an unmarked straightedge to recover field arithmetic directly from incidence.
 
 Repository Contents
 -------------------

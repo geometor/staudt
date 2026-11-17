@@ -3,7 +3,7 @@
 :breadcrumb_title: § 2
 :order: 3
 :folio: § 2
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _geometrie-sec_02-de:
 

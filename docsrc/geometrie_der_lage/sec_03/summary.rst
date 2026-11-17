@@ -2,7 +2,7 @@
 :canonical_id: § 3
 :breadcrumb_title: § 3
 :order: 4
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _geometrie-sec_03-summary:
 

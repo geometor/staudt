@@ -2,7 +2,7 @@
 :canonical_id: § 7
 :breadcrumb_title: § 7
 :order: 8
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _geometrie-sec_07-notes:
 

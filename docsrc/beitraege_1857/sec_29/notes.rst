@@ -2,7 +2,7 @@
 :canonical_id: § 29
 :breadcrumb_title: § 29
 :order: 3
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _beitraege-sec_29-notes:
 

@@ -2,7 +2,7 @@
 :canonical_id: § 19
 :breadcrumb_title: § 19
 :order: 1
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _beitraege-sec_19-notes:
 .. _geometrie-unit-4-notes:

@@ -2,7 +2,7 @@
 :canonical_id: § 6
 :breadcrumb_title: § 6
 :order: 7
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _geometrie-sec_06-summary:
 .. _geometrie-unit-2-summary:
