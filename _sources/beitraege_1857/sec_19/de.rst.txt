@@ -3,7 +3,7 @@
 :breadcrumb_title: § 19
 :order: 1
 :folio: § 19
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _beitraege-sec_19-de:
 .. _geometrie-unit-4-de:

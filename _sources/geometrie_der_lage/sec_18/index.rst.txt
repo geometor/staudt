@@ -3,7 +3,7 @@
 :breadcrumb_title: § 18
 :order: 11
 :folio: § 18
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _geometrie-sec_18-en:
 .. _geometrie-sec_18:

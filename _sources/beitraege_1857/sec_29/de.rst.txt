@@ -3,7 +3,7 @@
 :breadcrumb_title: § 29
 :order: 3
 :folio: § 29
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _beitraege-sec_29-de:
 

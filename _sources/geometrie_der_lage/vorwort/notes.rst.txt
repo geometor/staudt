@@ -1,8 +1,8 @@
 :layout: book
 :canonical_id: Vorwort
-:breadcrumb_title: Vorwort
+:breadcrumb_title: Preface
 :order: 1
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _geometrie-vorwort-notes:
 .. _geometrie-unit-1-notes:

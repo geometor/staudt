@@ -3,7 +3,7 @@
 :breadcrumb_title: Vorwort
 :order: 1
 :folio: Vorwort
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _geometrie-vorwort-de:
 .. _geometrie-unit-1-de:

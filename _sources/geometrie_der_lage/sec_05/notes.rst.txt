@@ -2,7 +2,7 @@
 :canonical_id: § 5
 :breadcrumb_title: § 5
 :order: 6
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _geometrie-sec_05-notes:
 
