@@ -1,0 +1,22 @@
+{
+  "repository": "geometor/staudt",
+  "rights_category": "public-domain",
+  "sources": [
+    {
+      "id": "staudt-1847-1857",
+      "title": "Geometrie der Lage (1847) & Beiträge zur Geometrie der Lage (1857)",
+      "author": "Karl Georg Christian von Staudt",
+      "year": "1847",
+      "era": "German Critical Text",
+      "languages": [
+        "German"
+      ],
+      "site_url": "https://geometor.github.io/staudt/",
+      "local_path": "resources/",
+      "pages": null,
+      "publisher": "Bauer und Raspe, Nuremberg",
+      "rights": "Public Domain (1847 / 1857)",
+      "excerpt": "German transcriptions of Staudt's 1847 & 1857 foundational projective geometry treatises."
+    }
+  ]
+}
