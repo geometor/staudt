@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "geometor-staudt"
 authors = [{name = "phi ARCHITECT", email = "phi@geometor.com"}]
 description = "Scholarly bilingual Book Codices and exact symbolic straightedge-only projective library for K. G. C. von Staudt's Geometrie der Lage (1847) & Beiträge (1856–1860)."
-readme = "README.rst"
+readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.13"
 dynamic = ["version"]
