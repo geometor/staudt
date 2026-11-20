@@ -1,13 +1,13 @@
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • staudt Medallion
+   :target: https://geometor.github.io/staudt/
+   :width: 150px
+   :align: right
+
 GEOMETOR • staudt
 =================
 
 **Visit the Online Archive:** https://geometor.github.io/staudt/
-
-.. image:: docsrc/_static/logo.png
-   :alt: GEOMETOR • staudt Medallion
-   :target: https://geometor.github.io/staudt/
-   :width: 180px
-   :align: center
 
 .. image:: docsrc/_static/figures/unit2_complete_quadrangle_harmonic.svg
    :alt: GEOMETOR • staudt featured geometric construction
