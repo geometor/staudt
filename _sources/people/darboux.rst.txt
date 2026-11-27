@@ -10,4 +10,4 @@ Darboux
 =======
 
 **Jean-Gaston Darboux** (*1842–1917*)
-   French analyst and geometer who proved (:cite:`1880 <darboux:1880>`) that over $\mathbb{R}$ every harmonic-preserving bijection is continuous and projective, vindicating von Staudt's Fundamental Theorem over the real continuum.
+   French analyst and geometer who proved (:cite:`1880 <darboux:1880>`) that over :math:`\mathbb{R}` every harmonic-preserving bijection is continuous and projective, vindicating von Staudt's Fundamental Theorem over the real continuum.

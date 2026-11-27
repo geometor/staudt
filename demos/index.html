@@ -114,7 +114,7 @@
         <ul class="simple">
         <li><p><strong>Script</strong>: <code class="docutils literal notranslate"><span class="pre">demos/01_harmonic_fourth_straightedge.py</span></code></p></li>
         <li><p><strong>Locus</strong>: <a class="citation-ref" id="occ-cite-staudt-1847-1" href="../bibliography.html#cite-staudt-1847" data-cite="staudt:1847" title="Karl Georg Christian von Staudt — Geometrie der Lage (§§ 1–19, arts. 1–257)">Staudt 1847 §§ 6–8, arts. 66–98</a> (<a class="reference internal" href="../geometrie_der_lage/sec_06/index.html#id1"><span class="std std-ref">Geometrie der Lage § 6</span></a>)</p></li>
-        <li><p><strong>Verification</strong>: Constructs the harmonic fourth $D = (-6, 0)$ of $A=(0,0), B=(6,0), C=(2,0)$ using 7 straightedge lines and 0 circles, proves $(A, B; C, D) = -1$ and mutual pair separation $AB \parallel CD$, confirms numerical invariance across distinct auxiliary quadrangles, and proves universally over $\mathbb{Q}(c, u, v, t)$ via <code class="docutils literal notranslate"><span class="pre">prove_symbolic_quadrangle_uniqueness()</span></code> that $x_D = \frac{c}{2c - 1}$ is completely independent of the off-line quadrangle parameters $(u, v, t)$.</p></li>
+        <li><p><strong>Verification</strong>: Constructs the harmonic fourth <span class="math notranslate nohighlight">\(D = (-6, 0)\)</span> of <span class="math notranslate nohighlight">\(A=(0,0), B=(6,0), C=(2,0)\)</span> using 7 straightedge lines and 0 circles, proves <span class="math notranslate nohighlight">\((A, B; C, D) = -1\)</span> and mutual pair separation <span class="math notranslate nohighlight">\(AB \parallel CD\)</span>, confirms numerical invariance across distinct auxiliary quadrangles, and proves universally over <span class="math notranslate nohighlight">\(\mathbb{Q}(c, u, v, t)\)</span> via <code class="docutils literal notranslate"><span class="pre">prove_symbolic_quadrangle_uniqueness()</span></code> that <span class="math notranslate nohighlight">\(x_D = \frac{c}{2c - 1}\)</span> is completely independent of the off-line quadrangle parameters <span class="math notranslate nohighlight">\((u, v, t)\)</span>.</p></li>
         </ul>
         <figure class="photon-picture photon-svg">
             <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 460" role="img" aria-label="Von Staudt §§ 7–8 (Art. 93): Complete Quadrangle Harmonic Fourth &amp; Desarguesian Uniqueness" width="780" height="460" data-graphic-id="unit2_complete_quadrangle_harmonic" data-svg-scope="s-5ff646c9">
@@ -178,7 +178,7 @@
           <text x="567.85" y="364.76" text-anchor="start" class="glyph-label">H&#x27;</text>
           <text x="390.00" y="442.00" text-anchor="middle" class="diagram-caption">Geometrie der Lage §§ 7–8 (Art. 93): Independent quadrangles EFGH and E&#x27;F&#x27;G&#x27;H&#x27; determine the identical harmonic fourth D with (A, B; C, D) = −1</text>
         </svg>
-        <figcaption>**Complete Plane Quadrangle EFGH (1847 § 6, art. 67):** Opposite sides pass through $A$ and $B$, while diagonals $[EG]$ and $[FH]$ cut the carrier in $C$ and $D$ with $(A, B; C, D) = -1$.</figcaption>
+        <figcaption><strong>Complete Plane Quadrangle EFGH (1847 § 6, art. 67):</strong> Opposite sides pass through <span class="math notranslate nohighlight">\(A\)</span> and <span class="math notranslate nohighlight">\(B\)</span>, while diagonals <span class="math notranslate nohighlight">\([EG]\)</span> and <span class="math notranslate nohighlight">\([FH]\)</span> cut the carrier in <span class="math notranslate nohighlight">\(C\)</span> and <span class="math notranslate nohighlight">\(D\)</span> with <span class="math notranslate nohighlight">\((A, B; C, D) = -1\)</span>.</figcaption>
         </figure>
         </section>
         <hr class="docutils" />
@@ -187,7 +187,7 @@
         <ul class="simple">
         <li><p><strong>Script</strong>: <code class="docutils literal notranslate"><span class="pre">demos/02_von_staudt_addition.py</span></code></p></li>
         <li><p><strong>Locus</strong>: <a class="citation-ref" id="occ-cite-staudt-1857-1" href="../bibliography.html#cite-staudt-1857" data-cite="staudt:1857" title="Karl Georg Christian von Staudt — Beiträge zur Geometrie der Lage, Zweites Heft (§§ 19, 20, 29, arts. 256–269, 403–404)">Staudt 1857 Heft 2, §§ 19 &amp; 29, arts. 256–267, 403–404</a> (<a class="reference internal" href="../beitraege_1857/sec_19/index.html#id1"><span class="std std-ref">Beiträge (1857) § 19</span></a>)</p></li>
-        <li><p><strong>Verification</strong>: Executes parabolic double-perspectivity addition $S = X + Y$ both for a finite horizon point $P_\infty = (8, 0)$ and for the ideal horizon $P_\infty = \infty$ (via <code class="docutils literal notranslate"><span class="pre">construct_parallel_straightedge</span></code>), verifying $P_1 + P_1 = P_2$ and $P_2 + P_3 = P_5$, and builds the integer harmonic ladder $P_{-1}, P_0, P_1, \dots, P_5$.</p></li>
+        <li><p><strong>Verification</strong>: Executes parabolic double-perspectivity addition <span class="math notranslate nohighlight">\(S = X + Y\)</span> both for a finite horizon point <span class="math notranslate nohighlight">\(P_\infty = (8, 0)\)</span> and for the ideal horizon <span class="math notranslate nohighlight">\(P_\infty = \infty\)</span> (via <code class="docutils literal notranslate"><span class="pre">construct_parallel_straightedge</span></code>), verifying <span class="math notranslate nohighlight">\(P_1 + P_1 = P_2\)</span> and <span class="math notranslate nohighlight">\(P_2 + P_3 = P_5\)</span>, and builds the integer harmonic ladder <span class="math notranslate nohighlight">\(P_{-1}, P_0, P_1, \dots, P_5\)</span>.</p></li>
         </ul>
         <figure class="photon-picture photon-svg">
             <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 450" role="img" aria-label="Von Staudt Beiträge § 19 (Arts. 256–267): Pure Straightedge Addition of Throws (P2 + P3 = P5)" width="780" height="450" data-graphic-id="unit4_addition_of_throws" data-svg-scope="s-83bc24ff">
@@ -243,16 +243,16 @@
           <text x="310.62" y="320.45" text-anchor="end" class="glyph-label">T = [UP₃] ∩ a</text>
           <text x="390.00" y="432.00" text-anchor="middle" class="diagram-caption">Beiträge § 19: Centers U, V ∈ [P∞ U] and axis a = [P∞ R] construct P₂ + P₃ = P₅ purely by straightedge with zero circles</text>
         </svg>
-        <figcaption>**Summen von Würfen (1857 § 19, art. 256):** Horizon ray $[P_\infty U V]$ and perspective axis $a = [P_\infty R]$ construct $S = X + Y$ using 6 straightedge incidences and 0 circles.</figcaption>
+        <figcaption><strong>Summen von Würfen (1857 § 19, art. 256):</strong> Horizon ray <span class="math notranslate nohighlight">\([P_\infty U V]\)</span> and perspective axis <span class="math notranslate nohighlight">\(a = [P_\infty R]\)</span> construct <span class="math notranslate nohighlight">\(S = X + Y\)</span> using 6 straightedge incidences and 0 circles.</figcaption>
         </figure>
         </section>
         <hr class="docutils" />
         <section class="level-2" id="straightedge-multiplication-of-throws-golden-identity-over-mathbb-q-phi">
-        <h2>03 · Straightedge Multiplication of Throws &amp; Golden Identity over $\mathbb{Q}(\phi)$<a class="headerlink" href="#straightedge-multiplication-of-throws-golden-identity-over-mathbb-q-phi" title="Link to this heading">¶</a></h2>
+        <h2>03 · Straightedge Multiplication of Throws &amp; Golden Identity over <span class="math notranslate nohighlight">\(\mathbb{Q}(\phi)\)</span><a class="headerlink" href="#straightedge-multiplication-of-throws-golden-identity-over-mathbb-q-phi" title="Link to this heading">¶</a></h2>
         <ul class="simple">
         <li><p><strong>Script</strong>: <code class="docutils literal notranslate"><span class="pre">demos/03_von_staudt_multiplication_golden.py</span></code></p></li>
         <li><p><strong>Locus</strong>: <a class="citation-ref" id="occ-cite-staudt-1857-2" href="../bibliography.html#cite-staudt-1857" data-cite="staudt:1857" title="Karl Georg Christian von Staudt — Beiträge zur Geometrie der Lage, Zweites Heft (§§ 19, 20, 29, arts. 256–269, 403–404)">Staudt 1857 Heft 2, § 20, arts. 268–269</a> (<a class="reference internal" href="../beitraege_1857/sec_20/index.html#id1"><span class="std std-ref">Beiträge (1857) § 20</span></a>)</p></li>
-        <li><p><strong>Verification</strong>: Executes hyperbolic double-perspectivity multiplication $P = X \cdot Y$ fixing $P_0$ and $P_\infty$, verifies $P_2 \cdot P_3 = P_6$ and distributivity $(P_2 + P_3) \cdot P_2 = P_2 \cdot P_2 + P_3 \cdot P_2$, and proves over $\mathbb{Q}(\phi)$ ($\phi = \frac{1 + \sqrt{5}}{2}$) that the straightedge product $P_\phi \cdot P_\phi$ and the straightedge sum $P_\phi + P_1$ land on the <strong>exact same symbolic point</strong> $P_{\phi^2} = \left(\frac{92 + 28\sqrt{5}}{71}, 0\right)$ on the projective carrier!</p></li>
+        <li><p><strong>Verification</strong>: Executes hyperbolic double-perspectivity multiplication <span class="math notranslate nohighlight">\(P = X \cdot Y\)</span> fixing <span class="math notranslate nohighlight">\(P_0\)</span> and <span class="math notranslate nohighlight">\(P_\infty\)</span>, verifies <span class="math notranslate nohighlight">\(P_2 \cdot P_3 = P_6\)</span> and distributivity <span class="math notranslate nohighlight">\((P_2 + P_3) \cdot P_2 = P_2 \cdot P_2 + P_3 \cdot P_2\)</span>, and proves over <span class="math notranslate nohighlight">\(\mathbb{Q}(\phi)\)</span> (<span class="math notranslate nohighlight">\(\phi = \frac{1 + \sqrt{5}}{2}\)</span>) that the straightedge product <span class="math notranslate nohighlight">\(P_\phi \cdot P_\phi\)</span> and the straightedge sum <span class="math notranslate nohighlight">\(P_\phi + P_1\)</span> land on the <strong>exact same symbolic point</strong> <span class="math notranslate nohighlight">\(P_{\phi^2} = \left(\frac{92 + 28\sqrt{5}}{71}, 0\right)\)</span> on the projective carrier!</p></li>
         </ul>
         <figure class="photon-picture photon-svg">
             <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 450" role="img" aria-label="Von Staudt Beiträge § 20 (Arts. 268–275): Pure Straightedge Multiplication of Throws (P2 · P3 = P6)" width="780" height="450" data-graphic-id="unit4_multiplication_of_throws" data-svg-scope="s-52d8755a">
@@ -306,7 +306,7 @@
           <text x="332.30" y="278.63" text-anchor="start" class="glyph-label">Z = [UP₃] ∩ a</text>
           <text x="390.00" y="432.00" text-anchor="middle" class="diagram-caption">Beiträge § 20: Centers U, V ∈ [P₀ U] and axis a = [P∞ W] construct P₂ · P₃ = P₆ purely by straightedge incidence</text>
         </svg>
-        <figcaption>**Produkte aus Würfen (1857 § 20, art. 268):** Center line $[P_0 U V]$ and horizon axis $a = [P_\infty W]$ construct $P = X \cdot Y$ purely by straightedge.</figcaption>
+        <figcaption><strong>Produkte aus Würfen (1857 § 20, art. 268):</strong> Center line <span class="math notranslate nohighlight">\([P_0 U V]\)</span> and horizon axis <span class="math notranslate nohighlight">\(a = [P_\infty W]\)</span> construct <span class="math notranslate nohighlight">\(P = X \cdot Y\)</span> purely by straightedge.</figcaption>
         </figure>
         </section>
         <hr class="docutils" />
@@ -315,7 +315,7 @@
         <ul class="simple">
         <li><p><strong>Script</strong>: <code class="docutils literal notranslate"><span class="pre">demos/04_pasch_axiom_and_euclid_i16.py</span></code></p></li>
         <li><p><strong>Locus</strong>: <a class="citation-ref" id="occ-cite-pasch-1882-1" href="../bibliography.html#cite-pasch-1882" data-cite="pasch:1882" title="Moritz Pasch — Vorlesungen über neuere Geometrie (Vorwort, Einleitung, §§ 1–2, 8–12 (pp. 1–100))">Pasch 1882 § 2, IV. Grundsatz (p. 21) &amp; 10. Lehrsatz (p. 25)</a> (<span class="xref std std-ref">Codex II, Unit 2</span>)</p></li>
-        <li><p><strong>Verification</strong>: Audits signed half-plane orientations and strict interior side exits on $\triangle ABC$, verifies the interior crossbar intersection $K \in AD$ needed for <code class="docutils literal notranslate"><span class="pre">Elements</span> <span class="pre">I.16</span></code>, and deductively proves <code class="docutils literal notranslate"><span class="pre">Elements</span> <span class="pre">I.21</span></code>’s interior ray exit $E \in AC$ by applying Pasch’s <em>IV. Grundsatz</em> to sub-triangle $\triangle AMC$.</p></li>
+        <li><p><strong>Verification</strong>: Audits signed half-plane orientations and strict interior side exits on <span class="math notranslate nohighlight">\(\triangle ABC\)</span>, verifies the interior crossbar intersection <span class="math notranslate nohighlight">\(K \in AD\)</span> needed for <code class="docutils literal notranslate"><span class="pre">Elements</span> <span class="pre">I.16</span></code>, and deductively proves <code class="docutils literal notranslate"><span class="pre">Elements</span> <span class="pre">I.21</span></code>’s interior ray exit <span class="math notranslate nohighlight">\(E \in AC\)</span> by applying Pasch’s <em>IV. Grundsatz</em> to sub-triangle <span class="math notranslate nohighlight">\(\triangle AMC\)</span>.</p></li>
         </ul>
         <figure class="photon-picture photon-svg">
             <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 430" role="img" aria-label="Moritz Pasch (1882) § 2 IV. Grundsatz (p. 21) &amp; Resolution of Euclid I.21" width="820" height="430" data-graphic-id="pasch_unit2_planar_axiom_euclid_gaps" data-svg-scope="s-40273ba1">
@@ -371,7 +371,7 @@
           <text x="205.00" y="412.00" text-anchor="middle" class="diagram-caption">(a) Pasch § 2 IV. Grundsatz: Entry X₁ forces exit X₂</text>
           <text x="605.00" y="412.00" text-anchor="middle" class="diagram-caption">(b) Euclid I.21: Pasch on △AMC forces ray BD to exit AC at E</text>
         </svg>
-        <figcaption>**Pasch's IV. Grundsatz (1882 § 2, p. 21) & Euclid I.21:** Transversal $[BD]$ enters $\triangle AMC$ on open segment $CM$ and misses segment $AM$, forcing an interior exit $E$ strictly between $A$ and $C$.</figcaption>
+        <figcaption><strong>Pasch’s IV. Grundsatz (1882 § 2, p. 21) &amp; Euclid I.21:</strong> Transversal <span class="math notranslate nohighlight">\([BD]\)</span> enters <span class="math notranslate nohighlight">\(\triangle AMC\)</span> on open segment <span class="math notranslate nohighlight">\(CM\)</span> and misses segment <span class="math notranslate nohighlight">\(AM\)</span>, forcing an interior exit <span class="math notranslate nohighlight">\(E\)</span> strictly between <span class="math notranslate nohighlight">\(A\)</span> and <span class="math notranslate nohighlight">\(C\)</span>.</figcaption>
         </figure>
         </section>
         </section>
@@ -453,6 +453,8 @@
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
   <script src="../_static/js/collection_directory.js?v=0928c9d3"></script>
   <script src="../_static/js/geometor_interactive.js?v=219c1955"></script>
+  <script>window.MathJax = {"options": {"ignoreHtmlClass": ".*|etc-lazy-math", "processHtmlClass": "math|arithmatex", "enableComplexity": true, "makeCollapsible": true, "menuOptions": {"settings": {"zoom": "Click", "zscale": "200%", "collapsible": true, "enrich": true, "speech": false, "braille": false, "assistiveMml": false}}}, "output": {"displayOverflow": "linebreak", "linebreaks": {"inline": true}}}</script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
   <script src="../_static/js/search_highlight.js"></script>
 
 </body>

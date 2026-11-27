@@ -12,7 +12,7 @@ Pappus
 ======
 
 **Pappus of Alexandria** (*c. 290–c. 350 CE*)
-   Author of the :cite:`*Synagoge* <pappus:synagoge>`, Book VII of which preserved the invariance of collinear four-point cross-ratios and the Hexagon Theorem (``VII.139``), which in :person:`von Staudt <staudt>`'s Algebra of Throws becomes the geometric law of multiplicative commutativity ($X \cdot Y = Y \cdot X$).
+   Author of the :cite:`*Synagoge* <pappus:synagoge>`, Book VII of which preserved the invariance of collinear four-point cross-ratios and the Hexagon Theorem (``VII.139``), which in :person:`von Staudt <staudt>`'s Algebra of Throws becomes the geometric law of multiplicative commutativity (:math:`X \cdot Y = Y \cdot X`).
 
 * **GEOMETOR Website**: `Pappus <https://geometor.github.io/pappus/>`_
 * **GitHub Repository**: `https://github.com/geometor/pappus <https://github.com/geometor/pappus>`_
