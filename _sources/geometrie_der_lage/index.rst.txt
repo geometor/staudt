@@ -42,23 +42,6 @@ Geometry of Position
 .. toctree::
    :maxdepth: 1
    :hidden:
-
-   vorwort/index
-   sec_01/index
-   sec_02/index
-   sec_03/index
-   sec_04/index
-   sec_05/index
-   sec_06/index
-   sec_07/index
-   sec_08/index
-   sec_09/index
-   sec_18/index
-   sec_19/index
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
    :caption: Title Pages
 
    title-de

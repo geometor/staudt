@@ -42,14 +42,6 @@ Contributions to the Geometry of Position
 .. toctree::
    :maxdepth: 1
    :hidden:
-
-   sec_19/index
-   sec_20/index
-   sec_29/index
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
    :caption: Title Pages
 
    title-de
