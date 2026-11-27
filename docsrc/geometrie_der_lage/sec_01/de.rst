@@ -17,8 +17,8 @@
 
 **Art. 1.** Die Geometrie beschäftigt sich mit dem Raume und den Raumgebilden: Körpern, Flächen, Linien und Punkten. Jeder Körper wird von Flächen begrenzt; zwei aneinanderstoßende Teile einer Fläche begegnen sich in einer Linie; zwei aneinanderstoßende Teile einer Linie haben einen Punkt gemein. Umgekehrt beschreibt ein bewegter Punkt eine Linie, eine bewegte Linie im Allgemeinen eine Fläche, eine bewegte Fläche einen Raumteil.
 
-**Art. 4.** Unter allen Linien ist die *gerade Linie* (*die Gerade*) durch je zwei ihrer Punkte vollkommen bestimmt: durch zwei verschiedene Punkte $A$ und $B$ geht stets eine und nur eine Gerade $[AB]$. Zwei verschiedene Gerade können nicht mehr als einen Punkt gemein haben.
+**Art. 4.** Unter allen Linien ist die *gerade Linie* (*die Gerade*) durch je zwei ihrer Punkte vollkommen bestimmt: durch zwei verschiedene Punkte :math:`A` und :math:`B` geht stets eine und nur eine Gerade :math:`[AB]`. Zwei verschiedene Gerade können nicht mehr als einen Punkt gemein haben.
 
-**Art. 7.** Unter allen Flächen hat die *Ebene* die Eigenschaft, daß jede Gerade, welche zwei beliebige Punkte derselben verbindet, ganz in ihr liegt. Drei nicht in einer Geraden liegende Punkte $A, B, C$ bestimmen stets eine und nur eine Ebene $ABC$; ebenso bestimmen eine Gerade und ein außerhalb derselben liegender Punkt oder zwei sich schneidende Gerade eine einzige Ebene.
+**Art. 7.** Unter allen Flächen hat die *Ebene* die Eigenschaft, daß jede Gerade, welche zwei beliebige Punkte derselben verbindet, ganz in ihr liegt. Drei nicht in einer Geraden liegende Punkte :math:`A, B, C` bestimmen stets eine und nur eine Ebene :math:`ABC`; ebenso bestimmen eine Gerade und ein außerhalb derselben liegender Punkt oder zwei sich schneidende Gerade eine einzige Ebene.
 
 **Art. 11.** Zwei verschiedene Ebenen, welche einander begegnen, haben eine ganze Gerade gemein; denn jeder gemeinsame Punkt liegt auf einer beiderseitigen Schnittlinie, welche wegen der Grundeigenschaft der Ebene eine Gerade sein muß.

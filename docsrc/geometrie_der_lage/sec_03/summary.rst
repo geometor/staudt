@@ -11,4 +11,4 @@ Summary: § 3. The Law of Reciprocity (arts. 23–35)
 
 .. rubric:: Analytical Summary — Karl Georg Christian von Staudt — *Geometrie der Lage* (1847), § 3 (arts. 23–35)
 
-* **Three-Dimensional Reciprocity (Duality, § 3)**: Adjoining $\omega_\infty$ makes *point* and *plane* strictly dual in 3-space (and *point* and *line* dual in 2-space), establishing projective duality as an architectural principle across all graphical theorems.
+* **Three-Dimensional Reciprocity (Duality, § 3)**: Adjoining :math:`\omega_\infty` makes *point* and *plane* strictly dual in 3-space (and *point* and *line* dual in 2-space), establishing projective duality as an architectural principle across all graphical theorems.

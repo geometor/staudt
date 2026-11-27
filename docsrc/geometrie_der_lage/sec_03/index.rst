@@ -18,7 +18,7 @@
 
 .. rubric:: Karl Georg Christian von Staudt — *Geometrie der Lage* (1847), § 3 (arts. 23–35)
 
-**Art. 25 (§ 3).** Once ideal elements are adjoined, all fundamental incidence propositions of three-dimensional space exhibit an exact **Law of Reciprocity** (:term:`Gesetz der Reciprocität <reciprocitaet>`): every theorem remains valid when the words *point* and *plane* are interchanged throughout while *straight line* remains unchanged (*join of two points* $\leftrightarrow$ *intersection of two planes*; *collinear points* $\leftrightarrow$ *coaxial planes*). Within a single fixed plane, *point* and *straight line* exchange roles directly.
+**Art. 25 (§ 3).** Once ideal elements are adjoined, all fundamental incidence propositions of three-dimensional space exhibit an exact **Law of Reciprocity** (:term:`Gesetz der Reciprocität <reciprocitaet>`): every theorem remains valid when the words *point* and *plane* are interchanged throughout while *straight line* remains unchanged (*join of two points* :math:`\leftrightarrow` *intersection of two planes*; *collinear points* :math:`\leftrightarrow` *coaxial planes*). Within a single fixed plane, *point* and *straight line* exchange roles directly.
 
 .. toctree::
    :hidden:

@@ -20,11 +20,11 @@
 
 **Art. 45 (§ 5).** Geometry builds all higher projective configurations out of three **Uniform Fundamental Forms** (:term:`einförmige Grundgebilde <grundgebilde>`) of the first grade:
 
-1. The **rectilinear range of points** (*gerades Gebilde*): all points incident with a fixed carrier line $\ell$.
-2. The **flat pencil of rays** (*ebenes Strahlbüschel*): all coplanar straight lines passing through a fixed vertex $S$ in a plane $\alpha$.
-3. The **axial pencil of planes** (*Ebenenbüschel*): all planes passing through a fixed axis $g$.
+1. The **rectilinear range of points** (*gerades Gebilde*): all points incident with a fixed carrier line :math:`\ell`.
+2. The **flat pencil of rays** (*ebenes Strahlbüschel*): all coplanar straight lines passing through a fixed vertex :math:`S` in a plane :math:`\alpha`.
+3. The **axial pencil of planes** (*Ebenenbüschel*): all planes passing through a fixed axis :math:`g`.
 
-Two such fundamental forms are in **perspective position** (*perspektivische Lage*) when one is a section or projection of the other—for instance, when every ray of a flat pencil $(S)$ passes through the corresponding point of a range $(\ell)$ not incident with $S$.
+Two such fundamental forms are in **perspective position** (*perspektivische Lage*) when one is a section or projection of the other—for instance, when every ray of a flat pencil :math:`(S)` passes through the corresponding point of a range :math:`(\ell)` not incident with :math:`S`.
 
 .. toctree::
    :hidden:

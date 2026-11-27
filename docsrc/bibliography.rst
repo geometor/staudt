@@ -68,7 +68,7 @@ Reception, Continuity & Modern Axiomatics
 
 .. _cite-darboux-1880:
 
-* **Darboux, Jean-Gaston (1880).** « Sur le théorème fondamental de la géométrie projective. » *Mathematische Annalen* 17 (1880): 55–61. Proves over $\mathbb{R}$ that every bijection preserving harmonic tetrads is automatically continuous and projective.
+* **Darboux, Jean-Gaston (1880).** « Sur le théorème fondamental de la géométrie projective. » *Mathematische Annalen* 17 (1880): 55–61. Proves over :math:`\mathbb{R}` that every bijection preserving harmonic tetrads is automatically continuous and projective.
 
 .. _cite-vailati-1895:
 
